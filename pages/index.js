@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-           Nell'attesa, seguici su <a href="https://www.instagram.com/shuuenkannapolikendo1965/">Instagram!</a> 
+          {"Nell'attesa, seguici su "}<a href="https://www.instagram.com/shuuenkannapolikendo1965/">Instagram!</a> 
         </p>
 
 {/*<div className={styles.grid}>
