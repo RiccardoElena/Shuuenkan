@@ -11,17 +11,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-{/*<main className={styles.main}>
+      <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Coming Soon! 
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+           Nell'attesa, seguici su <a href="https://www.instagram.com/shuuenkannapolikendo1965/">Instagram!</a> 
         </p>
 
-        <div className={styles.grid}>
+{/*<div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -49,8 +48,8 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
-      </main> */}
+        </div>*/}
+      </main> 
 
       <footer className={styles.footer}>
         <a
