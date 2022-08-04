@@ -1,7 +1,8 @@
 import Head from 'next/head';
+import Footer from '../3-organism/Footer';
 import Header from '../3-organism/Header';
 
-const Main = ({ children }) => {
+const Main = ({ children, className }) => {
   return (
     <>
       <Head>
@@ -16,7 +17,8 @@ const Main = ({ children }) => {
       </Head>
       <main>
         <Header />
-        <div className='mt-10'>{children}</div>
+        <div className={`mt-10 ${className}`}>{children}</div>
+        <Footer />
       </main>
     </>
   );
