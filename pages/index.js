@@ -4,6 +4,7 @@ import Hero from '../components/3-organism/Hero';
 import Main from '../components/4-layouts/Main';
 import styles from '../styles/Home.module.css';
 import ContentMenu from '../components/3-organism/ContentMenu';
+import Federation from '../components/3-organism/Federations';
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
       </section>
       <section id='menu'>
         <Kendo />
+      </section>
+      <section id='federations'>
+        <Federation />
       </section>
     </Main>
   );

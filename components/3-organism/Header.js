@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useWindowSize } from '../../hooks';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -15,28 +16,27 @@ const Header = () => {
       }
     });
   });
+  const { width } = useWindowSize();
 
   return (
     <header
-      className={`fixed z-50 right-0 top-0 py-2 w-full h-36 ${
-        !scroll ? 'shadow-lg bg-white h-28' : 'blue  text-pearl'
+      className={`fixed z-50 right-0 top-0 py-2 w-full  ${
+        !scroll ? 'shadow-lg bg-white h-28' : 'blue text-pearl lg:h-36 h-28'
       }`}
     >
       <div className='container flex items-center justify-between mx-auto'>
         <Link href='/'>
-          <a className='px-32'>
+          <a className='xl:px-32 lg:px-24 md:px-10 px-16'>
             <Image
               src='/logo.png'
               alt='me'
-              width={`${!scroll ? '100' : '130'}`}
-              height={`${!scroll ? '100' : '130'}`}
+              width={`${!scroll || width < 1024 ? '100' : '130'}`}
+              height={`${!scroll || width < 1024 ? '100' : '130'}`}
             />
           </a>
         </Link>
 
-        <div className='flex items-center justify-end'>
-          <Nav scroll={scroll} />
-        </div>
+        <Nav scroll={scroll} />
       </div>
     </header>
   );

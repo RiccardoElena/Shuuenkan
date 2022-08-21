@@ -1,15 +1,15 @@
 import Main from '../components/4-layouts/Main';
-import Hero2 from '../components/3-organism/Hero2';
-import Attrezzatura from '../components/3-organism/Attrezzatura';
+import Hero3 from '../components/3-organism/Hero3';
+import Dojo from '../components/3-organism/Dojo';
 
 const Kendo = () => {
   return (
     <Main>
       <section id='hero'>
-        <Hero2 />
+        <Hero3 />
       </section>
       <section id='hero'>
-        <Attrezzatura />
+        <Dojo />
       </section>
     </Main>
   );
