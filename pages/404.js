@@ -7,9 +7,9 @@ const FourOFour = () => {
       <h1 className={styles.title}>Coming Soon!</h1>
 
       <p className={` ${styles.description}`}>
-        Il nostro sito è ancora in lavorazione.
+        Questa sezione del sito è ancora in lavorazione.
         <br />
-        {" Nell'attesa, seguici su"}{' '}
+        {' Per aggiornamenti, seguici su'}{' '}
         <a
           className='text-blue hover:text-blue-600'
           href='https://www.instagram.com/shuuenkannapolikendo1965/'

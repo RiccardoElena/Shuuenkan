@@ -76,6 +76,17 @@ const Footer = () => {
               Instagram
             </a>
           </p>
+          <p className='p-2'>
+            <a
+              className='hover:text-blue-600'
+              href='https://www.youtube.com/channel/UC7MbwwgjWKvTXJ2eRHJOU7g'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Youtube
+              <br />
+            </a>
+          </p>
         </div>
       </div>
       <div className='container mx-auto text-left border-t-2 borderBlue'>
