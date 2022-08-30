@@ -5,13 +5,14 @@ import HeroContent2 from '../2-molecules/HeroContent2';
 
 const Hero = () => {
   return (
-    <div className='mt-28 lg:mt-36'>
+    <div className='mt-0 lg:mt-10'>
       <div className=' flex'>
         <div className='w-1/2 m-0 p-0'>
           <Image
             alt='Kendo'
             src={heroImage}
-            layout='responsive'
+            height={770}
+            width={700}
             quality={100}
           />
         </div>

@@ -8,7 +8,7 @@ const Kendo = () => {
       <section id='hero'>
         <Hero3 />
       </section>
-      <section id='hero'>
+      <section id='content'>
         <Dojo />
       </section>
     </Main>
