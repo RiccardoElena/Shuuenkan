@@ -1,7 +1,3 @@
-import { heroText } from '../../styles/style.module.css';
-import Button from '../1-atoms/Button';
-import styles from './HeroContent.module.css';
-
 const BigQuote = () => {
   return (
     <div className='xsm:py-3 py-7 text-white'>
