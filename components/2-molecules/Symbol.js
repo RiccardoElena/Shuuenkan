@@ -24,7 +24,7 @@ const Garden = () => {
               La figura rappresenta lo scontro interiore ed esteriore del Kenshi
               (praticante di Kendo) che, interiormente lascia ardere vivida la
               fiamma della passione ma esternamente non lascia trasparire nulla,
-              se non un aurea di imperturbabile tranquillità.
+              se non un&apos;aura di imperturbabile tranquillità.
             </p>
             <h1 className='p-5 xsm:text-4xl text-3xl text-center'>Il Kanji</h1>
             <p className=' xsm:text-3xl text-2xl text-centerpb-10'>
