@@ -10,7 +10,7 @@ const ContactsMenuItem = ({ icon, title, lines }) => {
       {title && <h1 className='p-4  font-bold'>{title}</h1>}
       {icon && (
         <div className='text-base w-1/2 mx-auto absolute bottom-1/2 inset-x-0 '>
-          <FontAwesomeIcon icon={icon} size='sm' />
+          <FontAwesomeIcon icon={icon} />
         </div>
       )}
       <div
