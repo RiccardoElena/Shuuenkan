@@ -40,7 +40,7 @@ const Nav = ({ scroll }) => {
 
       <div>
         <ul
-          className={`md:flex md:flex-row md:static  absolute ${
+          className={`md:flex md:flex-row md:static mr-2 absolute ${
             navDisplayed ? 'static' : 'hidden'
           } top-28 left-0 flex-col items-center justify-end justify-between w-full h-fit ${
             !scroll ? 'bg-white' : 'blue'
@@ -48,7 +48,7 @@ const Nav = ({ scroll }) => {
         >
           {items.map((item) => (
             <li
-              className={`xl:mx-8 lg:text-xl hlg:text-xl mx-1 md:text-lg  md:hover:bg-inherit text-center w-full py-6 md:py-4 ${
+              className={`xl:mx-8 hmd:mx-4 md:mx-2 mx-auto text-2xl  md:hover:bg-inherit text-center w-fit py-6 md:py-4 ${
                 !scroll
                   ? 'text-blue hover:text-blue-700 hoverPearl'
                   : 'text-pearl hover:text-white hover:bg-blue-600'

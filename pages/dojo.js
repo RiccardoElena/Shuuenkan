@@ -1,12 +1,13 @@
 import Main from '../components/4-layouts/Main';
-import Hero3 from '../components/3-organism/Hero3';
+import Banner from '../components/3-organism/Banner';
 import Dojo from '../components/3-organism/Dojo';
+import heroImage from '../public/dojo.jpeg';
 
-const Kendo = () => {
+const DojoPage = () => {
   return (
     <Main>
       <section id='hero'>
-        <Hero3 />
+        <Banner alt='Dojo' src={heroImage} />
       </section>
       <section id='content'>
         <Dojo />
@@ -15,4 +16,4 @@ const Kendo = () => {
   );
 };
 
-export default Kendo;
+export default DojoPage;

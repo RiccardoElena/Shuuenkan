@@ -4,25 +4,27 @@ import styles from './HeroContent.module.css';
 
 const HeroContent = () => {
   return (
-    <div className={`w-full pt-20 mx-20  text-white ${heroText}`}>
-      <p className='lg:text-2xl text-xl text-left lg:mx-16 mx-8 py-12'>
-        {' '}
-        Chi siamo
-      </p>
-      <h1
-        className={`hlg:text-7xl hmd:text-6xl md:text-5xl sm:text-7xl text-6xl font-bold text-left w-fit mx-auto ${styles.lineHeight}`}
-      >
-        SHUUENKANDOJO <br />
-        NAPOLI KENDO
-      </h1>
-      <p className='lg:text-2xl text-xl sm:text-2xl md:text-left text-center lg:mx-16 mx-8 py-12 pb-30'>
-        Lo Shuuenkandojo nasce a Napoli nel 2014 e diventa il primo esperimento
-        italiano di Social Kendo.
-        <div className='py-16 flex justify-between md:mx-auto sm:mx-14 mx-auto pb-40'>
-          <Button text='Più Info' reverse={true} />
-          <Button text='Social Kendo' reverse={true} />
-        </div>
-      </p>
+    <div className='md:w-1/2 w-full blueOpacity'>
+      <div className={`w-full hlg:pt-20 pt-7 mx-20  text-white ${heroText}`}>
+        <p className='lg:text-2xl text-xl text-left lg:mx-16 mx-8 md:py-12 py-5'>
+          {' '}
+          Chi siamo
+        </p>
+        <h1
+          className={`xl:text-8xl hmd:text-7xl md:text-6xl sm:text-8xl xsm:text-6xl text-5xl font-bold text-left w-fit mx-auto ${styles.lineHeight}`}
+        >
+          SHUUENKANDOJO <br />
+          NAPOLI KENDO
+        </h1>
+        <p className='lg:text-2xl text-xl sm:text-2xl md:text-left text-center lg:mx-16 mx-8 sm:py-12 py-8 pb-30'>
+          Lo Shuuenkandojo nasce a Napoli nel 2014 e diventa il primo
+          esperimento italiano di Kendo gratuito!
+          <div className='py-16 flex justify-between md:mx-auto sm:mx-14 mx-auto md:pb-40 pb-5'>
+            <Button text='Più Info' reverse={true} href='/about' />
+            <Button text='Social Kendo' reverse={true} href='/projects' />
+          </div>
+        </p>
+      </div>
     </div>
   );
 };

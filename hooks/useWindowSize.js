@@ -25,7 +25,7 @@ function useWindowSize() {
 
       // Call handler right away so state gets updated with initial window size
       handleResize();
-
+      console.log(windowSize.width);
       // Remove event listener on cleanup
       return () => window.removeEventListener('resize', handleResize);
     }

@@ -4,53 +4,69 @@ import dojoIcon from '../../public/dojoIcon.png';
 import projectsIcon from '../../public/projectsIcon.png';
 import contactsIcon from '../../public/contactsIcon.png';
 import KendoText from '../2-molecules/KendoText';
+import MenuItem from '../2-molecules/MenuItem';
 import Link from 'next/link';
+
+const items = [
+  {
+    key: 1,
+    title: 'Il Kendo',
+    text: 'Lo scopo della pratica del kendo',
+    alt: 'Kendo Icon',
+    src: kendoIcon,
+    url: '/kendo',
+  },
+  {
+    key: 2,
+    title: 'Il Dojo',
+    text: 'Shuuenkan, il luogo dove si impara la via',
+    alt: 'Dojo Icon',
+    src: dojoIcon,
+    url: '/dojo',
+  },
+  {
+    key: 3,
+    title: 'Progetti',
+    text: 'Scopri il Social Kendo e tutte le nostre novità',
+    alt: 'Projects Icon',
+    src: projectsIcon,
+    url: '/projects',
+  },
+  {
+    key: 4,
+    title: 'Contatti',
+    text: 'Contattaci per maggiori informazioni o vienici a trovare',
+    alt: 'Contacts Icon',
+    src: contactsIcon,
+    url: '/contacts',
+  },
+];
 
 const Content = () => {
   return (
     <div
-      className='pearl py-20 '
+      className='pearl md:py-20 py-5 '
       //style={{ clipPath: 'polygon(0 10%, 100% 0, 100% 100%, 0% 100%)' }}
     >
-      <div className='container py-10 mx-auto'>
+      <div className='container md:py-10 py-0 mx-auto'>
         <div className='w-full float-center'>
-          <p className='font-bold text-4xl text-center text-blue p-10'>
+          <p className='font-bold md:text-4xl text-3xl text-center text-blue xsm:p-10 p-5 pb-8 pt-4'>
             Esplora la via della spada e ottieni maggiori informazioni sullo
             Shuuenkan e i suoi progetti
           </p>
         </div>
       </div>
-      <div className='container flex flex-wrap mx-auto rounded-md pb-10'>
-        <Link href='/kendo'>
-          <div className=' md:w-1/4 w-1/2 p-10 text-blue'>
-            <Image alt='Men in Kendo' src={kendoIcon} layout='responsive' />
-            <h1 className='p-5 text-3xl text-center'>Il Kendo</h1>
-            <p className='text-xl text-center'>
-              Lo scopo della pratica del kendo
-            </p>
-          </div>
-        </Link>
-        <div className=' md:w-1/4 w-1/2 p-10 text-blue'>
-          <Image alt='Men in Kendo' src={dojoIcon} layout='responsive' />
-          <h1 className='p-5 text-3xl text-center'>Il Dojo</h1>
-          <p className='text-xl text-center'>
-            Shuuenkan, il luogo dove si impara la via
-          </p>
-        </div>
-        <div className=' md:w-1/4 w-1/2 p-10 text-blue'>
-          <Image alt='Men in Kendo' src={projectsIcon} layout='responsive' />
-          <h1 className='p-5 text-3xl text-center'>Progetti</h1>
-          <p className='text-xl text-center'>
-            Scopri il Social Kendo e tutte le nostre novità
-          </p>
-        </div>
-        <div className=' md:w-1/4 w-1/2 p-10 text-blue'>
-          <Image alt='Men in Kendo' src={contactsIcon} layout='responsive' />
-          <h1 className='p-5 text-3xl text-center'>Contatti</h1>
-          <p className='text-xl text-center'>
-            Contattaci per maggiori informazioni o vienici a trovare
-          </p>
-        </div>
+      <div className='container flex flex-wrap mx-auto rounded-md '>
+        {items.map((item) => (
+          <MenuItem
+            key={item.key}
+            alt={item.alt}
+            title={item.title}
+            text={item.text}
+            url={item.url}
+            src={item.src}
+          ></MenuItem>
+        ))}
       </div>
     </div>
   );

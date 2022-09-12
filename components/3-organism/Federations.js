@@ -1,27 +1,59 @@
 import Image from 'next/image';
-import CIKlogo from '../../public/CIKlogo.jpeg';
-import CIKlogoSquared from '../../public/CIKlogoSquared.png';
+import CIKLogoExtended from '../../public/CIKlogo.png';
+import CIKlogo from '../../public/CIKlogoSquared.png';
 import FIKlogo from '../../public/FIKlogo.jpeg';
 import EKFlogo from '../../public/EKFlogo.png';
 import INFlogo from '../../public/INFlogo.jpeg';
-import KendoText from '../2-molecules/KendoText';
-import Link from 'next/link';
+
+import MenuItem from '../2-molecules/MenuItem';
+
+const items = [
+  {
+    title: 'CIK',
+    text: 'Confederazione Italiana Kendo',
+    src: CIKlogo,
+    url: 'https://confederazioneitalianakendo.it/',
+  },
+  {
+    title: 'FIK',
+    text: 'International Kendo Federation',
+    src: FIKlogo,
+    url: 'https://www.kendo-fik.org/',
+  },
+  {
+    title: 'EKF',
+    text: 'European Kendo Federation',
+    src: EKFlogo,
+    url: 'https://www.ekf-eu.com/',
+  },
+  {
+    title: 'INF',
+    text: 'International Naginata Federation',
+    src: INFlogo,
+    url: 'https://www.facebook.com/International-Naginata-Federation-276489462464338/',
+  },
+];
 
 const Federation = () => {
   return (
     <div
-      className='bg-white py-10 pb-48'
+      className='bg-white py-10 pb-24'
       //style={{ clipPath: 'polygon(0 10%, 100% 0, 100% 100%, 0% 100%)' }}
     >
       <div className='container py-10 mx-auto'>
         <div className='w-full float-center mx-auto justify-items-center'>
           <div className='float-center w-fit mx-auto'>
-            <Image src={CIKlogo} alt='logo CIK' width={1000} height={200} />
+            <Image
+              src={CIKLogoExtended}
+              alt='logo CIK'
+              width={1000}
+              height={200}
+            />
           </div>
         </div>
-        <div className='w-3/4 float-center mx-auto justify-items-center p-10 '>
-          <p className='text-3xl leading-relaxed text-center text-blue'>
-            Lo Shuuenkan Napoli Kendo è l'unico dojo di Napoli e provincia
+        <div className='w-3/4 float-center mx-auto justify-items-center md:p-10 py-5'>
+          <p className='md:text-3xl xsm:text-2xl text-xl leading-relaxed text-center text-blue'>
+            Lo Shuuenkan Napoli Kendo è l&apos;unico dojo di Napoli e provincia
             membro della CIK (Confederazione Italiana Kendo), che si occupa di
             promuovere le discipline di Kendo, Iaido, Jodo e Naginata sul
             territorio italiano.
@@ -65,70 +97,18 @@ const Federation = () => {
           internazionale
         </p>
       </div>
-      <div className='container flex flex-wrap mx-auto rounded-md pb-10'>
-        <a
-          href='https://confederazioneitalianakendo.it/'
-          target='_blank'
-          rel='noreferrer'
-          className='md:w-1/4 w-1/2'
-        >
-          <div className=' w-1/2 m-auto hover:text-blue-600'>
-            <Image
-              alt='Men in Kendo'
-              src={CIKlogoSquared}
-              layout='responsive'
-            />
-
-            <h1 className='p-5 text-2xl text-center'>CIK</h1>
-            <p className='text-xl text-center'>Confederazione italiana Kendo</p>
-          </div>
-        </a>
-        <a
-          href='https://www.kendo-fik.org/'
-          className='md:w-1/4 w-1/2'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <div className=' w-1/2 m-auto hover:text-blue-600'>
-            <Image alt='Men in Kendo' src={FIKlogo} layout='responsive' />
-
-            <h1 className='p-5 text-3xl text-center'>FIK</h1>
-            <p className='text-xl text-center'>
-              International Kendo Federation
-            </p>
-          </div>
-        </a>
-        <a
-          href='https://www.ekf-eu.com/'
-          className='md:w-1/4 w-1/2'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <div className=' w-1/2 m-auto hover:text-blue-600'>
-            <Image alt='Men in Kendo' src={EKFlogo} layout='responsive' />
-            <h1 className='p-5 text-3xl text-center'>EKF</h1>
-            <p className='text-xl text-center'>European Kendo Federation</p>
-          </div>
-        </a>
-        <a
-          href='https://www.facebook.com/International-Naginata-Federation-276489462464338/'
-          className='md:w-1/4 w-1/2'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <div className=' w-1/2 m-auto hover:text-blue-600'>
-            <Image
-              alt='Men in Kendo'
-              src={INFlogo}
-              layout='responsive'
-              className='rounded-full'
-            />
-            <h1 className='p-5 text-3xl text-center'>INF</h1>
-            <p className='text-xl text-center'>
-              International Naginata Federation
-            </p>
-          </div>
-        </a>
+      <div className='container flex flex-wrap mx-auto rounded-md pb-5'>
+        {items.map((item) => (
+          <MenuItem
+            key={item.title}
+            title={item.title}
+            text={item.text}
+            url={item.url}
+            alt={`${item.title} logo`}
+            src={item.src}
+            tag='a'
+          />
+        ))}
       </div>
     </div>
   );

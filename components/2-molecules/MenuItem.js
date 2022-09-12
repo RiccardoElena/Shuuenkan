@@ -1,23 +1,31 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
-const MenuItem = ({ url, src, alt, title, text }) => {
+const MenuItem = ({ url, src, alt, title, text, tag }) => {
+  const TagComponent = tag || Link;
+
   return (
-    <Link href={url}>
-      <div className='w-1/2 h-1/2 '>
-        <div className='rounded-full w-1/2'>
-          <Image
-            src={src}
-            alt={alt}
-            layout='responsive'
-            width={100}
-            height={100}
-          />
-        </div>
-        <h1>{title}</h1>
-        <p>{text}</p>
-      </div>
-    </Link>
+    <TagComponent
+      href={url}
+      target={tag == 'a' ? '_blank' : '_self'}
+      rel={tag == 'a' ? 'noopener noreferrer' : ''}
+      className={tag == 'a' ? 'md:w-1/4 w-1/2' : ''}
+    >
+      <motion.div
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        className={` ${
+          tag == 'a' ? '' : 'md:w-1/4 md:px-10 px-5'
+        } w-1/2  text-blue hover:text-blue-600 m-auto mt-0 cursor-pointer`}
+      >
+        <Image alt={alt} src={src} layout='responsive' />
+        <h1 className='md:p-5 p-2 xl:text-4xl md:text-3xl text-xl text-center'>
+          {title}
+        </h1>
+        <p className='xl:text-2xl text-xl text-center'>{text}</p>
+      </motion.div>
+    </TagComponent>
   );
 };
 
