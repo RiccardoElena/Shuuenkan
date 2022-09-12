@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useWindowSize } from '../../hooks';
+import { motion } from 'framer-motion';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -25,15 +26,19 @@ const Header = () => {
       }`}
     >
       <div className='container flex items-center justify-between mx-auto'>
-        <Link href='/'>
-          <a className='xl:px-32 lg:px-24 md:px-10 px-16'>
+        <Link href='/' passHref>
+          <motion.a
+            className='xl:px-32 lg:px-24 md:px-10 px-16'
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             <Image
               src='/logo.png'
               alt='me'
               width={`${!scroll || width < 1024 ? '100' : '130'}`}
               height={`${!scroll || width < 1024 ? '100' : '130'}`}
             />
-          </a>
+          </motion.a>
         </Link>
 
         <Nav scroll={scroll} />

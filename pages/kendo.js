@@ -1,12 +1,29 @@
 import Main from '../components/4-layouts/Main';
-import Hero2 from '../components/3-organism/Hero2';
+import Hero from '../components/3-organism/Hero';
+import heroImage from '../public/content.jpeg';
 import Attrezzatura from '../components/3-organism/Attrezzatura';
+import { useWindowSize } from '../hooks';
+import BigQuote from '../components/2-molecules/BigQuote';
 
-const Kendo = () => {
+const KendoPage = () => {
+  const { width, height } = useWindowSize();
+
+  console.log(width);
+  console.log(height);
+
+  const imageSettings = { layout: 'responsive', width: '', height: '' };
+
+  if (width > 852 && width > height) {
+    imageSettings.layout = 'fixed';
+    imageSettings.width = '1440';
+    imageSettings.height = '2160';
+  }
   return (
     <Main>
       <section id='hero'>
-        <Hero2 />
+        <Hero heroImage={heroImage} imageSettings={imageSettings} shift={false}>
+          <BigQuote />
+        </Hero>
       </section>
       <section id='hero'>
         <Attrezzatura />
@@ -15,4 +32,4 @@ const Kendo = () => {
   );
 };
 
-export default Kendo;
+export default KendoPage;
