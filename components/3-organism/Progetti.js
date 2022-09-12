@@ -48,10 +48,10 @@ const Content = () => {
   return (
     <>
       <div className='lg:pt-36 pt-28 blue'>
-        <div className='blue container xl:py-36 hlg:py-32 lg:py-36 hmd:py-24 md:py-20 sm:py-16 xsm:py-12 py-8 mx-auto'>
+        <div className='blue container xl:py-36 hlg:py-32 lg:py-36 hmd:py-24 md:py-15 sm:py-24 xsm:py-20 py-8 mx-auto'>
           <div className='w-full float-center'>
             <motion.p
-              className=' text-8xl text-center text-pearl p-10'
+              className=' md:text-8xl sm:text-7xl text-6xl text-center text-pearl md:p-10 px-5 py-14'
               variants={variants} // Pass the variant object into Framer Motion
               initial='hidden' // Set the initial state to variants.hidden
               animate='enter' // Animated state to variants.enter
