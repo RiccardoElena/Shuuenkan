@@ -13,7 +13,7 @@ const Hero = () => {
   };
   return (
     <>
-      <Banner alt='Flag Banner' src={heroImage} />
+      <Banner alt='Flag Banner' src={heroImage} extraClasses='shadow-lg' />
       <motion.div
         className='container mx-auto rounded-md py-16'
         variants={variants} // Pass the variant object into Framer Motion

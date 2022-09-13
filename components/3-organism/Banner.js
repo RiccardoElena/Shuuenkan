@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const Banner = ({ alt, src }) => {
+const Banner = ({ alt, src, extraClasses = ' ' }) => {
   const variants = {
     hidden: { opacity: 0 },
     enter: { opacity: 1, transition: { duration: 1.1 } },
@@ -17,7 +17,7 @@ const Banner = ({ alt, src }) => {
       transition={{ type: 'linear' }} // Set the transition to linear
     >
       <div className=' flex'>
-        <div className='w-full h-fit m-0 p-0'>
+        <div className={`w-full h-fit m-0 p-0 ${extraClasses}`}>
           <Image alt={alt} src={src} layout='responsive' quality={100} />
         </div>
       </div>
