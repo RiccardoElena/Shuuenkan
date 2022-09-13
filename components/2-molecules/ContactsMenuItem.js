@@ -4,12 +4,12 @@ const ContactsMenuItem = ({ icon, title, lines }) => {
   return (
     <div
       className={` hmd:w-1/4 w-1/2 text-blue mx-auto  ${
-        icon ? 'md:h-96 h-60 mb-28' : ' '
-      } text-center mb-0 pb-0 relative`}
+        icon ? 'md:h-96 h-60 mb-28' : 'mb-0 '
+      } text-center pb-0 relative`}
     >
       {title && <h1 className='p-4  font-bold'>{title}</h1>}
       {icon && (
-        <div className='text-base w-1/2 mx-auto absolute bottom-1/2 inset-x-0 '>
+        <div className='text-8xl w-fit mx-auto absolute bottom-1/2 inset-x-0 '>
           <FontAwesomeIcon icon={icon} />
         </div>
       )}
