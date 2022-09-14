@@ -13,7 +13,6 @@ const Card = ({
   tag = 'a',
   id,
 }) => {
-  console.log(tag);
   return (
     <div
       id={id}

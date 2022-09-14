@@ -54,10 +54,7 @@ const Nav = ({ scroll }) => {
             !scroll ? 'bg-inherit' : 'bg-inherit'
           } `}
         >
-          <AnimatePresence
-            mode='sync'
-            onExitComplete={() => console.log('end')}
-          >
+          <AnimatePresence mode='sync'>
             {navDisplayed &&
               items.map((item) => (
                 <motion.div
