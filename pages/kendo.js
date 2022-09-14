@@ -19,7 +19,7 @@ const KendoPage = () => {
     imageSettings.height = '2160';
   }
   return (
-    <Main>
+    <Main secondTitle="L'arte dei Samurai">
       <section id='hero'>
         <Hero heroImage={heroImage} imageSettings={imageSettings} shift={false}>
           <BigQuote />

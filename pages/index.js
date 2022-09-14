@@ -25,7 +25,7 @@ export default function Home() {
     imageSettings.height = '';
   }
   return (
-    <Main>
+    <Main secondTitle='Vieni, Pratichi e Non Paghi'>
       <section id='hero'>
         <Hero heroImage={heroImage} imageSettings={imageSettings} width={width}>
           <HeroContent />

@@ -18,7 +18,13 @@ const Banner = ({ alt, src, extraClasses = ' ' }) => {
     >
       <div className=' flex'>
         <div className={`w-full h-fit m-0 p-0 ${extraClasses}`}>
-          <Image alt={alt} src={src} layout='responsive' quality={100} />
+          <Image
+            alt={alt}
+            src={src}
+            layout='responsive'
+            quality={100}
+            priority
+          />
         </div>
       </div>
     </motion.div>

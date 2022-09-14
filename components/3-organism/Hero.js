@@ -37,6 +37,7 @@ const Hero = ({ heroImage, children, imageSettings, width, shift = true }) => {
             height={imageSettings.height}
             layout={imageSettings.layout}
             quality={100}
+            priority
           />
         </div>
       </div>

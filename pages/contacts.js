@@ -6,7 +6,7 @@ import Contacts from '../components/3-organism/Contacts';
 
 export default function Home() {
   return (
-    <Main>
+    <Main secondTitle='Entra in contatto con noi e pratica Gratis'>
       <section id='map'>
         <Map />
       </section>

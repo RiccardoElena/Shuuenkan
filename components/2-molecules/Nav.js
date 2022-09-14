@@ -1,5 +1,7 @@
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useWindowSize } from '../../hooks';
 
 const items = [
   { title: 'Chi siamo', url: '/about', id: 1 },
@@ -10,12 +12,20 @@ const items = [
 ];
 
 const Nav = ({ scroll }) => {
-  const [navDisplayed, setNavDisplayed] = useState(false);
+  const { width } = useWindowSize();
+  const [navDisplayed, setNavDisplayed] = useState(true);
 
   const navDisplayHandler = () => {
     setNavDisplayed(!navDisplayed);
   };
 
+  let desktopSize = true;
+
+  if (width < 768) desktopSize = false;
+
+  useEffect(() => setNavDisplayed(desktopSize), [desktopSize]);
+
+  const variants = {};
   return (
     <>
       <button
@@ -40,24 +50,53 @@ const Nav = ({ scroll }) => {
 
       <div>
         <ul
-          className={`md:flex md:flex-row md:static mr-2 absolute ${
-            navDisplayed ? 'static' : 'hidden'
-          } top-28 left-0 flex-col items-center justify-end justify-between w-full h-fit ${
-            !scroll ? 'bg-white' : 'blue'
-          } md:border-0 border-t borderPearl`}
+          className={`md:flex md:flex-row md:static md:z-50 z-10 mr-2 absolute  top-28 left-0 flex-col items-center justify-end justify-between w-full h-fit ${
+            !scroll ? 'bg-inherit' : 'bg-inherit'
+          } `}
         >
-          {items.map((item) => (
-            <li
-              className={`xl:mx-8 hmd:mx-4 md:mx-2 mx-auto text-2xl  md:hover:bg-inherit text-center w-fit py-6 md:py-4 ${
-                !scroll
-                  ? 'text-blue hover:text-blue-700 hoverPearl'
-                  : 'text-pearl hover:text-white hover:bg-blue-600'
-              }`}
-              key={item.id}
-            >
-              <Link href={item.url}>{item.title}</Link>
-            </li>
-          ))}
+          <AnimatePresence
+            mode='sync'
+            onExitComplete={() => console.log('end')}
+          >
+            {navDisplayed &&
+              items.map((item) => (
+                <motion.div
+                  variants={{
+                    exit: {
+                      opacity: '1',
+                      y: '-100vh',
+                    },
+                    transition: { duration: 0.1, delay: item.id * 10 },
+                  }}
+                  initial={{ opacity: '0', y: '-100vh' }}
+                  animate={{
+                    opacity: '1',
+                    y: '0',
+                    transition: {
+                      duration: 0.8,
+                      delay: 0.3 / item.id,
+                      type: 'spring',
+                      bounce: 0.4,
+                    },
+                  }}
+                  exit='exit'
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className={`md:hover:bg-inherit ${
+                    !scroll
+                      ? 'text-blue hover:text-blue-700 hoverPearl bg-white'
+                      : 'text-pearl hover:text-white hover:bg-blue-600 blue'
+                  }`}
+                  key={item.id}
+                >
+                  <li
+                    className={`xl:mx-8 hmd:mx-4 md:mx-2 mx-auto text-2xl   text-center w-fit py-6 md:py-4 `}
+                  >
+                    <Link href={item.url}>{item.title}</Link>
+                  </li>
+                </motion.div>
+              ))}
+          </AnimatePresence>
         </ul>
       </div>
     </>

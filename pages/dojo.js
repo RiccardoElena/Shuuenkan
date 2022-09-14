@@ -5,7 +5,7 @@ import heroImage from '../public/dojo.jpeg';
 
 const DojoPage = () => {
   return (
-    <Main>
+    <Main secondTitle='Kendo CIK al centro di Napoli'>
       <section id='hero'>
         <Banner alt='Dojo' src={heroImage} />
       </section>

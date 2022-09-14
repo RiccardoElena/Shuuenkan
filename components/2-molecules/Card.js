@@ -10,9 +10,13 @@ const Card = ({
   btn = false,
   btnProps,
   extraClasses = 'md:flex-nowrap',
+  tag = 'a',
+  id,
 }) => {
+  console.log(tag);
   return (
     <div
+      id={id}
       className={`w-full bg-white my-10 border-2 borderPearl rounded text-blue flex flex-wrap ${extraClasses}`}
     >
       <div className={`${imgSize}  m-auto`}>
@@ -25,7 +29,11 @@ const Card = ({
       >
         <h1 className='p-5 text-5xl text-center'>{title}</h1>
         <p className=' text-center m-5'>{text}</p>
-        {btn && <Button text={btnProps.btnText} href={btnProps.href} tag='a' />}
+        {btn && (
+          <div className='m-5'>
+            <Button text={btnProps.btnText} href={btnProps.href} tag={tag} />
+          </div>
+        )}
       </div>
     </div>
   );

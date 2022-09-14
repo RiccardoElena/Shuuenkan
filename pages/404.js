@@ -3,7 +3,7 @@ import Main from '../components/4-layouts/Main';
 
 const FourOFour = () => {
   return (
-    <Main className={`${styles.main}`}>
+    <Main className={`${styles.main}`} secondTitle='404'>
       <h1 className={styles.title}>Coming Soon!</h1>
 
       <p className={` ${styles.description}`}>

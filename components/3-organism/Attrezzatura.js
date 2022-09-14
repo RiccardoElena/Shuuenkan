@@ -19,7 +19,7 @@ const Content = () => {
       src: boguImage,
       title: 'Il Bogu',
       text: (
-        <p className='text-4xl'>
+        <p className='md:text-4xl sm:text-3xl text-2xl'>
           Le protezioni usate nel Kendo comprendono un elmo che comprende testa
           e gola (<b>Men</b>), un corpetto per l&apos;addome (<b>Do</b>) e dei
           guantoni per i polsi (<b>Kote</b>). Si utilizzano inoltre un
@@ -28,13 +28,14 @@ const Content = () => {
           nome del dojo d&apos;appartenenza (<b>Zekken</b>)
         </p>
       ),
+      id: 'bogu',
     },
     {
       alt: 'Shinai and Bokken',
       src: width > 768 ? swordsImage : swordsOriImage,
       title: 'Le Spade',
       text: (
-        <p className='text-4xl'>
+        <p className='md:text-4xl sm:text-3xl text-2xl'>
           {' '}
           Nella pratica del Kendo si utilizzano 3 tipi di spade: <br />
           Le <b>Shinai</b>: una spada composta da 4 stecche di bamboo (take) e
@@ -46,13 +47,14 @@ const Content = () => {
         </p>
       ),
       imgSize: width > 768 ? 'w-1/2' : 'w-full',
+      id: 'swords',
     },
     {
       alt: 'Hakame and Gi',
       src: hakamaGiImage,
       title: 'Hakama e Kendogi',
       text: (
-        <p className='text-4xl'>
+        <p className='md:text-4xl sm:text-3xl text-2xl'>
           {' '}
           La divisa di pratica è costituita da una giacca (<b>Kendogi</b>) e da
           ampi pantaloni (<b>Hakama</b>), solitamente di colore blu ma,
@@ -60,6 +62,7 @@ const Content = () => {
           all&apos;anzianità, possono utilizzarli bianchi.
         </p>
       ),
+      id: 'gi',
     },
   ];
 
@@ -81,6 +84,7 @@ const Content = () => {
             title={item.title}
             text={item.text}
             imgSize={item.imgSize}
+            id={item.id}
           />
         ))}
       </div>
