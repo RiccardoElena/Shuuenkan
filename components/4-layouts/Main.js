@@ -12,7 +12,7 @@ const Main = ({ children, className, secondTitle }) => {
   return (
     <>
       <Head>
-        <title>{secondTitle}</title>
+        <title>{`Kendo Napoli Shuuenkan | ${secondTitle}`}</title>
         <meta
           property='og:title'
           content={`Kendo Napoli Shuuenkan | ${secondTitle}`}

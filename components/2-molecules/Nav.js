@@ -76,7 +76,7 @@ const Nav = ({ scroll }) => {
                       duration: 0.8,
                       delay: 0.3 / item.id,
                       type: 'spring',
-                      bounce: 0.4,
+                      bounce: desktopSize ? 0.2 : 0.4,
                     },
                   }}
                   exit='exit'
