@@ -33,7 +33,7 @@ const Content = () => {
       text: (
         <p className='md:text-4xl sm:text-3xl text-2xl'>
           A partire da quest&apos;anno lo Shuuenkandojo propone un nuovo
-          progetto di disciplina marziale, la <b>Naginata do</b>, sotto la
+          progetto di disciplina marziale, il <b>Naginata do</b>, sotto la
           sapiente guida di sensei Stefano Carlini (detto Nonno Naginata),{' '}
           <b>3 Dan di Naginata </b> e <b>Nazionale Italiano</b> per la sezione
           di Naginata della CIK.
@@ -41,7 +41,7 @@ const Content = () => {
         </p>
       ),
       btnProps: {
-        btnText: 'Scopri la Naginata',
+        btnText: 'Scopri il Naginata',
         href: '/naginata',
       },
       tag: Link,
