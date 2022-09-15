@@ -9,9 +9,6 @@ import HeroContent from '../components/2-molecules/HeroContent';
 export default function Home() {
   const { width, height } = useWindowSize();
 
-  console.log(width);
-  console.log(height);
-
   const isTablet = width > 767 && width < height;
 
   const imageSettings = { layout: 'fixed', width: '852', height: '565' };

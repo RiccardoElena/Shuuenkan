@@ -36,7 +36,7 @@ const Content = () => {
           progetto di disciplina marziale, la <b>Naginata do</b>, sotto la
           sapiente guida di sensei Stefano Carlini (detto Nonno Naginata),{' '}
           <b>3 Dan di Naginata </b> e <b>Nazionale Italiano</b> per la sezione
-          di Naginata della CIK agl&apos;ultimi europei.
+          di Naginata della CIK.
           <br />
         </p>
       ),

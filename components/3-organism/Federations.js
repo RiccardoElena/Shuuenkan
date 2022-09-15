@@ -4,6 +4,7 @@ import CIKlogo from '../../public/CIKlogoSquared.png';
 import FIKlogo from '../../public/FIKlogo.jpeg';
 import EKFlogo from '../../public/EKFlogo.png';
 import INFlogo from '../../public/INFlogo.jpeg';
+import ENFlogo from '../../public/ENFlogo.png';
 
 import MenuItem from '../2-molecules/MenuItem';
 
@@ -31,6 +32,12 @@ const items = [
     text: 'International Naginata Federation',
     src: INFlogo,
     url: 'https://www.facebook.com/International-Naginata-Federation-276489462464338/',
+  },
+  {
+    title: 'ENF',
+    text: 'European Naginata Federation',
+    src: ENFlogo,
+    url: 'https://naginata-federation.eu/',
   },
 ];
 
