@@ -16,15 +16,15 @@ const HeroContent = () => {
         <p className="pb-26 mx-8 py-0 text-center text-xl sm:py-12 sm:text-2xl md:text-left lg:mx-16 lg:text-2xl">
           Lo Shuuenkandojo nasce a Napoli nel 2014 e diventa il primo
           esperimento italiano di Kendo gratuito!
-          <div className="mx-auto flex justify-between py-16 pb-5 sm:mx-14 md:mx-auto md:pb-40">
-            <Button text="Social Kendo" reverse={true} href="/projects" />
-            <Button
-              text="Project Naginata"
-              reverse={true}
-              href="/projects#naginata"
-            />
-          </div>
         </p>
+        <div className="mx-auto flex justify-between py-16 pb-5 sm:mx-14 md:mx-auto md:pb-40">
+          <Button text="Social Kendo" reverse={true} href="/projects" />
+          <Button
+            text="Project Naginata"
+            reverse={true}
+            href="/projects#naginata"
+          />
+        </div>
       </div>
     </div>
   );

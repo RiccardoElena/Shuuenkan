@@ -15,14 +15,14 @@ const Content = () => {
       alt: 'GoFundMe Logo',
       title: 'Fundrising',
       text: (
-        <p className="text-2xl sm:text-3xl md:text-4xl">
+        <span className="text-2xl sm:text-3xl md:text-4xl">
           Partecipa al nostro progetto di fundrising con l&apos;obbiettivo di
           sostituire la pavimentazione del dojo in parquet, modificare le porte
           e gli infissi deteriorati, rinnovare gli spogliatoi,facilitare
           l&apos;aquisto di attrezzature per chi non possa permettersene delle
           proprie e acquistare dei bogu per i bambini
           <br />
-        </p>
+        </span>
       ),
       btnProps: { btnText: 'Dona ora!', href: 'https://gofund.me/12c1d74f' },
       id: 'fundrising',
@@ -33,14 +33,14 @@ const Content = () => {
       alt: 'Sensei Carlini Image',
       title: 'Project Naginata',
       text: (
-        <p className="text-2xl sm:text-3xl md:text-4xl">
+        <span className="text-2xl sm:text-3xl md:text-4xl">
           A partire da quest&apos;anno lo Shuuenkandojo propone un nuovo
           progetto di disciplina marziale, il <b>Naginata do</b>, sotto la
           sapiente guida di sensei Stefano Carlini (detto Nonno Naginata),{' '}
           <b>3 Dan di Naginata </b> e <b>Nazionale Italiano</b> per la sezione
           di Naginata della CIK.
           <br />
-        </p>
+        </span>
       ),
       btnProps: {
         btnText: 'Scopri il Naginata',
@@ -55,10 +55,10 @@ const Content = () => {
       alt: 'Original Tenugui Artwork',
       title: 'Tenugui',
       text: (
-        <p className="text-2xl sm:text-3xl md:text-4xl">
+        <span className="text-2xl sm:text-3xl md:text-4xl">
           Vendita Tenugui e Altri accessori per il Kendo!
           <br />
-        </p>
+        </span>
       ),
       btnProps: { btnText: 'Acquista Ora', href: '/shop' },
       imgSize: 'w-full',
