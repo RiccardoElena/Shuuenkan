@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import CIKLogoExtended from '../../public/CIKlogo.png';
-import CIKlogo from '../../public/CIKlogoSquared.png';
-import FIKlogo from '../../public/FIKlogo.jpeg';
-import EKFlogo from '../../public/EKFlogo.png';
-import INFlogo from '../../public/INFlogo.jpeg';
-import ENFlogo from '../../public/ENFlogo.png';
+import CIKLogoExtended from '../../public/images/CIKlogo.png';
+import CIKlogo from '../../public/images/CIKlogoSquared.png';
+import FIKlogo from '../../public/images/FIKlogo.jpeg';
+import EKFlogo from '../../public/images/EKFlogo.png';
+import INFlogo from '../../public/images/INFlogo.jpeg';
+import ENFlogo from '../../public/images/ENFlogo.png';
 
 import MenuItem from '../2-molecules/MenuItem';
 

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImage from '../../public/bandiere.png';
-import presidentImage from '../../public/president.jpeg';
+import heroImage from '../../public/images/bandiere.png';
+import presidentImage from '../../public/images/president.jpeg';
 import Banner from './Banner';
 import { motion } from 'framer-motion';
 

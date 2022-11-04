@@ -1,7 +1,7 @@
-import kendoIcon from '../../public/kendoIcon.png';
-import dojoIcon from '../../public/dojoIcon.png';
-import projectsIcon from '../../public/projectsIcon.png';
-import contactsIcon from '../../public/contactsIcon.png';
+import kendoIcon from '../../public/images/kendoIcon.png';
+import dojoIcon from '../../public/images/dojoIcon.png';
+import projectsIcon from '../../public/images/projectsIcon.png';
+import contactsIcon from '../../public/images/contactsIcon.png';
 import MenuItem from '../2-molecules/MenuItem';
 
 const items = [

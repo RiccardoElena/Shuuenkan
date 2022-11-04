@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import giardinoImage from '../../public/giardino.jpeg';
-import giardinoOriImage from '../../public/giardinoOri.jpeg';
+import giardinoImage from '../../public/images/giardino.jpeg';
+import giardinoOriImage from '../../public/images/giardinoOri.jpeg';
 import { useWindowSize } from '../../hooks';
 
 const Garden = () => {

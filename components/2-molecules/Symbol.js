@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import giardinoImage from '../../public/logo.png';
+import giardinoImage from '../../public/images/logo.png';
 
 const Garden = () => {
   const image = giardinoImage;

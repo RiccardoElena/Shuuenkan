@@ -1,7 +1,7 @@
 import Main from '../components/4-layouts/Main';
 import Banner from '../components/3-organism/Banner';
 import Dojo from '../components/3-organism/Dojo';
-import heroImage from '../public/dojo.jpeg';
+import heroImage from '../public/images/dojo.jpeg';
 
 const DojoPage = () => {
   return (

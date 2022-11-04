@@ -1,7 +1,7 @@
-import boguImage from '../../public/bogu.jpeg';
-import swordsImage from '../../public/swords.jpeg';
-import swordsOriImage from '../../public/swordsOri.jpeg';
-import hakamaGiImage from '../../public/hakamaGiImage.png';
+import boguImage from '../../public/images/bogu.jpeg';
+import swordsImage from '../../public/images/swords.jpeg';
+import swordsOriImage from '../../public/images/swordsOri.jpeg';
+import hakamaGiImage from '../../public/images/hakamaGiImage.png';
 import Card from '../2-molecules/Card';
 import { useWindowSize } from '../../hooks';
 

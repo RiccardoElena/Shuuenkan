@@ -1,6 +1,6 @@
-import naginataImage from '../../public/senseiCarlini.jpeg';
-import fundImage from '../../public/fundLogo.png';
-import tenuguiImage from '../../public/tengui.jpeg';
+import naginataImage from '../../public/images/senseiCarlini.jpeg';
+import fundImage from '../../public/images/fundLogo.png';
+import tenuguiImage from '../../public/images/tengui.jpeg';
 import { motion } from 'framer-motion';
 import Card from '../2-molecules/Card';
 import Link from 'next/link';

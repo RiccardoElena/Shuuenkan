@@ -1,6 +1,6 @@
 import Main from '../components/4-layouts/Main';
 import Hero from '../components/3-organism/Hero';
-import heroImage from '../public/content.jpeg';
+import heroImage from '../public/images/content.jpeg';
 import Attrezzatura from '../components/3-organism/Attrezzatura';
 import { useWindowSize } from '../hooks';
 import BigQuote from '../components/2-molecules/BigQuote';

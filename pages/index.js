@@ -1,7 +1,7 @@
 import Kendo from '../components/3-organism/Kendo';
 import Hero from '../components/3-organism/Hero';
 import Main from '../components/4-layouts/Main';
-import heroImage from '../public/hero.jpeg';
+import heroImage from '../public/images/hero.jpeg';
 import Federation from '../components/3-organism/Federations';
 import { useWindowSize } from '../hooks';
 import HeroContent from '../components/2-molecules/HeroContent';
