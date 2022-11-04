@@ -9,19 +9,18 @@ const Banner = ({ alt, src, extraClasses = ' ' }) => {
   };
   return (
     <motion.div
-      className='mt-28 lg:mt-36'
+      className="mt-28 lg:mt-36"
       variants={variants}
-      initial='hidden'
-      animate='enter'
-      exit='exit'
-      transition={{ type: 'linear' }}
-    >
-      <div className=' flex'>
-        <div className={`w-full h-fit m-0 p-0 ${extraClasses}`}>
+      initial="hidden"
+      animate="enter"
+      exit="exit"
+      transition={{ type: 'linear' }}>
+      <div className=" flex">
+        <div className={`m-0 h-fit w-full p-0 ${extraClasses}`}>
           <Image
             alt={alt}
             src={src}
-            layout='responsive'
+            layout="responsive"
             quality={100}
             priority
           />

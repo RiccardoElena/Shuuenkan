@@ -7,13 +7,13 @@ const Button = ({ text, reverse, href, tag }) => {
     ? 'bg-inherit text-white border-2 border-white'
     : 'text-shuuenkan-blue hover:text-blue-600 bg-inherit border-2 border-shuuenkan-blue hover:border-blue-600';
   const target = tag == 'a' ? '_blank' : '_self';
+
   return (
     <motion.div
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className={`${classes} px-6 py-2 w-fit mx-auto rounded-3xl`}
-    >
-      <Tag className={`text text-right  max-w-xs `} href={href} target={target}>
+      className={`${classes} mx-auto w-fit rounded-3xl px-6 py-2`}>
+      <Tag className="text max-w-xs text-right" href={href} target={target}>
         {text}
       </Tag>
     </motion.div>

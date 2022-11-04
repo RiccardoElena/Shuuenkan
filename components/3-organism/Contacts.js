@@ -90,16 +90,15 @@ const Contacts = () => {
   return (
     <>
       <motion.div
-        className='container lg:text-8xl md:text-7xl sm:text-6xl text-5xl text-shuuenkan-blue mx-auto my-16 font-bold'
+        className="container mx-auto my-16 text-5xl font-bold text-shuuenkan-blue sm:text-6xl md:text-7xl lg:text-8xl"
         variants={variants}
-        initial='hidden'
-        animate='enter'
-        exit='exit'
-        transition={{ type: 'linear' }}
-      >
-        <h1 className='sm:text-left text-center'>Veniteci a trovare!</h1>
+        initial="hidden"
+        animate="enter"
+        exit="exit"
+        transition={{ type: 'linear' }}>
+        <h1 className="text-center sm:text-left">Veniteci a trovare!</h1>
       </motion.div>
-      <div className='mb-20 hmd:text-3xl text-2xl container flex flex-wrap mx-auto   justfy-items-center'>
+      <div className="justfy-items-center container mx-auto mb-20 flex flex-wrap text-2xl   hmd:text-3xl">
         {items.map((item) => (
           <ContactsMenuItem
             key={item.key}

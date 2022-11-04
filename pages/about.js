@@ -4,7 +4,7 @@ import Symbol from '../components/2-molecules/Symbol';
 
 const About = () => {
   return (
-    <Main secondTitle='Chi Siamo'>
+    <Main secondTitle="Chi Siamo">
       <HeroLogo />
       <Symbol />
     </Main>

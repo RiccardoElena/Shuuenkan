@@ -14,7 +14,7 @@ const Content = () => {
       src: boguImage,
       title: 'Il Bogu',
       text: (
-        <p className='md:text-4xl sm:text-3xl text-2xl'>
+        <p className="text-2xl sm:text-3xl md:text-4xl">
           Le protezioni usate nel Kendo comprendono un elmo che comprende testa
           e gola (<b>Men</b>), un corpetto per l&apos;addome (<b>Do</b>) e dei
           guantoni per i polsi (<b>Kote</b>). Si utilizzano inoltre un
@@ -30,7 +30,7 @@ const Content = () => {
       src: width > 768 ? swordsImage : swordsOriImage,
       title: 'Le Spade',
       text: (
-        <p className='md:text-4xl sm:text-3xl text-2xl'>
+        <p className="text-2xl sm:text-3xl md:text-4xl">
           {' '}
           Nella pratica del Kendo si utilizzano 3 tipi di spade: <br />
           Le <b>Shinai</b>: una spada composta da 4 stecche di bamboo (take) e
@@ -49,7 +49,7 @@ const Content = () => {
       src: hakamaGiImage,
       title: 'Hakama e Kendogi',
       text: (
-        <p className='md:text-4xl sm:text-3xl text-2xl'>
+        <p className="text-2xl sm:text-3xl md:text-4xl">
           {' '}
           La divisa di pratica è costituita da una giacca (<b>Kendogi</b>) e da
           ampi pantaloni (<b>Hakama</b>), solitamente di colore blu ma,
@@ -62,15 +62,15 @@ const Content = () => {
   ];
 
   return (
-    <div className='bg-shuuenkan-blue md:py-20 py-0 '>
-      <div className='container xsm:py-10 pt-5 mx-auto'>
-        <div className='w-full float-center'>
-          <p className='font-bold md:text-7xl text-6xl text-center text-pearl md:p-10 p-5'>
+    <div className="bg-shuuenkan-blue py-0 md:py-20 ">
+      <div className="container mx-auto pt-5 xsm:py-10">
+        <div className="float-center w-full">
+          <p className="p-5 text-center text-6xl font-bold text-pearl md:p-10 md:text-7xl">
             Vestiario e Armi per la Pratica
           </p>
         </div>
       </div>
-      <div className='container flex flex-wrap mx-auto rounded-md pb-10'>
+      <div className="container mx-auto flex flex-wrap rounded-md pb-10">
         {items.map((item) => (
           <Card
             alt={item.alt}

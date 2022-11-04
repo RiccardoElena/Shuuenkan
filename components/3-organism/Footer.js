@@ -87,8 +87,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className='w-full left-0 bottom-0 text-center bg-pearl text-shuuenkan-blue border-t-2 border-shuuenkan-blue'>
-      <div className='py-8  hmd:text-lg text-base container flex flex-wrap mx-auto   justfy-items-center'>
+    <footer className="left-0 bottom-0 w-full border-t-2 border-shuuenkan-blue bg-pearl text-center text-shuuenkan-blue">
+      <div className="justfy-items-center  container mx-auto flex flex-wrap py-8 text-base   hmd:text-lg">
         {items.map((item) => (
           <ContactsMenuItem
             title={item.title}
@@ -97,8 +97,8 @@ const Footer = () => {
           />
         ))}
       </div>
-      <div className='container mx-auto text-left border-t-2 border-shuuenkan-blue'>
-        <h1 className='p-6 text-l'>A.S.D. SHUUENKAN NAPOLI KENDO</h1>
+      <div className="container mx-auto border-t-2 border-shuuenkan-blue text-left">
+        <h1 className="text-l p-6">A.S.D. SHUUENKAN NAPOLI KENDO</h1>
       </div>
     </footer>
   );

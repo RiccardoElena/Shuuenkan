@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "esbenp.prettier-vscode",
+    "PulkitGangwar.nextjs-snippets",
+    "shd101wyy.markdown-preview-enhanced",
+    "stkb.rewrap"
+  ]
+}

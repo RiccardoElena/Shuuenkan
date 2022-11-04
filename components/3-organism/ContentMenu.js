@@ -37,7 +37,7 @@ const menu = [
 
 const ContentMenu = () => {
   return (
-    <div className='container flex '>
+    <div className="container flex ">
       <ul>
         {menu.map((item) => (
           <MenuItem
