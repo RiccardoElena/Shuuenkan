@@ -5,6 +5,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    extend: {
+      colors: {
+        'shuuenkan-blue': '#1d439a',
+        'pearl': '#d8d8d8',
+      },
+    },
     screens: {
       xsm: '440px',
       // => @media (min-width: 440px) { ... }

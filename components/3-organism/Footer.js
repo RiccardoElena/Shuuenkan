@@ -87,7 +87,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className='w-full left-0 bottom-0 text-center pearl text-blue border-t-2 borderBlue'>
+    <footer className='w-full left-0 bottom-0 text-center bg-pearl text-shuuenkan-blue border-t-2 border-shuuenkan-blue'>
       <div className='py-8  hmd:text-lg text-base container flex flex-wrap mx-auto   justfy-items-center'>
         {items.map((item) => (
           <ContactsMenuItem
@@ -97,7 +97,7 @@ const Footer = () => {
           />
         ))}
       </div>
-      <div className='container mx-auto text-left border-t-2 borderBlue'>
+      <div className='container mx-auto text-left border-t-2 border-shuuenkan-blue'>
         <h1 className='p-6 text-l'>A.S.D. SHUUENKAN NAPOLI KENDO</h1>
       </div>
     </footer>

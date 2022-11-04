@@ -72,8 +72,8 @@ const Content = () => {
 
   return (
     <>
-      <div className='lg:pt-36 pt-28 blue'>
-        <div className='blue container xl:py-36 hlg:py-32 lg:py-36 hmd:py-24 md:py-15 sm:py-24 xsm:py-20 py-8 mx-auto'>
+      <div className='lg:pt-36 pt-28 bg-shuuenkan-blue'>
+        <div className='bg-shuuenkan-blue container xl:py-36 hlg:py-32 lg:py-36 hmd:py-24 md:py-15 sm:py-24 xsm:py-20 py-8 mx-auto'>
           <div className='w-full float-center'>
             <motion.p
               className=' md:text-8xl sm:text-7xl text-6xl text-center text-pearl md:p-10 px-5 py-14'
@@ -92,7 +92,7 @@ const Content = () => {
       </div>
       <div className='container flex flex-wrap mx-auto rounded-md py-40'>
         <div className='container mx-auto pb-20 '>
-          <h1 className='text-center md:text-5xl text-4xl text-blue'>
+          <h1 className='text-center md:text-5xl text-4xl text-shuuenkan-blue'>
             La diffusione gratuita del kendo è sostenuta dai nostri molteplici
             progetti di raccolta fondi reinvestiti al 100%
           </h1>

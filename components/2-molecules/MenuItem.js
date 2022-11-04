@@ -17,7 +17,7 @@ const MenuItem = ({ url, src, alt, title, text, tag, size }) => {
         whileTap={{ scale: 0.9 }}
         className={` ${
           tag == 'a' ? 'w-1/2' : 'md:w-1/4 w-1/2 md:px-10 px-5'
-        }  text-blue hover:text-blue-600 m-auto mt-0 cursor-pointer`}
+        }  text-shuuenkan-blue hover:text-blue-600 m-auto mt-0 cursor-pointer`}
       >
         <Image alt={alt} src={src} layout='responsive' />
         <h1 className='md:p-5 p-2 xl:text-4xl md:text-3xl text-xl text-center'>

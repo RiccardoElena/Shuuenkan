@@ -4,8 +4,6 @@ import { motion } from 'framer-motion';
 
 import { AnimationContext } from '../../pages/_app';
 
-import { hero } from '../../styles/style.module.css';
-
 const Hero = ({ heroImage, children, imageSettings, width, shift = true }) => {
   const variants = {
     hidden: { opacity: 0 },
@@ -21,7 +19,7 @@ const Hero = ({ heroImage, children, imageSettings, width, shift = true }) => {
       exit='exit' // Exit state (used later) to variants.exit
       transition={{ type: 'linear' }} // Set the transition to linear
     >
-      <div className={` ${hero} w-full `}>
+      <div className='fixed h-screen w-full overflow-hidden -z-10'>
         <div
           className={`w-full relative `}
           style={

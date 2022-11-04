@@ -8,10 +8,10 @@ const Garden = () => {
   const { width } = useWindowSize();
   const image = width > 768 ? giardinoImage : giardinoOriImage;
   return (
-    <div className='blue lg:py-20 hmd:py-15 md:py-10 py-7 w-full'>
+    <div className='bg-shuuenkan-blue lg:py-20 hmd:py-15 md:py-10 py-7 w-full'>
       <div className='container flex mx-auto rounded-md pb-10'>
         <div
-          className={` w-full  rounded text-blue flex flex-wrap md:flex-nowrap `}
+          className={` w-full rounded text-shuuenkan-blue flex flex-wrap md:flex-nowrap `}
         >
           <div className='md:w-1/2 w-3/4 m-auto'>
             <Image alt='Men in Kendo' src={image} layout='responsive' />

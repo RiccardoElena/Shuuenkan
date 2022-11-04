@@ -7,13 +7,13 @@ const Garden = () => {
   const { width } = useWindowSize();
   const image = giardinoImage;
   return (
-    <div className='blue lg:py-15 hmd:py-10 md:py-7 py-7 w-full'>
+    <div className='bg-shuuenkan-blue lg:py-15 hmd:py-10 md:py-7 py-7 w-full'>
       <div className='container mx-auto rounded-md pb-10'>
         <h1 className='md:text-7xl text-5xl text-white text-left m-10'>
           Il Simbolo
         </h1>
         <div
-          className={` w-full  rounded text-blue flex flex-wrap md:flex-nowrap `}
+          className={` w-full rounded text-shuuenkan-blue flex flex-wrap md:flex-nowrap `}
         >
           <div className='sm:w-1/2 w-3/4 m-auto'>
             <Image alt='Shuuenkan logo' src={image} layout='responsive' />

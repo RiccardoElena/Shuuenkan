@@ -2,7 +2,7 @@ const BigQuote = () => {
   return (
     <div className='xsm:py-3 py-7 text-white'>
       <div
-        className={`xsm:w-3/4 w-11/12 xsm:pt-10 pt-2 mx-auto xsm:my-5 xsm:mt-12 rounded-2xl pearlOpacity	`}
+        className={`xsm:w-3/4 w-11/12 xsm:pt-10 pt-2 mx-auto xsm:my-5 xsm:mt-12 rounded-2xl bg-pearl/30`}
       >
         <h1
           className={`hlg:text-7xl hmd:text-6xl sm:text-5xl xsm:text-5xl text-3xl font-bold text-left w-fit mx-auto `}

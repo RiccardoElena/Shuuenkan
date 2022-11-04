@@ -81,8 +81,8 @@ const Nav = ({ scroll }) => {
                   whileTap={{ scale: 0.9 }}
                   className={`md:hover:bg-inherit ${
                     !scroll
-                      ? 'text-blue hover:text-blue-700 hoverPearl bg-white'
-                      : 'text-pearl hover:text-white hover:bg-blue-600 blue'
+                      ? 'text-shuuenkan-blue hover:text-blue-700 hover:bg-pearl bg-white'
+                      : 'text-pearl hover:text-white hover:bg-blue-600 bg-shuuenkan-blue'
                   }`}
                   key={item.id}
                 >

@@ -45,12 +45,12 @@ const items = [
 const Content = () => {
   return (
     <div
-      className='pearl md:py-20 py-5 '
+      className='bg-pearl md:py-20 py-5 '
       //style={{ clipPath: 'polygon(0 10%, 100% 0, 100% 100%, 0% 100%)' }}
     >
       <div className='container md:py-10 py-0 mx-auto'>
         <div className='w-full float-center'>
-          <p className='font-bold md:text-4xl text-3xl text-center text-blue xsm:p-10 p-5 pb-8 pt-4'>
+          <p className='font-bold md:text-4xl text-3xl text-center text-shuuenkan-blue xsm:p-10 p-5 pb-8 pt-4'>
             Esplora la via della spada e ottieni maggiori informazioni sullo
             Shuuenkan e i suoi progetti
           </p>

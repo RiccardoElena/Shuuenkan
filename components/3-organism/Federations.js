@@ -59,7 +59,7 @@ const Federation = () => {
           </div>
         </div>
         <div className='w-3/4 float-center mx-auto justify-items-center md:p-10 py-5'>
-          <p className='md:text-3xl xsm:text-2xl text-xl leading-relaxed text-center text-blue'>
+          <p className='md:text-3xl xsm:text-2xl text-xl leading-relaxed text-center text-shuuenkan-blue'>
             Lo Shuuenkan Napoli Kendo è l&apos;unico dojo di Napoli e provincia
             membro della CIK (Confederazione Italiana Kendo), che si occupa di
             promuovere le discipline di Kendo, Iaido, Jodo e Naginata sul
@@ -99,7 +99,7 @@ const Federation = () => {
         </div>
       </div>
       <div className='w-full float-center'>
-        <p className='font-bold text-3xl text-center text-blue pb-20'>
+        <p className='font-bold text-3xl text-center text-shuuenkan-blue pb-20'>
           Scopri le Federazioni ufficiali del Kendo nazionale, europeo e
           internazionale
         </p>

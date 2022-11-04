@@ -21,7 +21,7 @@ const Dojo = () => {
       transition={{ type: 'linear' }} // Set the transition to linear
     >
       <div className='container py-2 mx-auto'>
-        <h1 className='font-bold md:text-8xl text-6xl  text-center text-blue mt-2'>
+        <h1 className='font-bold md:text-8xl text-6xl  text-center text-shuuenkan-blue mt-2'>
           IL DOJO
         </h1>
       </div>

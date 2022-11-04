@@ -90,7 +90,7 @@ const Contacts = () => {
   return (
     <>
       <motion.div
-        className='container lg:text-8xl md:text-7xl sm:text-6xl text-5xl text-blue mx-auto my-16 font-bold'
+        className='container lg:text-8xl md:text-7xl sm:text-6xl text-5xl text-shuuenkan-blue mx-auto my-16 font-bold'
         variants={variants} // Pass the variant object into Framer Motion
         initial='hidden' // Set the initial state to variants.hidden
         animate='enter' // Animated state to variants.enter

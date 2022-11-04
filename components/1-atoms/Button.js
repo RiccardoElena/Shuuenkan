@@ -5,7 +5,7 @@ const Button = ({ text, reverse, href, tag }) => {
   const Tag = tag || Link;
   const classes = reverse
     ? 'bg-inherit text-white border-2 border-white'
-    : 'text-blue hover:text-blue-600 bg-inherit border-2 borderBlue hover:border-blue-600';
+    : 'text-shuuenkan-blue hover:text-blue-600 bg-inherit border-2 border-shuuenkan-blue hover:border-blue-600';
   const target = tag == 'a' ? '_blank' : '_self';
   return (
     <motion.div

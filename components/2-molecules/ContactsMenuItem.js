@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const ContactsMenuItem = ({ icon, title, lines }) => {
   return (
     <div
-      className={` hmd:w-1/4 w-1/2 text-blue mx-auto  ${
+      className={` hmd:w-1/4 w-1/2 text-shuuenkan-blue mx-auto  ${
         icon ? 'md:h-96 h-60 mb-28' : 'mb-0 '
       } text-center pb-0 relative`}
     >

@@ -16,7 +16,7 @@ const Card = ({
   return (
     <div
       id={id}
-      className={`w-full bg-white my-10 border-2 borderPearl rounded text-blue flex flex-wrap ${extraClasses}`}
+      className={`w-full bg-white my-10 border-2 border-pearl rounded text-shuuenkan-blue flex flex-wrap ${extraClasses}`}
     >
       <div className={`${imgSize}  m-auto`}>
         <Image alt={alt} src={src} layout='responsive' />

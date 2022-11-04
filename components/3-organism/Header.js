@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header
       className={`fixed z-50 right-0 top-0 py-2 w-full  ${
-        !scroll ? 'shadow-lg bg-white h-28' : 'blue text-pearl lg:h-36 h-28'
+        !scroll ? 'shadow-lg bg-white h-28' : 'bg-shuuenkan-blue text-pearl lg:h-36 h-28'
       }`}
     >
       <div className='container flex items-center justify-between mx-auto'>

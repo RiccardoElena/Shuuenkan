@@ -22,10 +22,10 @@ const Hero = () => {
         exit='exit' // Exit state (used later) to variants.exit
         transition={{ type: 'linear' }} // Set the transition to linear
       >
-        <h1 className='text-left text-blue lg:text-7xl xsm:text-6xl text-5xl hlg:mb-5 md:mb-5 mb-10 mx-5'>
+        <h1 className='text-left text-shuuenkan-blue lg:text-7xl xsm:text-6xl text-5xl hlg:mb-5 md:mb-5 mb-10 mx-5'>
           Chi siamo
         </h1>
-        <div className={` w-full  text-blue flex flex-wrap md:flex-nowrap`}>
+        <div className={` w-full text-shuuenkan-blue flex flex-wrap md:flex-nowrap`}>
           <div className=' md:my-auto xsm:m-auto m-5 md:pr-20 md:pb-0 pb-10 bg-white w-fit justify-start text-center '>
             <h1 className='pb-10 lg:text-5xl xsm:text-4xl text-3xl text-center'>
               Una Realtà in Evoluzione
@@ -40,7 +40,7 @@ const Hero = () => {
                 Kendo a Napoli e, come la fenice, rinascendo ancora una volta
                 dalle proprie ceneri come primo ed unico progetto di{' '}
                 <Link href='/projects' passHref>
-                  <b className='text-blue-600 hover:text-blue hover:underline'>
+                  <b className='text-blue-600 hover:text-shuuenkan-blue hover:underline'>
                     Social Kendo Italiano
                   </b>
                 </Link>

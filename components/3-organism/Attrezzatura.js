@@ -3,7 +3,6 @@ import boguImage from '../../public/bogu.jpeg';
 import swordsImage from '../../public/swords.jpeg';
 import swordsOriImage from '../../public/swordsOri.jpeg';
 import hakamaGiImage from '../../public/hakamaGiImage.png';
-import styles from './Attrezzatura.module.css';
 import contactsIcon from '../../public/contactsIcon.png';
 import KendoText from '../2-molecules/KendoText';
 import Link from 'next/link';
@@ -67,7 +66,7 @@ const Content = () => {
   ];
 
   return (
-    <div className='blue md:py-20 py-0 '>
+    <div className='bg-shuuenkan-blue md:py-20 py-0 '>
       <div className='container xsm:py-10 pt-5 mx-auto'>
         <div className='w-full float-center'>
           <p className='font-bold md:text-7xl text-6xl text-center text-pearl md:p-10 p-5'>
