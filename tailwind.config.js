@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+      sans: ['Barlow Condensed', ...defaultTheme.fontFamily.sans],
+      cursive: ['Aboreto', ...defaultTheme.fontFamily.sans],
+    },
     extend: {
       colors: {
         'shuuenkan-blue': '#1d439a',

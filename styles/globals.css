@@ -2,14 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: 'Aboreto', cursive;
-  font-family: 'Barlow Condensed', sans-serif;
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/barlow-condensed.woff2') format('woff2');
+  }
 }
 
-html,
-body {
-  font-family: Poppins, sans-serif;
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/barlow-condensed-bold.woff2') format('woff2');
+  }
+}
+
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/aboreto.woff2') format('woff2');
+  }
 }
 
 @layer utilities {
