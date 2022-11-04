@@ -16,11 +16,11 @@ const Hero = () => {
       <Banner alt='Flag Banner' src={heroImage} extraClasses='shadow-lg' />
       <motion.div
         className='container mx-auto rounded-md py-16'
-        variants={variants} // Pass the variant object into Framer Motion
-        initial='hidden' // Set the initial state to variants.hidden
-        animate='enter' // Animated state to variants.enter
-        exit='exit' // Exit state (used later) to variants.exit
-        transition={{ type: 'linear' }} // Set the transition to linear
+        variants={variants}
+        initial='hidden'
+        animate='enter'
+        exit='exit'
+        transition={{ type: 'linear' }}
       >
         <h1 className='text-left text-shuuenkan-blue lg:text-7xl xsm:text-6xl text-5xl hlg:mb-5 md:mb-5 mb-10 mx-5'>
           Chi siamo

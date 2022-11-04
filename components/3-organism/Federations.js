@@ -45,7 +45,6 @@ const Federation = () => {
   return (
     <div
       className='bg-white py-10 pb-24'
-      //style={{ clipPath: 'polygon(0 10%, 100% 0, 100% 100%, 0% 100%)' }}
     >
       <div className='container py-10 mx-auto'>
         <div className='w-full float-center mx-auto justify-items-center'>

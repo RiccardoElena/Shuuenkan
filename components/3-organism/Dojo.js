@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import dojoImage from '../../public/dojo.jpeg';
 import DojoText from '../2-molecules/DojoText';
 import Garden from '../2-molecules/Garden';
 import { motion } from 'framer-motion';
@@ -14,11 +12,11 @@ const Dojo = () => {
   return (
     <motion.div
       className='bg-white '
-      variants={variants} // Pass the variant object into Framer Motion
-      initial='hidden' // Set the initial state to variants.hidden
-      animate='enter' // Animated state to variants.enter
-      exit='exit' // Exit state (used later) to variants.exit
-      transition={{ type: 'linear' }} // Set the transition to linear
+      variants={variants}
+      initial='hidden'
+      animate='enter'
+      exit='exit'
+      transition={{ type: 'linear' }}
     >
       <div className='container py-2 mx-auto'>
         <h1 className='font-bold md:text-8xl text-6xl  text-center text-shuuenkan-blue mt-2'>

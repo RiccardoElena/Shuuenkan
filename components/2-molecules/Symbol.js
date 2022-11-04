@@ -1,10 +1,7 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import giardinoImage from '../../public/logo.png';
-import { useWindowSize } from '../../hooks';
 
 const Garden = () => {
-  const { width } = useWindowSize();
   const image = giardinoImage;
   return (
     <div className='bg-shuuenkan-blue lg:py-15 hmd:py-10 md:py-7 py-7 w-full'>

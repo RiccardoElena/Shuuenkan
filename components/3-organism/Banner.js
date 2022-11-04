@@ -10,11 +10,11 @@ const Banner = ({ alt, src, extraClasses = ' ' }) => {
   return (
     <motion.div
       className='mt-28 lg:mt-36'
-      variants={variants} // Pass the variant object into Framer Motion
-      initial='hidden' // Set the initial state to variants.hidden
-      animate='enter' // Animated state to variants.enter
-      exit='exit' // Exit state (used later) to variants.exit
-      transition={{ type: 'linear' }} // Set the transition to linear
+      variants={variants}
+      initial='hidden'
+      animate='enter'
+      exit='exit'
+      transition={{ type: 'linear' }}
     >
       <div className=' flex'>
         <div className={`w-full h-fit m-0 p-0 ${extraClasses}`}>

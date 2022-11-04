@@ -1,11 +1,7 @@
-import Image from 'next/image';
 import boguImage from '../../public/bogu.jpeg';
 import swordsImage from '../../public/swords.jpeg';
 import swordsOriImage from '../../public/swordsOri.jpeg';
 import hakamaGiImage from '../../public/hakamaGiImage.png';
-import contactsIcon from '../../public/contactsIcon.png';
-import KendoText from '../2-molecules/KendoText';
-import Link from 'next/link';
 import Card from '../2-molecules/Card';
 import { useWindowSize } from '../../hooks';
 

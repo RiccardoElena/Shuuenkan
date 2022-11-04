@@ -1,5 +1,4 @@
 const DojoText = () => {
-  //const [hover, setHover] = useState(false);
   return (
     <>
       <div className='container mx-auto'>

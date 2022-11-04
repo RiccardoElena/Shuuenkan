@@ -77,11 +77,11 @@ const Content = () => {
           <div className='w-full float-center'>
             <motion.p
               className=' md:text-8xl sm:text-7xl text-6xl text-center text-pearl md:p-10 px-5 py-14'
-              variants={variants} // Pass the variant object into Framer Motion
-              initial='hidden' // Set the initial state to variants.hidden
-              animate='enter' // Animated state to variants.enter
-              exit='exit' // Exit state (used later) to variants.exit
-              transition={{ type: 'linear' }} // Set the transition to linear
+              variants={variants}
+              initial='hidden'
+              animate='enter'
+              exit='exit'
+              transition={{ type: 'linear' }}
             >
               Lo <b className='text-white'>Shuuenkandojo</b> presenta il{' '}
               <b className='text-white'>primo e unico</b> progetto di kendo

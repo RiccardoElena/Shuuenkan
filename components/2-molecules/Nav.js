@@ -25,14 +25,12 @@ const Nav = ({ scroll }) => {
 
   useEffect(() => setNavDisplayed(desktopSize), [desktopSize]);
 
-  const variants = {};
   return (
     <>
       <button
         className='h-20 w-20 p-2 absolute right-0 rounded-2xl border-0 cursor-pointer justify-self-end text-right md:hidden mx-8'
         onClick={navDisplayHandler}
       >
-        {/* icon from heroicons.com */}
         <svg
           xmlns='http://www.w3.org/2000/svg'
           className='h-10 w-10 mx-auto text-pearl'

@@ -1,11 +1,8 @@
-import Image from 'next/image';
 import kendoIcon from '../../public/kendoIcon.png';
 import dojoIcon from '../../public/dojoIcon.png';
 import projectsIcon from '../../public/projectsIcon.png';
 import contactsIcon from '../../public/contactsIcon.png';
-import KendoText from '../2-molecules/KendoText';
 import MenuItem from '../2-molecules/MenuItem';
-import Link from 'next/link';
 
 const items = [
   {
@@ -46,7 +43,6 @@ const Content = () => {
   return (
     <div
       className='bg-pearl md:py-20 py-5 '
-      //style={{ clipPath: 'polygon(0 10%, 100% 0, 100% 100%, 0% 100%)' }}
     >
       <div className='container md:py-10 py-0 mx-auto'>
         <div className='w-full float-center'>

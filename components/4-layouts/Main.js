@@ -1,14 +1,8 @@
 import Head from 'next/head';
 import Footer from '../3-organism/Footer';
 import Header from '../3-organism/Header';
-import { motion } from 'framer-motion';
 
 const Main = ({ children, className, secondTitle }) => {
-  const variants = {
-    hidden: { opacity: 0 },
-    enter: { opacity: 1, transition: { duration: 0.9 } },
-    exit: { opacity: 0 },
-  };
   return (
     <>
       <Head>

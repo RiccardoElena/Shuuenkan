@@ -2,8 +2,6 @@ import Image from 'next/image';
 
 import { motion } from 'framer-motion';
 
-import { AnimationContext } from '../../pages/_app';
-
 const Hero = ({ heroImage, children, imageSettings, width, shift = true }) => {
   const variants = {
     hidden: { opacity: 0 },
@@ -13,11 +11,11 @@ const Hero = ({ heroImage, children, imageSettings, width, shift = true }) => {
   return (
     <motion.div
       className='mt-28 lg:mt-28'
-      variants={variants} // Pass the variant object into Framer Motion
-      initial='hidden' // Set the initial state to variants.hidden
-      animate='enter' // Animated state to variants.enter
-      exit='exit' // Exit state (used later) to variants.exit
-      transition={{ type: 'linear' }} // Set the transition to linear
+      variants={variants}
+      initial='hidden'
+      animate='enter'
+      exit='exit'
+      transition={{ type: 'linear' }}
     >
       <div className='fixed h-screen w-full overflow-hidden -z-10'>
         <div

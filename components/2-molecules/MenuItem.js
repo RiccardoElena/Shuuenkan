@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-const MenuItem = ({ url, src, alt, title, text, tag, size }) => {
+const MenuItem = ({ url, src, alt, title, text, tag }) => {
   const TagComponent = tag || Link;
 
   return (
