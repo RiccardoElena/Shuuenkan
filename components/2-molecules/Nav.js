@@ -25,36 +25,31 @@ const Nav = ({ scroll }) => {
 
   useEffect(() => setNavDisplayed(desktopSize), [desktopSize]);
 
-  const variants = {};
   return (
     <>
       <button
-        className='h-20 w-20 p-2 absolute right-0 rounded-2xl border-0 cursor-pointer justify-self-end text-right md:hidden mx-8'
-        onClick={navDisplayHandler}
-      >
-        {/* icon from heroicons.com */}
+        className="absolute right-0 mx-8 h-20 w-20 cursor-pointer justify-self-end rounded-2xl border-0 p-2 text-right md:hidden"
+        onClick={navDisplayHandler}>
         <svg
-          xmlns='http://www.w3.org/2000/svg'
-          className='h-10 w-10 mx-auto text-pearl'
-          viewBox='0 0 20 20'
-          fill='white'
-        >
+          xmlns="http://www.w3.org/2000/svg"
+          className="mx-auto h-10 w-10 text-pearl"
+          viewBox="0 0 20 20"
+          fill="white">
           <path
             fill={!scroll ? '#1d439a' : '#bdbbbb'}
-            fillRule='evenodd'
-            d='M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z'
-            clipRule='evenodd'
+            fillRule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+            clipRule="evenodd"
           />
         </svg>
       </button>
 
       <div>
         <ul
-          className={`md:flex md:flex-row md:static md:z-50 z-10 mr-2 absolute  top-28 left-0 flex-col items-center justify-end justify-between w-full h-fit ${
+          className={`absolute top-28 left-0 z-10 mr-2 h-fit w-full  flex-col items-center justify-end justify-between md:static md:z-50 md:flex md:flex-row ${
             !scroll ? 'bg-inherit' : 'bg-inherit'
-          } `}
-        >
-          <AnimatePresence mode='sync'>
+          } `}>
+          <AnimatePresence mode="sync">
             {navDisplayed &&
               items.map((item) => (
                 <motion.div
@@ -76,19 +71,17 @@ const Nav = ({ scroll }) => {
                       bounce: desktopSize ? 0.2 : 0.4,
                     },
                   }}
-                  exit='exit'
+                  exit="exit"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   className={`md:hover:bg-inherit ${
                     !scroll
-                      ? 'text-blue hover:text-blue-700 hoverPearl bg-white'
-                      : 'text-pearl hover:text-white hover:bg-blue-600 blue'
+                      ? 'bg-white text-shuuenkan-blue hover:bg-pearl hover:text-blue-700'
+                      : 'bg-shuuenkan-blue text-pearl hover:bg-blue-600 hover:text-white'
                   }`}
-                  key={item.id}
-                >
+                  key={item.id}>
                   <li
-                    className={`xl:mx-8 hmd:mx-4 md:mx-2 mx-auto text-2xl   text-center w-fit py-6 md:py-4 `}
-                  >
+                    className={`mx-auto w-fit py-6 text-center text-2xl   md:mx-2 md:py-4 hmd:mx-4 xl:mx-8 `}>
                     <Link href={item.url}>{item.title}</Link>
                   </li>
                 </motion.div>

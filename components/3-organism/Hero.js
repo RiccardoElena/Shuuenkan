@@ -1,10 +1,5 @@
 import Image from 'next/image';
-
 import { motion } from 'framer-motion';
-
-import { AnimationContext } from '../../pages/_app';
-
-import { hero } from '../../styles/style.module.css';
 
 const Hero = ({ heroImage, children, imageSettings, width, shift = true }) => {
   const variants = {
@@ -14,24 +9,22 @@ const Hero = ({ heroImage, children, imageSettings, width, shift = true }) => {
   };
   return (
     <motion.div
-      className='mt-28 lg:mt-28'
-      variants={variants} // Pass the variant object into Framer Motion
-      initial='hidden' // Set the initial state to variants.hidden
-      animate='enter' // Animated state to variants.enter
-      exit='exit' // Exit state (used later) to variants.exit
-      transition={{ type: 'linear' }} // Set the transition to linear
-    >
-      <div className={` ${hero} w-full `}>
+      className="mt-28 lg:mt-28"
+      variants={variants}
+      initial="hidden"
+      animate="enter"
+      exit="exit"
+      transition={{ type: 'linear' }}>
+      <div className="fixed -z-10 h-screen w-full overflow-hidden">
         <div
-          className={`w-full relative `}
+          className={`relative w-full `}
           style={
             shift
               ? { right: `${width < 852 ? `${(852 - width) / 2}px` : ''}` }
               : {}
-          }
-        >
+          }>
           <Image
-            alt='Kendo'
+            alt="Kendo"
             src={heroImage}
             width={imageSettings.width}
             height={imageSettings.height}
@@ -41,7 +34,7 @@ const Hero = ({ heroImage, children, imageSettings, width, shift = true }) => {
           />
         </div>
       </div>
-      <div className=' flex flex-col'>{children}</div>
+      <div className=" flex flex-col">{children}</div>
     </motion.div>
   );
 };

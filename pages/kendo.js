@@ -1,9 +1,11 @@
-import Main from '../components/4-layouts/Main';
-import Hero from '../components/3-organism/Hero';
-import heroImage from '../public/content.jpeg';
-import Attrezzatura from '../components/3-organism/Attrezzatura';
 import { useWindowSize } from '../hooks';
+
 import BigQuote from '../components/2-molecules/BigQuote';
+import Hero from '../components/3-organism/Hero';
+import Attrezzatura from '../components/3-organism/Attrezzatura';
+import Main from '../components/4-layouts/Main';
+
+import heroImage from '../public/images/content.jpeg';
 
 const KendoPage = () => {
   const { width, height } = useWindowSize();
@@ -20,12 +22,12 @@ const KendoPage = () => {
   }
   return (
     <Main secondTitle="L'arte dei Samurai">
-      <section id='hero'>
+      <section id="hero">
         <Hero heroImage={heroImage} imageSettings={imageSettings} shift={false}>
           <BigQuote />
         </Hero>
       </section>
-      <section id='hero'>
+      <section id="hero">
         <Attrezzatura />
       </section>
     </Main>

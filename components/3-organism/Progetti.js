@@ -1,9 +1,11 @@
-import naginataImage from '../../public/senseiCarlini.jpeg';
-import fundImage from '../../public/fundLogo.png';
-import tenuguiImage from '../../public/tengui.jpeg';
-import { motion } from 'framer-motion';
-import Card from '../2-molecules/Card';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
+
+import Card from '../2-molecules/Card';
+
+import naginataImage from '../../public/images/senseiCarlini.jpeg';
+import fundImage from '../../public/images/fundLogo.png';
+import tenuguiImage from '../../public/images/tengui.jpeg';
 
 const Content = () => {
   const items = [
@@ -13,14 +15,14 @@ const Content = () => {
       alt: 'GoFundMe Logo',
       title: 'Fundrising',
       text: (
-        <p className='md:text-4xl sm:text-3xl text-2xl'>
+        <span className="text-2xl sm:text-3xl md:text-4xl">
           Partecipa al nostro progetto di fundrising con l&apos;obbiettivo di
           sostituire la pavimentazione del dojo in parquet, modificare le porte
           e gli infissi deteriorati, rinnovare gli spogliatoi,facilitare
           l&apos;aquisto di attrezzature per chi non possa permettersene delle
           proprie e acquistare dei bogu per i bambini
           <br />
-        </p>
+        </span>
       ),
       btnProps: { btnText: 'Dona ora!', href: 'https://gofund.me/12c1d74f' },
       id: 'fundrising',
@@ -31,14 +33,14 @@ const Content = () => {
       alt: 'Sensei Carlini Image',
       title: 'Project Naginata',
       text: (
-        <p className='md:text-4xl sm:text-3xl text-2xl'>
+        <span className="text-2xl sm:text-3xl md:text-4xl">
           A partire da quest&apos;anno lo Shuuenkandojo propone un nuovo
           progetto di disciplina marziale, il <b>Naginata do</b>, sotto la
           sapiente guida di sensei Stefano Carlini (detto Nonno Naginata),{' '}
           <b>3 Dan di Naginata </b> e <b>Nazionale Italiano</b> per la sezione
           di Naginata della CIK.
           <br />
-        </p>
+        </span>
       ),
       btnProps: {
         btnText: 'Scopri il Naginata',
@@ -53,10 +55,10 @@ const Content = () => {
       alt: 'Original Tenugui Artwork',
       title: 'Tenugui',
       text: (
-        <p className='md:text-4xl sm:text-3xl text-2xl'>
+        <span className="text-2xl sm:text-3xl md:text-4xl">
           Vendita Tenugui e Altri accessori per il Kendo!
           <br />
-        </p>
+        </span>
       ),
       btnProps: { btnText: 'Acquista Ora', href: '/shop' },
       imgSize: 'w-full',
@@ -72,27 +74,26 @@ const Content = () => {
 
   return (
     <>
-      <div className='lg:pt-36 pt-28 blue'>
-        <div className='blue container xl:py-36 hlg:py-32 lg:py-36 hmd:py-24 md:py-15 sm:py-24 xsm:py-20 py-8 mx-auto'>
-          <div className='w-full float-center'>
+      <div className="bg-shuuenkan-blue pt-28 lg:pt-36">
+        <div className="md:py-15 container mx-auto bg-shuuenkan-blue py-8 xsm:py-20 sm:py-24 hmd:py-24 lg:py-36 hlg:py-32 xl:py-36">
+          <div className="float-center w-full">
             <motion.p
-              className=' md:text-8xl sm:text-7xl text-6xl text-center text-pearl md:p-10 px-5 py-14'
-              variants={variants} // Pass the variant object into Framer Motion
-              initial='hidden' // Set the initial state to variants.hidden
-              animate='enter' // Animated state to variants.enter
-              exit='exit' // Exit state (used later) to variants.exit
-              transition={{ type: 'linear' }} // Set the transition to linear
-            >
-              Lo <b className='text-white'>Shuuenkandojo</b> presenta il{' '}
-              <b className='text-white'>primo e unico</b> progetto di kendo
-              <b className='text-white'> gratuito </b> in Italia!
+              className=" px-5 py-14 text-center text-6xl text-pearl sm:text-7xl md:p-10 md:text-8xl"
+              variants={variants}
+              initial="hidden"
+              animate="enter"
+              exit="exit"
+              transition={{ type: 'linear' }}>
+              Lo <b className="text-white">Shuuenkandojo</b> presenta il{' '}
+              <b className="text-white">primo e unico</b> progetto di kendo
+              <b className="text-white"> gratuito </b> in Italia!
             </motion.p>
           </div>
         </div>
       </div>
-      <div className='container flex flex-wrap mx-auto rounded-md py-40'>
-        <div className='container mx-auto pb-20 '>
-          <h1 className='text-center md:text-5xl text-4xl text-blue'>
+      <div className="container mx-auto flex flex-wrap rounded-md py-40">
+        <div className="container mx-auto pb-20 ">
+          <h1 className="text-center text-4xl text-shuuenkan-blue md:text-5xl">
             La diffusione gratuita del kendo è sostenuta dai nostri molteplici
             progetti di raccolta fondi reinvestiti al 100%
           </h1>

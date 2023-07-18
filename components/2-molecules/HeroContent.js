@@ -1,34 +1,30 @@
-import { heroText } from '../../styles/style.module.css';
 import Button from '../1-atoms/Button';
-import styles from './HeroContent.module.css';
 
 const HeroContent = () => {
   return (
-    <div className='md:w-1/2 w-full blueOpacity'>
-      <div className={`w-full hlg:pt-20 pt-7 mx-20  text-white ${heroText}`}>
-        <p className='lg:text-2xl text-xl text-left lg:mx-16 mx-8 md:py-12 py-5'>
+    <div className="w-full bg-shuuenkan-blue/60 md:w-1/2">
+      <div className="text-shadow m-0 w-full pt-7 text-center text-[2rem] leading-[3rem] text-white hlg:pt-20">
+        <p className="mx-8 py-5 text-left text-xl md:py-12 lg:mx-16 lg:text-2xl">
           {' '}
           Chi siamo
         </p>
-        <h1
-          className={`xl:text-8xl hmd:text-7xl md:text-6xl sm:text-8xl xsm:text-6xl text-5xl font-bold sm:text-left text-center w-fit mx-auto ${styles.lineHeight}`}
-        >
+        <h1 className="mx-auto w-fit text-center text-5xl font-bold xsm:text-6xl sm:text-left sm:text-8xl md:text-6xl hmd:text-7xl hmd:leading-[5rem] xl:text-8xl xl:leading-[5rem]">
           SHUUENKANDOJO <br />
           NAPOLI KENDO &<br />
           NAGINATA
         </h1>
-        <p className='lg:text-2xl text-xl sm:text-2xl md:text-left text-center lg:mx-16 mx-8 sm:py-12 py-0 pb-26'>
+        <p className="pb-26 mx-8 py-0 text-center text-xl sm:py-12 sm:text-2xl md:text-left lg:mx-16 lg:text-2xl">
           Lo Shuuenkandojo nasce a Napoli nel 2014 e diventa il primo
           esperimento italiano di Kendo gratuito!
-          <div className='py-16 flex justify-between md:mx-auto sm:mx-14 mx-auto md:pb-40 pb-5'>
-            <Button text='Social Kendo' reverse={true} href='/projects' />
-            <Button
-              text='Project Naginata'
-              reverse={true}
-              href='/projects#naginata'
-            />
-          </div>
         </p>
+        <div className="mx-auto flex justify-between py-16 pb-5 sm:mx-14 md:mx-auto md:pb-40">
+          <Button text="Social Kendo" reverse={true} href="/projects" />
+          <Button
+            text="Project Naginata"
+            reverse={true}
+            href="/projects#naginata"
+          />
+        </div>
       </div>
     </div>
   );

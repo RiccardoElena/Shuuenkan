@@ -1,13 +1,12 @@
 const DojoText = () => {
-  //const [hover, setHover] = useState(false);
   return (
     <>
-      <div className='container mx-auto'>
-        <h1 className='p-2 px-5 mx-auto text-left md:text-5xl text-4xl xsm:text-3xl font-bold text-blue'>
+      <div className="container mx-auto">
+        <h1 className="mx-auto p-2 px-5 text-left text-4xl font-bold text-shuuenkan-blue xsm:text-3xl md:text-5xl">
           Lo Shuuenkandojo
         </h1>
 
-        <p className='px-10 py-6 text-centered xsm:text-3xl text-xl text-blue leading-loose'>
+        <p className="text-centered px-10 py-6 text-xl leading-loose text-shuuenkan-blue xsm:text-3xl">
           Dalla sua nascita, nell&apos;anno 2014, il nostro dojo si afferma come
           prima e unica realtà di Kendo della Confederazione Italiana (CIK) a
           Napoli e provincia, fregiandosi dell&apos;onore di aver ospitato

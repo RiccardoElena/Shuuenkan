@@ -1,11 +1,9 @@
-import Image from 'next/image';
-import kendoIcon from '../../public/kendoIcon.png';
-import dojoIcon from '../../public/dojoIcon.png';
-import projectsIcon from '../../public/projectsIcon.png';
-import contactsIcon from '../../public/contactsIcon.png';
-import KendoText from '../2-molecules/KendoText';
 import MenuItem from '../2-molecules/MenuItem';
-import Link from 'next/link';
+
+import kendoIcon from '../../public/images/kendoIcon.png';
+import dojoIcon from '../../public/images/dojoIcon.png';
+import projectsIcon from '../../public/images/projectsIcon.png';
+import contactsIcon from '../../public/images/contactsIcon.png';
 
 const items = [
   {
@@ -44,19 +42,16 @@ const items = [
 
 const Content = () => {
   return (
-    <div
-      className='pearl md:py-20 py-5 '
-      //style={{ clipPath: 'polygon(0 10%, 100% 0, 100% 100%, 0% 100%)' }}
-    >
-      <div className='container md:py-10 py-0 mx-auto'>
-        <div className='w-full float-center'>
-          <p className='font-bold md:text-4xl text-3xl text-center text-blue xsm:p-10 p-5 pb-8 pt-4'>
+    <div className="bg-pearl py-5 md:py-20 ">
+      <div className="container mx-auto py-0 md:py-10">
+        <div className="float-center w-full">
+          <p className="p-5 pb-8 pt-4 text-center text-3xl font-bold text-shuuenkan-blue xsm:p-10 md:text-4xl">
             Esplora la via della spada e ottieni maggiori informazioni sullo
             Shuuenkan e i suoi progetti
           </p>
         </div>
       </div>
-      <div className='container flex flex-wrap mx-auto rounded-md '>
+      <div className="container mx-auto flex flex-wrap rounded-md ">
         {items.map((item) => (
           <MenuItem
             key={item.key}
@@ -64,8 +59,7 @@ const Content = () => {
             title={item.title}
             text={item.text}
             url={item.url}
-            src={item.src}
-          ></MenuItem>
+            src={item.src}></MenuItem>
         ))}
       </div>
     </div>

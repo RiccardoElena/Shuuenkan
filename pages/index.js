@@ -1,10 +1,12 @@
+import { useWindowSize } from '../hooks';
+
+import HeroContent from '../components/2-molecules/HeroContent';
 import Kendo from '../components/3-organism/Kendo';
 import Hero from '../components/3-organism/Hero';
-import Main from '../components/4-layouts/Main';
-import heroImage from '../public/hero.jpeg';
 import Federation from '../components/3-organism/Federations';
-import { useWindowSize } from '../hooks';
-import HeroContent from '../components/2-molecules/HeroContent';
+import Main from '../components/4-layouts/Main';
+
+import heroImage from '../public/images/hero.jpeg';
 
 export default function Home() {
   const { width, height } = useWindowSize();
@@ -22,16 +24,16 @@ export default function Home() {
     imageSettings.height = '';
   }
   return (
-    <Main secondTitle='Vieni, Pratichi e Non Paghi'>
-      <section id='hero'>
+    <Main secondTitle="Vieni, Pratichi e Non Paghi">
+      <section id="hero">
         <Hero heroImage={heroImage} imageSettings={imageSettings} width={width}>
           <HeroContent />
         </Hero>
       </section>
-      <section id='menu'>
+      <section id="menu">
         <Kendo />
       </section>
-      <section id='federations'>
+      <section id="federations">
         <Federation />
       </section>
     </Main>
