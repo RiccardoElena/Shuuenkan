@@ -12,7 +12,7 @@ const Button = ({ text, reverse, href, tag }) => {
     <motion.div
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className={`${classes} mx-auto w-fit rounded-3xl px-6 py-2`}>
+      className={`${classes} mx-auto my-2 w-fit rounded-3xl px-6 py-2`}>
       <Tag className="text max-w-xs text-right" href={href} target={target}>
         {text}
       </Tag>

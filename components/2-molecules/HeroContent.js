@@ -17,7 +17,7 @@ const HeroContent = () => {
           Lo Shuuenkandojo nasce a Napoli nel 2014 e diventa il primo
           esperimento italiano di Kendo gratuito!
         </p>
-        <div className="mx-auto flex justify-between py-16 pb-5 sm:mx-14 md:mx-auto md:pb-40">
+        <div className="mx-auto flex flex-wrap justify-between py-16 pb-5 sm:mx-14 md:mx-auto md:pb-40">
           <Button text="Social Kendo" reverse={true} href="/projects" />
           <Button
             text="Project Naginata"
