@@ -18,7 +18,7 @@ const DojoText = () => {
           <br />
           <b>Jindra Ziegelheim</b>, 6 Dan Renshi;
           <br />
-          <b>Stefano Massarenti</b>, 5 Dan e Tutor del Dojo ;
+          <b>Stefano Massarenti</b>, 5 Dan e Tutor del Dojo;
           <br />
           <b>Franco Sarra</b>, uno dei fondatori della CIK;
           <br />
