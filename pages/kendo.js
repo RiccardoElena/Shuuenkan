@@ -10,9 +10,6 @@ import heroImage from '../public/images/content.jpeg';
 const KendoPage = () => {
   const { width, height } = useWindowSize();
 
-  console.log(width);
-  console.log(height);
-
   const imageSettings = { layout: 'responsive', width: '', height: '' };
 
   if (width > 852 && width > height) {
