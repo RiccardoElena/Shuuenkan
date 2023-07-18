@@ -35,7 +35,7 @@ const Header = () => {
             whileTap={{ scale: 0.9 }}>
             <Image
               src="/logo.png"
-              alt="me"
+              alt="shuuenkan logo"
               width={`${!scroll || width < 1024 ? '100' : '130'}`}
               height={`${!scroll || width < 1024 ? '100' : '130'}`}
             />
