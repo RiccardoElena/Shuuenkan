@@ -8,7 +8,8 @@ const FourOFour = () => {
       <h1 className="text-7xl leading-5">Coming Soon!</h1>
 
       <p className="my-16 text-center text-2xl leading-6">
-        Questa sezione del sito è ancora in lavorazione.
+        Questa sezione del sito <b>non esiste</b> o{' '}
+        <b>è ancora in lavorazione</b>.
         <br />
         {' Per aggiornamenti, seguici su'}{' '}
         <a

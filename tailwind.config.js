@@ -14,7 +14,7 @@ module.exports = {
     extend: {
       colors: {
         'shuuenkan-blue': '#1d439a',
-        'pearl': '#d8d8d8',
+        pearl: '#d8d8d8',
       },
     },
     screens: {
@@ -28,5 +28,5 @@ module.exports = {
       '2xl': '1536px',
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

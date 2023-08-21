@@ -8,7 +8,8 @@ const items = [
   { title: 'Il Kendo', url: '/kendo', id: 2 },
   { title: 'Il Dojo', url: '/dojo', id: 3 },
   { title: 'Progetti', url: '/projects', id: 4 },
-  { title: 'Contattaci', url: '/contacts', id: 5 },
+  { title: 'Blog', url: '/blog', id: 5 },
+  { title: 'Contattaci', url: '/contacts', id: 6 },
 ];
 
 const Nav = ({ scroll }) => {
