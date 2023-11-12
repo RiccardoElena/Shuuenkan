@@ -6,7 +6,7 @@ import Nav from '../2-molecules/Nav';
 import { useWindowSize } from '../../hooks';
 
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from 'next/image';
 
 const Header = () => {
   const [scroll, setScroll] = useState(true);
@@ -35,9 +35,16 @@ const Header = () => {
             whileTap={{ scale: 0.9 }}>
             <Image
               src="/images/logo.png"
+              priority
               alt="shuuenkan logo"
               width={`${!scroll || width < 1024 ? '100' : '130'}`}
               height={`${!scroll || width < 1024 ? '100' : '130'}`}
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+                maxWidth: '100%',
+                height: 'auto',
+              }}
             />
           </motion.a>
         </Link>

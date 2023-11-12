@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import giardinoImage from '../../public/images/logo.png';
 
@@ -12,7 +12,16 @@ const Garden = () => {
         </h1>
         <div className="flex w-full flex-wrap rounded text-shuuenkan-blue md:flex-nowrap">
           <div className="m-auto w-3/4 sm:w-1/2">
-            <Image alt="Shuuenkan logo" src={image} layout="responsive" />
+            <Image
+              alt="Shuuenkan logo"
+              src={image}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className=" w-fit p-10 text-center text-white">
             <h1 className="p-5 text-center text-3xl xsm:text-4xl">I Kenshi</h1>

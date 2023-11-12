@@ -13,20 +13,35 @@ export default function Home() {
 
   const isTablet = width > 767 && width < height;
 
-  const imageSettings = { layout: 'fixed', width: '852', height: '565' };
+  const imageSettings = {
+    style: {
+      width: `100vw`, // Imposta la larghezza
+      height: `100vh`, // Imposta l'altezza
+      //objectFit: 'cover', // Controlla come l'immagine si adatta alle dimensioni
+      maxWidth: '100%',
+    },
+    width: '852',
+    height: '565',
+  };
 
   if (isTablet) {
     imageSettings.width = '1778px';
     imageSettings.height = '1180px';
   } else if (width > 852) {
-    imageSettings.layout = 'responsive';
+    imageSettings.style = {
+      maxWidth: '100%',
+      height: 'auto',
+      maxWidth: '100%',
+      width: '100%',
+      objectFit: 'cover',
+    };
     imageSettings.width = '';
     imageSettings.height = '';
   }
   return (
     <Main secondTitle="Vieni, Pratichi e Non Paghi">
       <section id="hero">
-        <Hero heroImage={heroImage} imageSettings={imageSettings} width={width}>
+        <Hero heroImage={heroImage} imageSettings={imageSettings}>
           <HeroContent />
         </Hero>
       </section>

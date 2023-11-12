@@ -1,4 +1,4 @@
-import Image from 'next/legacy/image';
+import Image from "next/image";
 
 import Button from '../1-atoms/Button';
 
@@ -19,7 +19,17 @@ const Card = ({
       id={id}
       className={`my-10 flex w-full flex-wrap rounded border-2 border-pearl bg-white text-shuuenkan-blue ${extraClasses}`}>
       <div className={`${imgSize} m-auto`}>
-        <Image alt={alt} src={src} layout="responsive" priority />
+        <Image
+          alt={alt}
+          src={src}
+          priority
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto",
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
       <div
         className={`${

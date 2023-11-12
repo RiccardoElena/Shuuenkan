@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
-import Image from "next/legacy/image";
+import Image from 'next/image';
 
 import Main from '../../components/4-layouts/Main';
 import Button from '../../components/1-atoms/Button';
@@ -36,7 +36,14 @@ const Post = ({
             src={`/posts/${src}`}
             alt={alt}
             width={500 || imgWidth}
-            height={500 || imgHeight}></Image>
+            height={500 || imgHeight}
+            style={{
+              margin: 'auto',
+              maxWidth: '100%',
+              height: 'auto',
+              maxWidth: '100%',
+              height: 'auto',
+            }}></Image>
         </div>
 
         <article className="xs:mx-0 prose prose-lg m-auto prose-img:m-auto sm:prose-xl lg:prose-2xl">

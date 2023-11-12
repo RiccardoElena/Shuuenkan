@@ -10,7 +10,7 @@ const Button = ({
 }) => {
   const classes = `${className} ${
     reverse
-      ? 'bg-shuuenkan-blue text-white border-2 border-white'
+      ? 'bg-inherit text-white border-2 border-white'
       : 'text-shuuenkan-blue hover:text-blue-600 bg-inherit border-2 border-shuuenkan-blue hover:border-blue-600'
   }`;
 
@@ -23,9 +23,7 @@ const Button = ({
         href={tag !== 'a' ? href : ''}
         target={tag === 'a' ? '_blank' : '_self'}
         className={`${classes}   rounded-3xl px-6 py-2`}>
-
         {text}
-
       </Link>
     </motion.div>
   );

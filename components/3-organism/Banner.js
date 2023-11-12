@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { motion } from 'framer-motion';
 
 const Banner = ({ alt, src, extraClasses = ' ' }) => {
@@ -20,10 +20,15 @@ const Banner = ({ alt, src, extraClasses = ' ' }) => {
           <Image
             alt={alt}
             src={src}
-            layout="responsive"
             quality={100}
             priority
-          />
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto",
+              maxWidth: "100%",
+              height: "auto"
+            }} />
         </div>
       </div>
     </motion.div>

@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from 'next/link';
 
 import { useWindowSize } from '../../hooks';
@@ -15,7 +15,16 @@ const Garden = () => {
         <div
           className={` flex w-full flex-wrap rounded text-shuuenkan-blue md:flex-nowrap `}>
           <div className="m-auto w-3/4 md:w-1/2">
-            <Image alt="Men in Kendo" src={image} layout="responsive" />
+            <Image
+              alt="Men in Kendo"
+              src={image}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className=" w-fit pt-5 text-white md:my-auto md:p-10 ">
             <h1 className="p-5 text-center  text-5xl font-bold md:text-4xl hmd:text-6xl lg:text-7xl">

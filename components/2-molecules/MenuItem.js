@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -10,14 +10,26 @@ const MenuItem = ({ url, src, alt, title, text, tag }) => {
       href={url}
       target={tag == 'a' ? '_blank' : '_self'}
       rel={tag == 'a' ? 'noopener noreferrer' : ''}
-      className={tag == 'a' ? `mx-auto mb-10 w-1/2 md:w-1/5` : ''}>
+      className={
+        tag == 'a'
+          ? `mx-auto mb-10 w-1/2 md:w-1/5`
+          : 'w-1/2 px-5 md:w-1/4 md:px-10'
+      }>
       <motion.div
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         className={` ${
-          tag == 'a' ? 'w-1/2' : 'w-1/2 px-5 md:w-1/4 md:px-10'
+          tag == 'a' ? 'w-1/2' : ''
         }  m-auto mt-0 cursor-pointer text-shuuenkan-blue hover:text-blue-600`}>
-        <Image alt={alt} src={src} layout="responsive" />
+        <Image
+          alt={alt}
+          src={src}
+          //sizes="100vw"
+          style={{
+            maxWidth: '100%',
+            height: 'auto',
+          }}
+        />
         <h1 className="p-2 text-center text-xl md:p-5 md:text-3xl xl:text-4xl">
           {title}
         </h1>

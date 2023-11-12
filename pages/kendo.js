@@ -20,7 +20,7 @@ const KendoPage = () => {
   return (
     <Main secondTitle="L'arte dei Samurai">
       <section id="hero">
-        <Hero heroImage={heroImage} imageSettings={imageSettings} shift={false}>
+        <Hero heroImage={heroImage} imageSettings={imageSettings}>
           <BigQuote />
         </Hero>
       </section>

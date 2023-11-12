@@ -15,7 +15,7 @@ const Blog = ({ posts }) => {
   });
 
   const padding = 'py-56 sm:py-60 md:py-48 hmd:py-36 lg:py-40 xl:py-64 ';
-  const fontSize = 'hmd:text-8xl sm:text-7xl text-6xl';
+  const fontSize = 'hmd:text-8xl sm:text-8xl text-6xl';
   return (
     <Main secondTitle="Blog" className="mb-20">
       <FlatHero padding={padding} fontSize={fontSize}>

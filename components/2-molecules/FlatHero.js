@@ -9,10 +9,10 @@ const variants = {
 const FlatHero = ({ children, padding, fontSize }) => {
   return (
     <div className={`h-screen bg-shuuenkan-blue ${padding}`}>
-      <div className="md:py-15 container mx-auto bg-shuuenkan-blue ">
+      <div className="md:py-15 container  mx-auto bg-shuuenkan-blue ">
         <div className="float-center w-full">
           <motion.p
-            className={` px-5 text-center text-pearl  md:p-10 ${fontSize}`}
+            className={` px-5 pb-8 text-center text-pearl md:p-10 ${fontSize}`}
             variants={variants}
             initial="hidden"
             animate="enter"

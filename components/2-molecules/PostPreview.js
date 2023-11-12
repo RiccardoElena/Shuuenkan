@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const PostPreview = ({
   alt,
@@ -23,7 +23,12 @@ const PostPreview = ({
           width={Number(imgWidth)}
           height={Number(imgHeight)}
           priority
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
       <div className="mt-4 h-1/2 p-4">
         <p className="text-sm text-slate-400">
