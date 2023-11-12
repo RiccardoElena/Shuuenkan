@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -33,28 +33,26 @@ const Hero = () => {
               Una Realtà in Evoluzione
             </h1>
             <p className=" text-center text-2xl xsm:text-3xl lg:text-4xl ">
-              <p>
-                Shuuenkan Napoli Kendo nasce nel 2014 dalla passione di un
-                gruppo di ragazzi col sogno di portare il vero Kendo nella città
-                di Napoli. Grazie al suo presidente e fondatore Claudio Ibello,
-                questa fiamma non si è mai spenta nonostante le mille
-                difficoltà, trovando sempre nuovi modi per mantenere vivo il
-                Kendo a Napoli e, come la fenice, rinascendo ancora una volta
-                dalle proprie ceneri come primo ed unico progetto di{' '}
-                <Link href="/projects" passHref>
-                  <b className="text-blue-600 hover:text-shuuenkan-blue hover:underline">
-                    Social Kendo Italiano
-                  </b>
-                </Link>
-                !
-                <br />
-                <p className="pt-10 text-left">
-                  <i>
-                    &quot;Vien, pràtic&apos; e nun pav&apos;!&quot; <br />{' '}
-                    Claudio Ibello, presidente e fondatore dello Shuuenkan
-                  </i>
-                </p>
-              </p>
+              Shuuenkan Napoli Kendo nasce nel 2014 dalla passione di un gruppo
+              di ragazzi col sogno di portare il vero Kendo nella città di
+              Napoli. Grazie al suo presidente e fondatore Claudio Ibello,
+              questa fiamma non si è mai spenta nonostante le mille difficoltà,
+              trovando sempre nuovi modi per mantenere vivo il Kendo a Napoli e,
+              come la fenice, rinascendo ancora una volta dalle proprie ceneri
+              come primo ed unico progetto di{' '}
+              <Link href="/projects" passHref legacyBehavior>
+                <b className="text-blue-600 hover:text-shuuenkan-blue hover:underline">
+                  Social Kendo Italiano
+                </b>
+              </Link>
+              !
+              <br />
+            </p>
+            <p className="pt-10 text-left text-2xl xsm:text-3xl lg:text-4xl">
+              <i>
+                &quot;Vien, pràtic&apos; e nun pav&apos;!&quot; <br /> Claudio
+                Ibello, presidente e fondatore dello Shuuenkan
+              </i>
             </p>
           </div>
           <div className="m-auto w-1/3 justify-end">

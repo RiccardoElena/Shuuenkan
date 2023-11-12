@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const PostPreview = ({
   alt,
@@ -19,7 +19,7 @@ const PostPreview = ({
           {author}, {date}
         </p>
 
-        <Link href={`/blog/${slug}`}>
+        <Link href={`/blog/${slug}`} legacyBehavior>
           <h2
             className=" mb-2
           text-3xl text-blue-600 hover:text-shuuenkan-blue hover:underline">

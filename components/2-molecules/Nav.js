@@ -82,8 +82,10 @@ const Nav = ({ scroll }) => {
                   }`}
                   key={item.id}>
                   <li
-                    className={`mx-auto w-fit py-6 text-center text-2xl   md:mx-2 md:py-4 hmd:mx-4 xl:mx-8 `}>
-                    <Link href={item.url}>{item.title}</Link>
+                    className={`color-red mx-auto w-fit py-6 text-center text-2xl  md:mx-2 md:py-4 hmd:mx-4 xl:mx-8 `}>
+                    <Link href={item.url} legacyBehavior>
+                      {item.title}
+                    </Link>
                   </li>
                 </motion.div>
               ))}

@@ -6,7 +6,7 @@ import Nav from '../2-molecules/Nav';
 import { useWindowSize } from '../../hooks';
 
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const Header = () => {
   const [scroll, setScroll] = useState(true);
@@ -28,7 +28,7 @@ const Header = () => {
           : 'h-28 bg-shuuenkan-blue text-pearl lg:h-36'
       }`}>
       <div className="container mx-auto flex items-center justify-between">
-        <Link href="/" passHref>
+        <Link href="/" passHref legacyBehavior>
           <motion.a
             className="px-16 md:px-10 lg:px-24 xl:px-32"
             whileHover={{ scale: 1.1 }}

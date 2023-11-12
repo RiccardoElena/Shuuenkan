@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 import { useWindowSize } from '../../hooks';
@@ -36,10 +36,13 @@ const Garden = () => {
               gestisce la struttura e le attività interne, tutte a titolo
               gratuito rendendo possibile e sociale in questo modo anche la
               pratica del Kendo, facendolo diventare{' '}
-              <Link href="/projects" passHref>
-                <a className="font-bold text-pearl hover:text-white hover:underline">
+              <Link
+                href="/projects"
+                passHref
+                className="font-bold text-pearl hover:text-white hover:underline">
+                
                   il primo progetto italiano completamente gratuito!
-                </a>
+                
               </Link>{' '}
             </p>
           </div>

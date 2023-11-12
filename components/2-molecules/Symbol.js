@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import giardinoImage from '../../public/images/logo.png';
 

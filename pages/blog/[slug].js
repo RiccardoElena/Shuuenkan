@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import Main from '../../components/4-layouts/Main';
 import Button from '../../components/1-atoms/Button';
