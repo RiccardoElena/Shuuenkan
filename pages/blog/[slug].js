@@ -19,7 +19,7 @@ import {
 } from 'next-share';
 
 const Post = ({
-  frontmatter: { title, subtitle, date, src, alt, imgHeight, imgWidth },
+  frontmatter: { title, subtitle, date, src, alt, imgHeight, imgWidth, author },
   slug,
   content,
 }) => {
@@ -29,7 +29,9 @@ const Post = ({
         <div className="my-32 text-center">
           <h1 className="my-4 text-6xl text-shuuenkan-blue ">{title}</h1>
           <h2 className="text-3xl text-slate-600">{subtitle}</h2>
-          <p className="mt-2 mb-8 text-slate-400">{date}</p>
+          <p className="mt-2 mb-8 text-slate-400">
+            {author}, {date}
+          </p>
           <Image
             src={`/posts/${src}`}
             alt={alt}

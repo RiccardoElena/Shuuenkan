@@ -4,6 +4,7 @@ subtitle: "8-bit games are a great way to learn and expand your portfolio."
 date: "19-12-2020"
 src: "jelpi_demo.gif"
 alt: "GIF Demo Jelpi"
+author: "Riccardo Elena"
 ---
 
 After watching [High Score](https://www.youtube.com/watch?v=B4jopG1wX88) on Netflix, I was suddenly inspired to develop a retro-style game. I think it was a combination of the aesthetics and nostalgia that motivated me.

@@ -4,6 +4,7 @@ subtitle: "Build a serverless 'hello-world' QR code app with Python and AWS."
 date: "14-08-2021"
 src: "qr-code.png"
 alt: "QR-Code Example"
+author: "Riccardo Elena"
 ---
 
 Ever since the pandemic started, I've noticed QR codes creeping into my daily life. Venue check-ins, digital menus at restaurants, and online payments.

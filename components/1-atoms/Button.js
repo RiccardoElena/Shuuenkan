@@ -1,10 +1,16 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-const Button = ({ text, reverse, href, tag, className = '' }) => {
+const Button = ({
+  text,
+  reverse = false,
+  href,
+  tag = 'Link',
+  className = '',
+}) => {
   const classes = `${className} ${
     reverse
-      ? 'bg-inherit text-white border-2 border-white'
+      ? 'bg-shuuenkan-blue text-white border-2 border-white'
       : 'text-shuuenkan-blue hover:text-blue-600 bg-inherit border-2 border-shuuenkan-blue hover:border-blue-600'
   }`;
 

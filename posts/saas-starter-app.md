@@ -6,6 +6,7 @@ src: "SaaSImage.jpg"
 alt: "Client Interaction with a SaaS product"
 imgWidth: "902 "
 imgHeight: "528"
+author: "Riccardo Elena"
 ---
 
 The [SaaS (software as a service)](https://en.wikipedia.org/wiki/Software_as_a_service) model underpins many of today's successful new businesses. Knowing how to build one from start to finish is probably a useful addition to any software developer's skill set.

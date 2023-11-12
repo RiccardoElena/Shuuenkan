@@ -1,32 +1,23 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import PostItem from '../../components/2-molecules/PostItem';
+import Main from '../../components/4-layouts/Main';
 import parseDate from '../../components/0-utils/parseDate';
 
-const Archive = ({ posts }) => {
-  const page = '1';
-  const per_page = '5';
-
-  const start = (Number(page) - 1) * Number(per_page);
-  const end = start + Number(per_page);
-
-  const entries = posts.slice(start, end);
-
+const Blog = ({ posts }) => {
+  const postPreviews = posts.map((post) => {
+    return <PostItem key={post.slug} {...post} />;
+  });
   return (
-    <div className="flex flex-col items-center gap-2">
-      {entries.map((entry) => (
-        <p key={entry.slug}>{entry.title}</p>
-      ))}
-    </div>
+    <Main secondTitle="Blog" className=" my-48 ">
+      <div className="mx-auto mt-14 w-3/4">
+        <h1 className="p-8 text-7xl text-shuuenkan-blue">Archivio Articoli</h1>
+        <div className="flex flex-wrap justify-center">{postPreviews}</div>
+      </div>
+    </Main>
   );
 };
-
-export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join('posts'));
-  console.log(Math.floor(files.length / 5));
-  const paths = [...Math.floor(files.length / 5)];
-  return { paths, fallback: false };
-}
 
 export async function getStaticProps() {
   const files = fs.readdirSync(path.join('posts'));
@@ -54,4 +45,4 @@ export async function getStaticProps() {
   };
 }
 
-export default Archive;
+export default Blog;

@@ -10,13 +10,13 @@ const PostPreview = ({
   slug,
   title,
   subtitle,
+  author,
 }) => {
   return (
     <div
       className="m-6 h-96 rounded-md border border-slate-300 bg-white  shadow-sm
     md:w-2/5 xl:w-1/4">
-      <div
-        className={`mx-auto h-1/2 ${imgHeight === imgWidth ? 'w-7/12' : ''}`}>
+      <div className={`m-auto ${imgHeight === imgWidth ? 'w-7/12' : ''}`}>
         <Image
           alt={alt}
           src={`/posts/${src}`}
@@ -26,7 +26,9 @@ const PostPreview = ({
         />
       </div>
       <div className="mt-4 h-1/2 p-4">
-        <p className="text-sm text-slate-400">{date}</p>
+        <p className="text-sm text-slate-400">
+          {author}, {date}
+        </p>
 
         <Link href={`/blog/${slug}`}>
           <h2

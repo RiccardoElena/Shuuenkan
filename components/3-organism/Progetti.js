@@ -6,6 +6,7 @@ import Card from '../2-molecules/Card';
 import naginataImage from '../../public/images/senseiCarlini.jpeg';
 import fundImage from '../../public/images/fundLogo.png';
 import tenuguiImage from '../../public/images/tengui.jpeg';
+import FlatHero from '../2-molecules/FlatHero';
 
 const Content = () => {
   const items = [
@@ -72,25 +73,16 @@ const Content = () => {
     exit: { opacity: 0 },
   };
 
+  const padding = 'py-56 sm:py-60 md:py-36 hmd:py-48 lg:py-60 xl:py-72';
+  const fontSize = ' md:text-8xl sm:text-7xl text-6xl';
+
   return (
     <>
-      <div className="bg-shuuenkan-blue pt-28 lg:pt-36">
-        <div className="md:py-15 container mx-auto bg-shuuenkan-blue py-8 xsm:py-20 sm:py-24 hmd:py-24 lg:py-36 hlg:py-32 xl:py-36">
-          <div className="float-center w-full">
-            <motion.p
-              className=" px-5 py-14 text-center text-6xl text-pearl sm:text-7xl md:p-10 md:text-8xl"
-              variants={variants}
-              initial="hidden"
-              animate="enter"
-              exit="exit"
-              transition={{ type: 'linear' }}>
-              Lo <b className="text-white">Shuuenkandojo</b> presenta il{' '}
-              <b className="text-white">primo e unico</b> progetto di kendo
-              <b className="text-white"> gratuito </b> in Italia!
-            </motion.p>
-          </div>
-        </div>
-      </div>
+      <FlatHero padding={padding} fontSize={fontSize}>
+        Lo <b className="text-white">Shuuenkandojo</b> presenta il{' '}
+        <b className="text-white">primo e unico</b> progetto di kendo
+        <b className="text-white"> gratuito </b> in Italia!
+      </FlatHero>
       <div className="container mx-auto flex flex-wrap rounded-md py-40">
         <div className="container mx-auto pb-20 ">
           <h1 className="text-center text-4xl text-shuuenkan-blue md:text-5xl">
