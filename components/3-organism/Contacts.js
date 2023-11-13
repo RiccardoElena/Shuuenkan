@@ -14,6 +14,7 @@ const Contacts = () => {
       icon: faMapLocationDot,
       lines: [
         {
+          test: 'test',
           href: 'https://www.giardinoliberato.org/',
           text: 'Giardino Liberato di Materdei',
           key: 1,
