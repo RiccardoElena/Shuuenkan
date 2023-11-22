@@ -74,4 +74,4 @@ Nella tradizione si parla di *Ippon-shobu*, ovvero di combattimenti conclusi in 
 La scelta del Butokukai di fare incontri a 3 colpi ha motivazioni pratiche e teoriche:
 
 - **Pratica**: dovendo esaminare un gran numero di praticanti durante le sessioni di esame e considerando l'esiguo numero di esaminatori disponibili inizialmente, si è convenuto che incontri dai 5 colpi in su avrebberò richiesto troppo tempo ai fini degli esami.
-- **Teorica**: si pensò che incontri ad un sol colpo non fosserò necessari per valutare le capacità di entrambi i praticanti, quindi si opto per dare una "seconda chance" a chi non riusciva a imporsi nel primo colpo, in modo da poter valutare con più precisione le capacità di entrambi.
+- **Teorica**: si pensò che incontri ad un sol colpo non fosserò necessari per valutare le capacità di entrambi i praticanti, quindi si opto per dare una "seconda chance" a chi non riusciva a imporsi nel primo colpo, in modo da poter valutare con più precisione le capacità di entrambi i praticanti.
