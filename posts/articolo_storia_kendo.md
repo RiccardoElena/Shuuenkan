@@ -19,9 +19,9 @@ Con la restaurazione Meiji e l'eliminazione della casta samuraica, l'arte della 
 
 ## La Nascita del Dai-Nippon Butokukai
 
-Il *Dai-Nippon Butokukai* o *Butokukai*, fondato nel 1895, era un'associazzione che mirava alla formalizzazzione,alla istituzionalizzazione e alla diffusione delle arti marziali che furono prescelte più di 1.100 anni prima dall'Imperatore *Kanmu* (737-806). L'origine del nome Butokai è direttamente collegata al nome del padiglione delle arti marziali di Heian-kyō (antica Kyōtō) , il *Butokuden*. Il Butokukai riprodusse il padiglione del BUtokuden e introdusse un nuovo rituale chiamato *Btokusai*. Lo scopo di tutto ciò era fatto per far rivivere le virtù trasmesse dall'Imperatore Kanmu, diffondere patriottismo, diffondere le arti marziali ospitando personalità da tutto il paese e preservare le arti stesse.
+Il *Dai-Nippon Butokukai* o *Butokukai*, fondato nel 1895, era un'associazzione che mirava alla formalizzazzione,alla istituzionalizzazione e alla diffusione delle arti marziali che furono prescelte più di 1.100 anni prima dall'Imperatore *Kanmu* (737-806). L'origine del nome ButoKUkai è direttamente collegata al nome del padiglione delle arti marziali di Heian-kyō (antica Kyōtō) , il *Butokuden*. Il Butokukai riprodusse il padiglione del BUtokuden e introdusse un nuovo rituale chiamato *Butokusai*. Lo scopo di tutto ciò era fatto per far rivivere le virtù trasmesse dall'Imperatore Kanmu, diffondere patriottismo, diffondere le arti marziali ospitando personalità da tutto il paese e preservare le arti stesse.
 
-Il Budokuden a Kyōtō non fu l'unico a essere realizzato(1899) ma furono costruiti tanti altri Budokuden nelle varie province del Giappone.
+Il Butokuden a Kyōtō non fu l'unico a essere realizzato(1899) ma furono costruiti tanti altri Budokuden nelle varie province del Giappone.
 
 ## Il sistema dei titoli
 
@@ -45,7 +45,7 @@ Gli esami non erano solo pratici ma comprendevano anche una prova scritta per va
 
 ## L'intoduzione nelle scuole
 
-Già nel 1879 il Butokukai era riuscito a introdurre il Kendō nelle attività sportive per le forze di polizia, ma il più gramde desiderio dei vertici del Butokukai era rendere il kendō un'attività scolastica curriculare.
+Già nel 1879 il Kendō fu introdottò nelle attività sportive per le forze di polizia, ma il più gramde desiderio dei vertici del Butokukai era rendere il kendō un'attività scolastica curriculare.
 
 Per fare ciò fu richiesta un'unificazione delle convenzioni e degli usi della pratica, fu cosi che una commissione formata da 5 Hanshi e 20 Kyoshi iniziò il processo uniformatore che portò alla scelta dei **10 Kendō no kata** e delle convenzioni comuni.
 
