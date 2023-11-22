@@ -26,3 +26,52 @@ Il Budokuden a Kyōtō non fu l'unico a essere realizzato(1899) ma furono costru
 ## Il sistema dei titoli
 
 Nel Budokuden di Kyōtō ogni Maggio si teneva una grande manifestazione alla quale prendevano parte artisti marziali da tutte le parti del Giappone. La competizione però non era solo uan vetrina per mettersi in mostra con le proprie abilità, le abilitaà venivano anche giudicate e da questi giudizi venivano assegnati dei titoli:
+
+- **Seirensho** o **Renshi** era il titolo più basso.
+- **Kyoshi** il secondo titolo.
+- **Hanshi** il titolo più alto, raggiungibile dopo almeno 40 anni di anzianità nella pratica e che fino al 1921 garantiva addirittura una pensione speciale.
+
+Questo sistema andò a sostituire i diversi sistemi utilizzati nelle diverse scuole andando ad uniformare cosi i titoli accreditati ai praticanti.
+
+## Il sistema dei gradi
+
+Il sistema dei gradi dal primo al decimo *dan* venne implementato nel 1917 proprio da un consiglio che riuniva tutti gli Hanshi e i Kyoshi del Giappone(102).
+
+Hanshi e Kyoshi quindi non erano solo titoli simbolici,anzi avevano un forte potere decisionale e dal 1917 in poi anche la possibilità di dare gradi.
+
+Se nel 1917 ancora in 10 province c'era carenza di Hanshi e Kyoshi che potesserò fare da giudici in 10 province, ma già nel 1937 questa carenza venne colmata.
+
+Gli esami non erano solo pratici ma comprendevano anche una prova scritta per valutare anche la preparazione teorica degli esaminandi.
+
+## L'intoduzione nelle scuole
+
+Già nel 1879 il Butokukai era riuscito a introdurre il Kendō nelle attività sportive per le forze di polizia, ma il più gramde desiderio dei vertici del Butokukai era rendere il kendō un'attività scolastica curriculare.
+
+Per fare ciò fu richiesta un'unificazione delle convenzioni e degli usi della pratica, fu cosi che una commissione formata da 5 Hanshi e 20 Kyoshi iniziò il processo uniformatore che portò alla scelta dei **10 Kendō no kata** e delle convenzioni comuni.
+
+Nel 1911 il Kendō diventò attività curricolare per le scuole secondarie e già nel 1926 nel 90% delle scuole giapponesi si insegnava o si offriva come corso a scelta il Kendō.
+
+## La nascita della parola Kendō
+
+Come detto a inizio articolo, l' arte della spada era precedentemente defiita con la parola *Kenjutsu*.
+
+**Nishikubo Hiromichi** (1831-1930) fu il motore trainante del cambiamento da Kenjutsu a Kendō. Nominato vice presidente del Butokukai e rettore della Università dedicata alle arti marziali nel 1919, iniziò a sostenere una tesi che vedeva il Kendō non solo come una pratica che formava guerrieri e dava competenze nell'area del *budō*, ma anche come un'arte che poteva formare il carattere dei praticanti. Il cambiamento di fatti era già avvenuto nel periodo Tokugawa, nel quale con l'assenza di guerre effettivamente le arti della guerra come il Kenjutsu avevano perso il loro scopo originale ed erano diventate solo arti teorico-filosofiche.
+
+Da questo spunto si trae l'idea dell'arte della spada come una via(**dō**) con molteplici obbiettivi, che hanno effetti anche nella vita di tutti i giorni.
+
+Ma Noshikubo non vuole nemmeno che il Kendō diventi una mera attività sportiva o ludica, appunto perchè pur cambiando l'obbiettivo, dal combattimento in guerra allla formazione del carattere del praticante, c'è bisogno di quell'aurea *budō* che preservi la tradizione. Cosi già dal 1919 il Butokukai inizia a vietare esultanze e gesti durante le competizioni, limitando addirittura l'abbigliamento dei praticanti prima delle prove, che doveva essere sempre impeccabile e decoroso.
+
+Un'altra prova di questa volontà di mantenere il Kendō un'ambiete di crescita spirituale più che sportivo era la quasi assenza di campionati o tornei a livello nazionale, se ne contano appena 3 prima della Seconda Guerra Mondiale e tutti svolti in occasione di celebrazioni nazionali alla presenza dell'Imperatore.
+
+La vittoria o la sconfittà in questo tipo di competizioni non era considerata molto dai praticanti di questo periodo.
+
+## Il *Sanbon-shobu*
+
+Il *Sanbon-shobu* e la formula più utilizzata nelle competizioni e sostanzialmente significa che la vittoria va a chi riesce a ottenere due punti sui tre in palio.
+
+Nella tradizione si parla di *Ippon-shobu*, ovvero di combattimenti conclusi in un sol colpo. Ma in realtà si hanno anche testimonianze di epoca Edo che parlano di incontri a 5 colpi, a 10 ecc... .
+
+La scelta del Butokukai di fare incontri a 3 colpi ha motivazioni pratiche e teoriche:
+
+- **Pratica**: dovendo esaminare un gran numero di praticanti durante le sessioni di esame e considerando l'esiguo numero di esaminatori disponibili inizialmente, si è convenuto che incontri dai 5 colpi in su avrebberò richiesto troppo tempo ai fini degli esami.
+- **Teorica**: si pensò che incontri ad un sol colpo non fosserò necessari per valutare le capacità di entrambi i praticanti, quindi si opto per dare una "seconda chance" a chi non riusciva a imporsi nel primo colpo, in modo da poter valutare con più precisione le capacità di entrambi.
