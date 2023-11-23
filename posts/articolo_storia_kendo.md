@@ -95,3 +95,41 @@ La scelta del Butokukai di fare incontri a 3 colpi ha motivazioni pratiche e teo
 - **Teorica**: si pensò che incontri ad un sol colpo non fosserò necessari per valutare le capacità di entrambi i praticanti, quindi si opto per dare una "seconda chance" a chi non riusciva a imporsi nel primo colpo, in modo da poter valutare con più precisione le capacità di entrambi i praticanti.
 
 ![shiai](/public/posts/shiai.jpg)
+
+## Conclusioni
+
+Il Kendō di oggi è figlio di uno dei periodi più turbolenti del Giappone. Un periodo dove si dovette affrontare la netta rottura con l'epoca precedente e accogliere le migliaglia di novità in arrivo dall'occidente.
+
+Questo periodo ha tolto molto al Kendō, come la varietà e l'unicità di alcuni stili di spada, ma anche dato tanto.
+La standardizzazione ha permesso un'uniformità nelle pratiche che ha aiutato molto nella diffusione e promozione della disciplina, che come si è visto, diventò addirittura un'attività scolastica offerta in quasi tutte le scuole del Giappone.
+
+Il Kendō ha dovuto reinventarsi e lo ha fatto al meglio considerando i risultati ottenuti in soli pochi anni dalla nascita del Butokukai. Però a mio avviso il fossilizzarsi del Kendō su queste basi, seppur buone, potrebbe riportare alla situazione pre-restaurazione, ovverò a un'ambiente eccessivamente chiuso ed esclusivo, perdendo così di appeal per le generazioni future.
+
+vorrei concludere il mio articolo con questa citazione:
+
+>Kendo today needs to reflect on its roots and start again from
+scratch.
+We must not just accept past meaning, objectives, values and
+the like of kendo as it is. We should not blindly believe ancient
+writings and legends. We need to have a strict as well as free
+mind to rethink this.
+To do this, we must establish a self that thinks …
+Our kendo must not be an echo of kendo of the past. The
+deepest elements of kendo should not be dictated to us by a
+third person. Instead, we should confront them directly; we
+should delve into kendo ourselves to find our own meanings,
+values and objectives. Unless we do this, we are following
+someone else’s account of kendo, not our own …
+Those practising kendo should find their own kendo. One’s
+own kendo should be created by oneself. That is right. It needs
+to be a creation …
+A kendo practitioner seriously pursuing the path must destroy
+the worship of an idol and face the practice itself. We must
+remove the obstructions in between and bathe in the light of
+the path directly …
+It is most important to establish a self that pursues the path.
+We must establish our own kendo by listening to our pure
+soul lying deep within. We must seek our own goodwill that
+is together with god or, to be more direct, ask our inner god to
+do so.
+[Sato 1928a: 26-27
