@@ -7,8 +7,6 @@ alt: "Kendoka_Meiji"
 author: "Christian Leonetti"
 ---
 
-![foto_porincipale](/public/posts/foto_principale.jpg)
-
 In questo articolo andremo ad esaminare i processi che spiegano come il **Kendō** sia passato da una pratica di stampo samuraico e con una tradizione millenaria e variegata, all'attività sportiva che è oggi, seguendo le varie trasformazioni e cambiamenti occorsi tra il periodo *Meiji* e la fine della *Seconda Guerra Mondiale*
 
 ## Nascita ed evoluzione
