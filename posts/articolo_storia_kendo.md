@@ -1,10 +1,10 @@
 ---
-title: “Il Kendō come lo conosciamo oggi”
-subtitle: “Storia della nascita e della standardizzazione”
-date: “24-11-2023“
-src: “foto_ptincipale.jpg”
-alt: “Kendoka_Meiji”
-author: “Christian Leonetti”
+title: "Il Kendō come lo conosciamo oggi"
+subtitle: "Storia della nascita e della standardizzazione"
+date: "24-11-2023"
+src: "foto_ptincipale.jpg"
+alt: "Kendoka_Meiji"
+author: "Christian Leonetti"
 ---
 
 ![foto_porincipale](/public/posts/foto_principale.jpg)
