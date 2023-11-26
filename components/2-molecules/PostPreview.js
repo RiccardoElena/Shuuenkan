@@ -11,10 +11,11 @@ const PostPreview = ({
   title,
   subtitle,
   author,
+  readingTime,
 }) => {
   return (
     <div
-      className="m-6 h-96 rounded-md border border-slate-300 bg-white  shadow-sm
+      className="m-6 rounded-md border border-slate-300 bg-white  shadow-sm
     md:w-2/5 xl:w-1/4">
       <div className={`m-auto ${imgHeight === imgWidth ? 'w-7/12' : ''}`}>
         <Image
@@ -43,6 +44,9 @@ const PostPreview = ({
           </h2>
         </Link>
         <p className="text-xl text-slate-700">{subtitle}</p>
+        <p className="text-md text-slate-400">
+          {readingTime} minuti di lettura
+        </p>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import matter from 'gray-matter';
 import Image from 'next/image';
 
 import Main from '../../components/4-layouts/Main';
+import readingTime from '../../components/0-utils/readingTime';
 import Button from '../../components/1-atoms/Button';
 
 import {
@@ -30,7 +31,7 @@ const Post = ({
           <h1 className="my-4 text-6xl text-shuuenkan-blue ">{title}</h1>
           <h2 className="text-3xl text-slate-600">{subtitle}</h2>
           <p className="mt-2 mb-8 text-slate-400">
-            {author}, {date}
+            {author}, {date}, {readingTime(content).readingTime} min.
           </p>
           <Image
             src={`/posts/${src}`}

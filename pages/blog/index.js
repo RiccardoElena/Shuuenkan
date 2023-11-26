@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import PostPreview from '../../components/2-molecules/PostPreview';
 import Main from '../../components/4-layouts/Main';
 import parseDate from '../../components/0-utils/parseDate';
+import readingTime from '../../components/0-utils/readingTime';
 import Button from '../../components/1-atoms/Button';
 import FlatHero from '../../components/2-molecules/FlatHero';
 
@@ -50,10 +51,11 @@ export async function getStaticProps() {
       'utf-8',
     );
 
-    const { data: frontmatter } = matter(markdownWithMeta);
+    const { data: frontmatter, content } = matter(markdownWithMeta);
     return {
       slug,
       ...frontmatter,
+      readingTime: readingTime(content).readingTime,
     };
   });
 
