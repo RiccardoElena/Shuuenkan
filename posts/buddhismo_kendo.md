@@ -49,3 +49,9 @@ monaco ha voluto trasmettere con il cerchio era la necessità per il samurai di 
 da questa storia. L'essenza della storia è che le parole non sono necessarie per coloro che condividono la stessa esperienza spirituale. Quindi, due samurai con lo spirito Tai-Ai, avendo condiviso la stessa esperienza spirituale, sorrideranno e si separeranno, comprendendosi a vicenda. Gli spadaccini esperti, quindi, non hanno bisogno di
 ingaggiare un duello. Guardandosi l'un l'altro, sono in grado di valutare l'abilità e il carattere dell'altro.
 5. **Intuizione**: l'intuizione nel Buddhismo Zen è forse uno dei concetti fondanti. Un samurai non dovrà pensare troppo o concentrarsi su un qualcosa. L'illuminazione arriva a l'improvviso, in un qualsiasi momento. Come un poeta di Haiku viene ispirato dall'osservazione di un paesaggio fino ai fenomeni più microscopici di esso, il samurai affonderà il colpo perfetto solo avendo una visione d'insieme chiara e pulita da tutto il resto.
+
+## Conclusioni
+
+IL pensiero Zen di *Takuan* ha dato la base all'educazione samuraica del periodo *Edo*, un' educazione spirituale che con la restaurazione *Meiji* e il passaggio da *Kenjutsu* a *Kendō* non è andata persa e che anzi è ben visibile anche nella pratica odierna.
+
+Ciò che rende il *Kendō* un'attività che forma a 360 gradi la persona, mente e corpo, è questa mentalità tramandata da centinaia di anni, senza la quale il *Kendō* perderebbe molto del suo valore. Lo sviluppo delle qualità elencate espiegate da *Takuan* sono più importanti dello sferrare il colpo perfetto durante la pratica. Una mente salda è più forte di un qualsiasi fendente.
