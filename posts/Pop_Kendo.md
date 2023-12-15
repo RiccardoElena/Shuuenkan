@@ -40,3 +40,23 @@ Il problema in *Ghost o Tsushima* non è tanto come viene applicata la tecnica d
 ### Total War: Shogun 2
 
 *Total war: Shogun 2* è certamente il miglior ritratto che si possa avere del Giappone feduale, in un videogame, ad oggi. Le armi, le province, la parte gestionale, quais tutto perfettamnete allineato alle fonti storiche. In questo gioco si ha anche modo di speriemntare le tattiche di guerra usate a l'epoca dai samurai, con una visione più ampia che non si sofferma solo sull'arte della spada in se.
+
+## Film
+
+I due film che voglio andare ad analizzare sono **L'Ultimo Samurai** e **47 Ronin**. Due film completamente diversi anche se entrambi ispirati a fatti storici.
+
+### L'Ultimo Samurai
+
+Seppur con molte inesattezze storiche, come il mescolarsi di eventi storici lontani tra loro(Guerra Boshin 1854-1868 e Rivolta di satsuma 1877) e il ritratto dei *samurai* come combattenti che rifiutano categoricamente l'uso delle armi da fuoco,totalmente falso dato considerando che le stesse forze shogunali erano dotate di unità di archibugi(seppur obsoleti) e che in Giappone le armi da fuoco erano utilizzate già da 300 anni.
+
+Nonostante questa rappresentazione romanzata,l'essenza della via della spada e dell'essere *samurai* è ben resa, lo si vede nelle scene di pratica del *Kenjutsu*, nelle sequenze di battaglia e in quelle di vita quotidiana del villaggio in cui i *samurai* hanno la loro base.
+
+### 47 Ronin
+
+Questo film trae ispirazione dalla famosa storia di 47 samurai, che alla morte del loro padrone, decidono di vendicarlo uccidendo il signore feudale che lo ha assassinato.
+
+Purtroppo su questo film c'è molto poco da dire, è solamente un ammasso di scene di violenza all'americana in cui i personaggi sfoggiano abilità e tecniche che sfiorano il fantasy, la stessa presenza di creature terrifiche alimenta questo clima di storia di fantasia senza fondamento.
+
+Della storia originale non rimane nulla, come non rimane nulla della via della spada e della cultura nipponica.
+
+## Manga
