@@ -60,3 +60,22 @@ Purtroppo su questo film c'è molto poco da dire, è solamente un ammasso di sce
 Della storia originale non rimane nulla, come non rimane nulla della via della spada e della cultura nipponica.
 
 ## Manga
+
+Per quanto riguarda il mondo dei *Manga*, le due opere prese in considerazione in questo articolo saranno **Vagabond** e **Afro Samurai**.
+
+### Vagabond
+
+Forse il migliore e il più amato tra i manga sui samurai, *Vagabond* è ambientato subito dopo la *Battaglia di Sekigahara* , *Takezo Shinmen*(alias di *Myamoto Musashi* e *Kojiro Sasaki*) e il suo amico *Matahachi Honiden* sono sopravvissuti alla battaglia. I due per ritornare nel loro paese natale dovranno affrontare molte sfide ed ostacoli.
+Questo manga da una precisa descrizione storica del Giappone di quel tempo, dell'arte della spada e della filosofia samuraica.
+
+### Afro Samurai
+
+Questo manga è ambientato in un Giappone futuristico in cui il sistema feudale è ancora in pieidi e i vari guerrieri si sfidano per essere eletti come il numero uno tra tutti ed ottenere cosi un misterioso e potentissimo potere.
+
+Per quanto la trama e il manga in se per se non siano cosi male, qui si può vedere un completo non allineamento alla tradizione. Ancora una volta si assiste a tecniche e movenze non in in linea alla via della spada e a un mistificare le arti marziali giapponesi, mostrandone solo lo stereotipo ma non per ciò che sono.
+
+## Conclusioni
+
+Dopo questa lunga carrellata, è l'ora di tirare le somme. La tendenza nella cultura pop è quella di mistificare le arti marziali, adssattandosi anche agli stereotipi diffusi tra i più e i non studiosi.
+Tuttavia in molte opere è possibile trovare materiale di qualità prodotto dopo almeno un minimo di studio della filosofia e della pratica della via del samurai e della spada.
+A mio parere il giusto sta sempre nel mezzo, un'opera non deve ne essere troppo lontana dai canoni della via, per non risultare pacchiana e poco congrua, ne essere troppo storicamnete accurata, oppure perderebbe di appeal per una grande fetta del pubblico che di arti marziali e cultura giapponese conosce ben poco.
