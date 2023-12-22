@@ -1,6 +1,6 @@
 ---
 title: "Ken e Zen "
-subtitle: "La spada e la mente "
+subtitle: "La profonda connessione tra spada e  mente "
 date: "04-12-2023 "
 src: "buddha.jpg "
 alt: "Buddha Todaiji "
