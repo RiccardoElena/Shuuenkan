@@ -2,7 +2,7 @@
 title: "Ken e Zen "
 subtitle: "La profonda connessione tra spada e  mente "
 date: "04-12-2023 "
-src: "Buddha.jpg "
+src: "Buddha.jpg"
 alt: "Buddha Todaiji "
 author: "Christian Leonetti"
 ---
