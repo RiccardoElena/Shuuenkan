@@ -30,8 +30,8 @@ const Post = ({
         <div className="my-32 text-center">
           <h1 className="my-4 text-6xl text-shuuenkan-blue ">{title}</h1>
           <h2 className="text-3xl text-slate-600">{subtitle}</h2>
-          <p className="mt-2 mb-8 text-slate-400">
-            {author}, {date}, {readingTime(content).readingTime} min.
+          <p className="text-xl mt-2 mb-8 text-slate-400">
+            A cura di {author}, {date}, {readingTime(content).readingTime} min.
           </p>
           <Image
             src={`/posts/${src}`}

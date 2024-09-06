@@ -7,7 +7,107 @@ alt: "Kendoka Meiji"
 author: "Christian Leonetti"
 ---
 
-In questo articolo andremo a esaminare i processi che spiegano come il **Kendō** sia passato da una pratica di stampo samuraico e con una tradizione millenaria e variegata, all'attività sportiva che è oggi, seguendo le varie trasformazioni e cambiamenti occorsi tra il periodo _Meiji_ e la fine della _Seconda Guerra Mondiale_
+In questo articolo esploreremo come il **Kendō** si sia trasformato da un'antica pratica samuraica con radici millenarie a un'attività sportiva moderna. Analizzeremo le varie fasi di evoluzione e i cambiamenti avvenuti tra il periodo _Meiji_ e la fine della _Seconda Guerra Mondiale_.
+
+## Nascita ed Evoluzione
+
+### Le Origini
+
+_Kendō_ significa letteralmente "via della spada", ma in passato era conosciuto come **Kenjutsu** o **Kenpo**. Durante il periodo _Tokugawa_ (1603-1868), esistevano oltre 250 clan in Giappone, ciascuno con il proprio stile, e verso la fine della restaurazione (1867) si contavano ben 600 scuole di spada diverse.
+
+![foto_samurai](/posts/Samurai_Japan.jpg)
+
+Già nell'epoca Edo, la pratica era suddivisa in due parti: i _Kata_, eseguiti con il _Bokken_, e il combattimento con le _Shinai_. Questi strumenti, insieme ad altri equipaggiamenti minori, costituivano ciò che all'epoca era conosciuto come _Gekiken_ o _Gekken_.
+
+Con la diffusione di questo equipaggiamento, che permetteva una pratica relativamente sicura, le scuole di spada divennero meno isolate e più aperte alle competizioni. Con la restaurazione _Meiji_ e l'abolizione della casta samuraica, l'arte della spada dovette rinnovarsi per adattarsi ai nuovi canoni di un Giappone in rapido processo di occidentalizzazione.
+
+### La Nascita del Dai-Nippon Butokukai
+
+Il _Dai-Nippon Butokukai_ o _Butokukai_, fondato nel 1895, mirava alla formalizzazione, istituzionalizzazione e diffusione delle arti marziali tradizionali, selezionate oltre 1.100 anni prima dall'Imperatore _Kanmu_ (737-806).
+
+Il nome _Butokukai_ trae origine dal _Butokuden_, il padiglione delle arti marziali di Heian-kyō (antica Kyōtō). Il Butokukai ne ricostruì il padiglione e introdusse un nuovo rituale chiamato _Butokusai_, con l'obiettivo di rivivere le virtù tramandate dall'Imperatore Kanmu, diffondere il patriottismo e promuovere le arti marziali attraverso eventi nazionali.
+
+![Butokukai](/posts/Butokukai.jpg)
+
+Il _Butokuden_ di Kyōtō non fu l'unico costruito; nel 1899, ne furono realizzati molti altri nelle diverse province del Giappone.
+
+### L'Introduzione del Termine Kendō
+
+In origine, l'arte della spada era chiamata _Kenjutsu_. **Nishikubo Hiromichi** (1831-1930), figura centrale di questa transizione, fu vice presidente del Butokukai e rettore dell'Università delle arti marziali nel 1919. Attraverso discorsi e testi, Nishikubo definì il Kendō non solo come una pratica marziale, ma anche come un'arte che forma il carattere dei praticanti.
+
+Con la fine delle guerre nel periodo _Tokugawa_, il _Kenjutsu_ aveva perso il suo scopo originale e si era trasformato in un'arte teorico-filosofica. Da qui nasce l'idea del Kendō come "via" (_dō_) con molteplici obiettivi, che influiscono sulla vita quotidiana dei praticanti.
+
+![via_del_kendo](/posts/via_kendo.jpg)
+
+Nishikubo insisteva che il Kendō non doveva essere considerato solo come un'attività sportiva o ludica. Pur cambiando l'obiettivo dal combattimento in guerra alla formazione del carattere, era necessario preservare l'aura del _budō_ e della tradizione.
+
+Nel 1919, il Butokukai iniziò a vietare esultanze e gesti durante le competizioni, richiedendo un abbigliamento impeccabile e decoroso prima delle prove. Inoltre, i campionati o tornei nazionali erano rari: solo tre si tennero prima della Seconda Guerra Mondiale, tutti in occasione di celebrazioni nazionali alla presenza dell'Imperatore. La vittoria o la sconfitta in tali competizioni non erano considerate significative.
+
+## Standardizzazione e Canonizzazione
+
+### Il Sistema dei Titoli
+
+![budokuden](/posts/budokuden.jpg)
+
+Ogni maggio, nel _Butokuden_ di Kyōtō si teneva una grande manifestazione che riuniva praticanti da tutto il Giappone. Non era solo una vetrina per mostrare abilità, ma anche un'occasione per ottenere titoli:
+
+- **Seirensho** o **Renshi**: il titolo più basso.
+- **Kyoshi**: il titolo intermedio.
+- **Hanshi**: il titolo più alto, raggiungibile dopo almeno 40 anni di pratica, che fino al 1921 garantiva una pensione speciale.
+
+Questo sistema unificò i diversi metodi di classificazione delle varie scuole.
+
+### Il Sistema dei Gradi
+
+Il sistema dei gradi dal primo al decimo _dan_ venne introdotto nel 1917 da un consiglio che riuniva tutti gli _Hanshi_ e _Kyoshi_ del Giappone (102 membri). Da quel momento, _Hanshi_ e _Kyoshi_ non erano più solo titoli simbolici, ma anche cariche con potere decisionale. Gli esami per i gradi prevedevano anche una prova scritta per valutare la preparazione teorica.
+
+![esami](/posts/esami.jpg)
+
+### L'Introduzione nelle Scuole
+
+Nel 1879, il Kendō fu introdotto nelle attività sportive delle forze di polizia, ma l'obiettivo principale del Butokukai era farlo diventare un'attività scolastica curricolare. Una commissione composta da cinque _Hanshi_ e venti _Kyoshi_ iniziò un processo di standardizzazione che portò alla scelta dei **10 Kendō no Kata** e alla definizione di convenzioni comuni.
+
+Nel 1911, il Kendō divenne attività curricolare nelle scuole secondarie, e già nel 1926, era insegnato nel 90% delle scuole giapponesi.
+
+![scuola](/posts/kendo_scuola.jpg)
+
+### Il _Sanbon-shobu_
+
+Il _Sanbon-shobu_, che prevede la vittoria con due punti su tre disponibili, è la formula più utilizzata nelle competizioni. Storicamente esistevano anche altre modalità, come l'_Ippon-shobu_ (un colpo solo) o incontri a più colpi.
+
+Le ragioni dietro la scelta del Butokukai per il _Sanbon-shobu_ sono sia pratiche che teoriche:
+
+- **Pratica**: In un contesto di esami con molti partecipanti, incontri troppo lunghi avrebbero richiesto troppo tempo.
+- **Teorica**: Incontri di un solo colpo non erano ritenuti sufficienti per valutare adeguatamente le capacità di entrambi i praticanti.
+
+![shiai](/posts/shiai.jpg)
+
+## Conclusioni
+
+Il Kendō di oggi è il risultato di uno dei periodi più turbolenti della storia giapponese, un'epoca di grandi cambiamenti e di adozione di influenze occidentali. Questo processo ha eliminato alcune peculiarità degli stili di spada, ma ha anche portato alla standardizzazione, facilitando la diffusione e la promozione della disciplina, che è diventata persino parte del curriculum scolastico.
+
+Sebbene il Kendō abbia prosperato grazie a questi cambiamenti, c'è il rischio che, fossilizzandosi su queste basi, possa diventare nuovamente un ambiente chiuso e poco attraente per le nuove generazioni.
+
+Concludo con questa citazione:
+
+>Attualmente, il Kendō necessita di un ponderato esame delle sue radici, al fine d'intraprendere nuovamente un percorso evolutivo.
+>
+>Non dovremmo limitarci ad accettare passivamente i significati, gli obiettivi e i valori del Kendō antico. La cieca fede negli scritti e nelle leggende di un'epoca passata va evitata. È essenziale coltivare una mentalità rigorosa e, al contempo, libera, per riconsiderare tali elementi.
+>
+>Per conseguire ciò, è imperativo instaurare un sé che rifletta [...]
+>
+>Il Kendō da praticare non deve essere una mera eco di pratiche precedenti. Gli aspetti più profondi di questa disciplina non dovrebbero essere imposti da terzi. Al contrario, occorre confrontarsi direttamente con essi, approfondendo la comprensione del Kendō autonomamente al fine d'identificare significati, valori e obiettivi personali. Altrimenti, ci si sottomette a una versione preconfezionata del Kendō, anziché sviluppare un proprio approccio [...]
+>
+> Coloro che si dedicano al Kendō devono individuare il proprio sentiero. Il Kendō personale va costruito autonomamente. È un atto creativo [...]
+>
+> Un praticante di Kendō che si impegna seriamente sulla via deve abbandonare l'adorazione acritica di un idolo e confrontarsi direttamente con la pratica stessa. Occorre rimuovere gli ostacoli interposti e immergersi direttamente nella luce del percorso [...]
+>
+> La chiave di volta risiede nell'instaurare un sé dedicato alla ricerca della via. Bisogna forgiare il proprio Kendō ascoltando la propria anima pura, sepolta in profondità. La ricerca della propria buona volontà, in comunione con la divinità o, per essere più diretti, la richiesta al dio interiore, risulta d'importanza capitale.
+>
+> -- Sato Ukichi 1928a: 26-27
+
+
+<!-- In questo articolo andremo a esaminare i processi che spiegano come il **Kendō** sia passato da una pratica di stampo samuraico e con una tradizione millenaria e variegata, all'attività sportiva che è oggi, seguendo le varie trasformazioni e cambiamenti occorsi tra il periodo _Meiji_ e la fine della _Seconda Guerra Mondiale_
 
 ## Nascita ed evoluzione
 
@@ -134,4 +234,4 @@ Certamente, ecco una versione più formale e articolata della traduzione:
 >
 > La chiave di volta risiede nell'instaurare un sé dedicato alla ricerca della via. Bisogna forgiare il proprio Kendō ascoltando la propria anima pura, sepolta in profondità. La ricerca della propria buona volontà, in comunione con la divinità o, per essere più diretti, la richiesta al dio interiore, risulta d'importanza capitale.
 >
-> -- Sato Ukichi 1928a: 26-27
+> -- Sato Ukichi 1928a: 26-27 -->

@@ -7,6 +7,111 @@ alt: "samurai_popart"
 author: "Christian Leonetti"
 ---
 
+In questo articolo esploreremo come l'arte della spada giapponese venga rappresentata nella cultura pop, attraverso un paio d'esempi presi da quattro categorie diverse di media: **Anime**, **Manga**, **Film** e **Videogiochi**.
+
+In particolare ci concentreremo su come queste opere riescano a catturare l'essenza del *Kenjutsu* e della vita del *samurai*, pur spesso esagerando o distorcendo la realtà storica.
+
+## Anime
+
+Gli anime sono spesso popolati da figure di samurai armati di *katana*, forti e apparentemente invincibili. Nella nostra analisi, prenderemo in considerazione due serie particolarmente note: **Samurai Champloo** e **Lupin**.
+
+### Samurai Champloo
+
+![samurai_champloo](/posts/samurai%20champloo.jpg)
+
+Questa serie è ambientata durante il **Periodo Edo**, in un momento non specificato di quell'epoca. Numerosi sono gli aspetti di quel tempo messi in luce dalla serie, seppure in maniera molto stilizzata e spesso colorita. L'arte della spada occupa un posto centrale in questa rappresentazione.
+
+I due protagonisti, **Mugen** e **Jin**, incarnano stili di combattimento radicalmente opposti, il che è funzionale al nostro scopo.
+
+- Lo stile di *Mugen* è rozzo, caotico, e del tutto stravagante, richiamando movimenti simili alla breakdance o alla capoeira, ben lontani dal tradizionale *Kenjutsu* del Periodo Edo. In alcuni tratti, si suggerisce che *Mugen* sia una versione romanzata di **Miyamoto Musashi** per via del suo stile di combattimento non convenzionale. In un episodio, *Mugen* incontra un anziano eremita che gli salva la vita e che, per chi presta attenzione, potrebbe essere identificato come lo stesso *Musashi*. Tuttavia, lo stile di *Mugen* eccede di molto qualsiasi schema storico del *Kenjutsu*, quasi al punto di caricaturizzare l'originale.
+
+  ![mugen](/posts/mugen.jpg)
+
+- D'altro canto, lo stile di *Jin* è più vicino alla tradizione del *Kenjutsu*. La sua figura rappresenta il classico samurai ideale, aderente ai principi del *Bushido* e ai canoni descritti nell'*Hagakure*. Anche se le sue capacità sono esagerate, il suo stile di combattimento riflette una maggiore fedeltà alla tradizione.
+
+  ![jin](/posts/jin.png)
+
+### Lupin
+
+![lupin](/posts/lupin.jpg)
+
+Nella famosissima serie di **Lupin III**, incontriamo l'indimenticabile **Goemon Ishikawa XIII**.
+
+*Goemon* incarna l'ideale del samurai, con il suo comportamento calmo e onorevole. Tuttavia, le sue abilità spesso trascendono i limiti umani. Sebbene le sue tecniche siano corrette nella teoria, vengono rappresentate in modo esagerato, evidenziando ciò che può fare una spada e un praticante del *Kenjutsu* in un contesto molto stilizzato.
+
+![gemon](/posts/gemon.jpg)
+
+## Videogiochi
+
+Per quanto riguarda i videogiochi, analizzeremo **Ghost of Tsushima** e **Total War: Shogun 2**.
+
+### Ghost of Tsushima
+
+![ghost_of_tsushima](/posts/Ghost%20of%20tsushima.jpg)
+
+In *Ghost of Tsushima*, le tecniche di combattimento con la spada sono rappresentate in maniera spettacolare e dettagliata. Tuttavia, emergono diversi errori storici, poiché l'equipaggiamento e le tattiche utilizzate nel gioco non sono conformi al periodo della prima invasione mongola (1274). Le armature, le tattiche di guerriglia e alcuni oggetti provengono infatti da epoche successive, risultando storicamente inaccurati.
+
+### Total War: Shogun 2
+
+![shogun2](/posts/shogun_2_total_war.jpg)
+
+*Total War: Shogun 2* rappresenta uno dei migliori ritratti del Giappone feudale nei videogiochi. Le armi, le province e gli elementi gestionali sono in gran parte allineati alle fonti storiche. Questo titolo offre anche l'opportunità di sperimentare le tattiche di guerra usate dai samurai, dando una visione più ampia della strategia militare dell'epoca.
+
+![battaglia_shogun2](/posts/battagli%20shogun.jpeg)
+
+## Film
+
+I due film che andremo ad analizzare sono **L'Ultimo Samurai** e **47 Ronin**. Pur essendo entrambi ispirati a fatti storici, presentano approcci molto diversi.
+
+### L'Ultimo Samurai
+
+![ultimo_samurai](/posts/ultimo-samurai.jpg)
+
+Il film presenta numerose inesattezze storiche, come il mescolarsi di eventi distanti tra loro nel tempo (la Guerra Boshin del 1868 e la Rivolta di Satsuma del 1877) e la rappresentazione dei *samurai* come guerrieri contrari all'uso delle armi da fuoco, una distorsione della realtà storica, dato che le forze shogunali disponevano di unità di archibugi già da secoli.
+
+![pratica_ultimo_samurai](/posts/allenamento%20ultimo%20samurrai.jpg)
+
+Nonostante questa rappresentazione romanzata, il film cattura efficacemente l'essenza del *Kenjutsu* e della vita del *samurai*, attraverso scene di pratica, battaglie e momenti di vita quotidiana.
+
+### 47 Ronin
+
+Ispirato alla celebre storia dei 47 samurai che vendicarono la morte del loro padrone, questo film si distacca notevolmente dal contesto storico, adottando un approccio fantasy con creature magiche e abilità sovrumane che snaturano completamente il significato originale della vicenda.
+
+![47ronin](/posts/47ronin.jpg)
+
+Il film, purtroppo, offre una visione distorta della cultura giapponese, trasformando una leggenda storica in una semplice storia d'azione priva di profondità.
+
+## Manga
+
+Arrivando infine nel mondo dei *manga*, approfondiremo **Vagabond** e **Afro Samurai**.
+
+### Vagabond
+
+*Vagabond* è forse uno dei migliori manga sui samurai, ambientato subito dopo la *Battaglia di Sekigahara*. Segue le avventure di *Takezo Shinmen* (alias *Miyamoto Musashi*) e il suo amico *Matahachi Honiden*. Il manga offre una rappresentazione accurata del Giappone dell'epoca, dell'arte della spada e della filosofia samuraica.
+
+![vagabond](/posts/vagabond.jpg)
+
+### Afro Samurai
+
+Ambientato in un Giappone futuristico, questo manga racconta di guerrieri che si sfidano per diventare il numero uno e ottenere un misterioso potere. Pur avendo una trama intrigante, *Afro Samurai* si discosta completamente dalla tradizione, trasformando le arti marziali giapponesi in un'esagerazione stilizzata che si concentra più sullo spettacolo che sulla realtà.
+
+![afro_samurai](/posts/afro.jpg)
+
+## Conclusioni
+
+La cultura pop tende spesso a mistificare le arti marziali giapponesi, adattandosi agli stereotipi comuni tra il pubblico. Tuttavia, è possibile trovare opere di qualità che riflettono almeno in parte la filosofia e la pratica della via del samurai. L'equilibrio sta nel mezzo: un'opera non dovrebbe essere né troppo distante dai canoni della via, né troppo accurata storicamente, per mantenere un appeal ampio senza perdere credibilità.
+
+![conlusione](/posts/conclusione%20popart.jpg)
+
+<!-- ---
+title: "Pop Ken"
+subtitle: "L'arte della spada nei media moderni"
+date: "22-12-2023"
+src: "popart.jpg"
+alt: "samurai_popart"
+author: "Christian Leonetti"
+---
+
 In questo articolo andremo ad esaminare come l'arte della spada giapponese venga rappresentata nella cultura pop e lo faremo attreverso esempi presi da quattro categorie diverse di media:**Anime**, **Manga**, **Film** e **Videogiochi**.
 
 ## Anime
@@ -37,7 +142,7 @@ Nella famossissima serie sul ladro più famoso di tutti i tempi troviamo l'altre
 
 *Gemon* è senza dubbio un *samurai* esemplare, nei modi e nel seguire i precetti di onore e calma zen. Purtroppo però molto spesso le sue abilità vanno oltre qaulsiasi limite fisico. Sebbene la tecnica sia più che corretta nella teoria, ciò che ne esce fuori è sicuramente un'esagerazione di ciò che può fare una spada e un praticante della via.
 
-![gemon](posts/gemon.jpg)
+![gemon](/posts/gemon.jpg)
 
 ## Videogiochi
 
@@ -106,4 +211,4 @@ Dopo questa lunga carrellata, è l'ora di tirare le somme. La tendenza nella cul
 Tuttavia in molte opere è possibile trovare materiale di qualità prodotto dopo almeno un minimo di studio della filosofia e della pratica della via del samurai e della spada.
 A mio parere il giusto sta sempre nel mezzo, un'opera non deve ne essere troppo lontana dai canoni della via, per non risultare pacchiana e poco congrua, ne essere troppo storicamnete accurata, oppure perderebbe di appeal per una grande fetta del pubblico che di arti marziali e cultura giapponese conosce ben poco.
 
-![conlusione](/posts/conclusione%20popart.jpg)
+![conlusione](/posts/conclusione%20popart.jpg) -->

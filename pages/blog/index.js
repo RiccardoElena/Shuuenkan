@@ -34,7 +34,7 @@ const Blog = ({ posts }) => {
           text="Tutti gli articoli"
           href="/blog/archive"
           className="text-4xl"
-          reverse
+          // reverse
         />
       </div>
     </Main>
