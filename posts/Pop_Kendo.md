@@ -5,6 +5,8 @@ date: "22-12-2023"
 src: "popart.jpg"
 alt: "samurai_popart"
 author: "Christian Leonetti"
+imgHeight: "1280"
+imgWidth: "720"
 ---
 
 In questo articolo esploreremo come l'arte della spada giapponese venga rappresentata nella cultura pop, attraverso un paio d'esempi presi da quattro categorie diverse di media: **Anime**, **Manga**, **Film** e **Videogiochi**.

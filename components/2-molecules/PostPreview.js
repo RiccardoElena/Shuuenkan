@@ -12,15 +12,18 @@ const PostPreview = ({
   subtitle,
   author,
   readingTime,
+  totalPosts
 }) => {
   return (
     <div
-      className="m-6 rounded-md border border-slate-300 bg-white  shadow-sm
-    md:w-2/5 xl:w-1/4">
+      className={`m-6 rounded-md border border-slate-300 bg-white  shadow-sm
+    md:w-2/5 xl:w-1/${Math.floor(totalPosts/2) +1}`}>
+     {/* {src && */}
       <div className={`m-auto ${imgHeight === imgWidth ? 'w-7/12' : ''}`}>
         <Image
           alt={alt}
-          src={`/posts/${src}`}
+          // src={`/posts/${src}`}
+          src={`/posts/${src?src:"default_post.png"}`}
           width={Number(imgWidth)}
           height={Number(imgHeight)}
           priority
@@ -31,6 +34,7 @@ const PostPreview = ({
             height: "auto"
           }} />
       </div>
+      {/* } */}
       <div className="mt-4 h-1/2 p-4">
         <p className="text-sm text-slate-400">
           {author}, {date}

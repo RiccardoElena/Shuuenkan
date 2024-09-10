@@ -12,7 +12,7 @@ import FlatHero from '../../components/2-molecules/FlatHero';
 
 const Blog = ({ posts }) => {
   const postPreviews = posts.slice(0, 6).map((post) => {
-    return <PostPreview key={post.slug} {...post} />;
+    return <PostPreview key={post.slug} {...post} totalPosts={posts.length} />;
   });
 
   const padding = 'py-56 sm:py-60 md:py-48 hmd:py-36 lg:py-40 xl:py-64 ';
@@ -27,7 +27,7 @@ const Blog = ({ posts }) => {
       </FlatHero>
       <div className="mx-auto mt-14 w-3/4">
         <h1 className="p-16 text-7xl text-shuuenkan-blue">Ultimi Articoli</h1>
-        <div className=" flex flex-wrap justify-center">{postPreviews}</div>
+        <div className="flex flex-wrap justify-center">{postPreviews}</div>
       </div>
       <div className="my-10">
         <Button

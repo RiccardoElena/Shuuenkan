@@ -1,8 +1,8 @@
 ---
 title: "Appunti di Kendo di Furunekko: Ashi Sabaki"
-subtitle: "La posizione e gli spostamenti dei piedi nel kendo"
+subtitle: "La posizione e gli spostamenti dei piedi"
 date: "06-09-2024"
-src: "Buddha.jpg"
+src: ""
 alt: "Ashi Sabaki"
 author: "Furunekko"
 ---
@@ -11,7 +11,7 @@ Buongiorno. Alcuni sanno chi sono. Ho scelto di usare questo vecchio pseudonimo 
 
 Cominciamo con il vecchio adagio:
 
-> "Non con le braccia, con le gambe. Non con le gambe, con le anche. Non con le anche, ma con il cuore."
+> Non con le braccia, con le gambe. Non con le gambe, con le anche. Non con le anche, ma con il cuore.
 
 Questo spiega come occorre muoversi. Cominceremo quindi con le fondamenta: i piedi.
 

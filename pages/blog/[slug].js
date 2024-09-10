@@ -33,8 +33,8 @@ const Post = ({
           <p className="text-xl mt-2 mb-8 text-slate-400">
             A cura di {author}, {date}, {readingTime(content).readingTime} min.
           </p>
-          <Image
-            src={`/posts/${src}`}
+          {src && <Image
+            src={`/posts/${src? src : "default_cover.png"}`}
             alt={alt}
             width={500 || imgWidth}
             height={500 || imgHeight}
@@ -44,7 +44,7 @@ const Post = ({
               height: 'auto',
               maxWidth: '100%',
               height: 'auto',
-            }}></Image>
+            }}></Image>}
         </div>
 
         <article className="xs:mx-0 prose prose-lg m-auto prose-img:m-auto sm:prose-xl lg:prose-2xl">
