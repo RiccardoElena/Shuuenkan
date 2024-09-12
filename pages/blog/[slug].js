@@ -50,19 +50,19 @@ const Post = ({
         <article className="xs:mx-0 prose prose-lg m-auto prose-img:m-auto sm:prose-xl lg:prose-2xl">
           <Markdown>{content}</Markdown>
         </article>
-        <div className="my-14 flex">
+        <div className="my-14 flex flex-wrap">
           <Button text="Torna indietro" href="/blog" className="text-2xl" />
-          <div className="mx-auto flex w-1/6 justify-evenly">
+          <div className="mx-auto flex w-1/6 sm:w-fit justify-evenly">
             <FacebookShareButton
               url={`https://shuuenkan.com/blog/${slug}`}
               quote={`Dai un'occhiata a questo articolo del blog dello Shuuenkan Dojo.\n"${title}"\n${subtitle}\n`}
-              hashtag={'#shuuenkan'}>
+              hashtag={'#shuuenkan#kendo#blog'}>
               <FacebookIcon size={48} round />
             </FacebookShareButton>
             <TwitterShareButton
               url={`https://shuuenkan.com/blog/${slug}`}
               title={`Dai un'occhiata a questo articolo del blog dello Shuuenkan Dojo.\n"${title}"\n${subtitle}\n`}
-              hashtag={['#shuuenkan', '#kendo']}>
+              hashtag={'#shuuenkan#kendo#blog'}>
               <TwitterIcon size={48} round />
             </TwitterShareButton>
             <WhatsappShareButton
