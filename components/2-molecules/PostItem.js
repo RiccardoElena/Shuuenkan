@@ -28,25 +28,25 @@ const PostPreview = ({
         </Link>
         <p className="text-xl text-slate-700">{subtitle}</p>
       </div>
-      {/*
-        <div className={` m-auto hidden justify-center pt-2 lg:block`}>
-          <Image
-            alt={alt}
-            src={`/posts/${src}`}
-            width={
-              imgHeight === imgWidth
-                ? Number(imgWidth) / 6
-                : Number(imgWidth) / 5
-            }
-            height={
-              imgHeight === imgWidth
-                ? Number(imgWidth) / 6
-                : Number(imgHeight) / 5
-            }
-            priority
-          />
-        </div>
-          */}
+      
+      <div className={`my-2 mr-4 justify-center  lg:block ml-auto`}>
+        <Image
+          alt={alt}
+          src={`/posts/${src}`}
+          width={
+            imgHeight === imgWidth
+              ? Number(imgWidth) / 6
+              : Number(imgWidth) / 5
+          }
+          height={
+            imgHeight === imgWidth
+              ? Number(imgWidth) / 6
+              : Number(imgHeight) / 5
+          }
+          priority
+        />
+      </div>
+         
     </div>
   );
 };
