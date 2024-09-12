@@ -47,12 +47,12 @@ const Post = ({
             }}></Image>}
         </div>
 
-        <article className="xs:mx-0 prose prose-lg m-auto prose-img:m-auto sm:prose-xl lg:prose-2xl">
+        <article className="mx-10 sm:mx-auto prose prose-lg prose-img:m-auto sm:prose-xl lg:prose-2xl">
           <Markdown>{content}</Markdown>
         </article>
-        <div className="my-14 flex flex-wrap">
+        <div className="my-14 flex flex-wrap flex-col sm:flex-row justify-center">
           <Button text="Torna indietro" href="/blog" className="text-2xl" />
-          <div className="mx-auto flex w-1/6 sm:w-fit justify-evenly">
+          <div className="mx-auto my-10 sm:my-0 flex w-1/2 sm:w-1/3 md:w-1/4 xl:w-1/6  justify-evenly">
             <FacebookShareButton
               url={`https://shuuenkan.com/blog/${slug}`}
               quote={`Dai un'occhiata a questo articolo del blog dello Shuuenkan Dojo.\n"${title}"\n${subtitle}\n`}
