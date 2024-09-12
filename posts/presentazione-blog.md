@@ -7,7 +7,7 @@ alt: "Logo Shuuenkan"
 author: "team Shuuenkan Dojo"
 ---
 
-Benvenuti sul blog dello **Shuuenkan Dojo** di Napoli! Siamo entusiasti di inaugurare questa nuova sezione del nostro sito, dedicata a tutti gli appassionati di **Kendo**, **Naginata**, **Iaido** e **Jodo**, e a coloro che desiderano saperne di più su queste affascinanti arti marziali giapponesi.
+Benvenuti sul blog dello **Shuuenkan Dojo** di Napoli! Siamo entusiasti d'inaugurare questa nuova sezione del nostro sito, dedicata a tutti gli appassionati di **Kendo**, **Naginata**, **Iaido** e **Jodo**, e a coloro che desiderano saperne di più su queste affascinanti arti marziali giapponesi.
 
 ## Il nostro progetto
 
