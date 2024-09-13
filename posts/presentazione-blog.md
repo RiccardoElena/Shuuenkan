@@ -1,7 +1,7 @@
 ---
 title: "Nasce il Blog dello Shuuenkan"
 subtitle: "Benvenuti nel nostro spazio online dedicato al Kendo e alle arti marziali giapponesi"
-date: "11-09-2024"
+date: "12-09-2024"
 src: "logo.png"
 alt: "Logo Shuuenkan"
 author: "team Shuuenkan Dojo"

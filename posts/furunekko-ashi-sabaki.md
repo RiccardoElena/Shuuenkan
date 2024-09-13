@@ -1,8 +1,10 @@
 ---
 title: "Appunti di Kendo di Furunekko: Ashi Sabaki"
 subtitle: "La posizione e gli spostamenti dei piedi"
-date: "06-09-2024"
-src: ""
+date: "13-09-2024"
+src: "furunekko-ashi-sabaki.png"
+imgHeight: "720"
+imgWidth: "1080"
 alt: "Ashi Sabaki"
 author: "Furunekko"
 ---
