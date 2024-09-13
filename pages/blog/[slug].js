@@ -26,33 +26,36 @@ const Post = ({
 }) => {
   return (
     <Main>
-      <div className="mt-16 lg:mt-48">
-        <div className="my-32 text-center">
+      <div className="mx-10 mt-16 sm:mx-auto lg:mt-48">
+        <div className="mb-16 mt-32 text-center sm:my-32 sm:mt-0">
           <h1 className="my-4 text-6xl text-shuuenkan-blue ">{title}</h1>
           <h2 className="text-3xl text-slate-600">{subtitle}</h2>
-          <p className="text-xl mt-2 mb-8 text-slate-400">
+          <p className="mb-8 mt-2 text-xl text-slate-400">
             A cura di {author}, {date}, {readingTime(content).readingTime} min.
           </p>
-          {src && <Image
-            src={`/posts/${src? src : "default_cover.png"}`}
-            alt={alt}
-            width={500 || imgWidth}
-            height={500 || imgHeight}
-            style={{
-              margin: 'auto',
-              maxWidth: '100%',
-              height: 'auto',
-              maxWidth: '100%',
-              height: 'auto',
-            }}></Image>}
+          {src && (
+            <Image
+              src={`/posts/${src ? src : 'default_cover.png'}`}
+              alt={alt}
+              width={500 || imgWidth}
+              height={500 || imgHeight}
+              style={{
+                margin: 'auto',
+                maxWidth: '100%',
+                height: 'auto',
+                maxWidth: '100%',
+                height: 'auto',
+              }}></Image>
+          )}
         </div>
 
-        <article className="mx-10 sm:mx-auto prose prose-lg prose-img:m-auto sm:prose-xl lg:prose-2xl">
+        <article className="prose prose-lg m-auto sm:prose-xl lg:prose-2xl prose-img:m-auto">
           <Markdown>{content}</Markdown>
         </article>
-        <div className="my-14 flex flex-wrap flex-col sm:flex-row justify-center">
+
+        <div className="my-14 flex flex-col flex-wrap justify-center sm:flex-row">
           <Button text="Torna indietro" href="/blog" className="text-2xl" />
-          <div className="mx-auto my-10 sm:my-0 flex w-1/2 sm:w-1/3 md:w-1/4 xl:w-1/6  justify-evenly">
+          <div className="mx-auto my-10 flex w-1/2 justify-evenly sm:my-0 sm:w-1/3 md:w-1/4  xl:w-1/6">
             <FacebookShareButton
               url={`https://shuuenkan.com/blog/${slug}`}
               quote={`Dai un'occhiata a questo articolo del blog dello Shuuenkan Dojo.\n"${title}"\n${subtitle}\n`}
