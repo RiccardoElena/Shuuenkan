@@ -55,23 +55,23 @@ const Post = ({
 
         <div className="my-14 flex flex-col flex-wrap justify-center sm:flex-row">
           <Button text="Torna indietro" href="/blog" className="text-2xl" />
-          <div className="mx-auto my-10 flex w-1/2 justify-evenly sm:my-0 sm:w-1/3 md:w-1/4  xl:w-1/6">
+          <div className="mx-auto my-10 flex justify-evenly sm:my-0 sm:w-1/3 md:w-1/4  xl:w-1/6">
             <FacebookShareButton
               url={`https://shuuenkan.com/blog/${slug}`}
               quote={`Dai un'occhiata a questo articolo del blog dello Shuuenkan Dojo.\n"${title}"\n${subtitle}\n`}
-              hashtag={'#shuuenkan#kendo#blog'}>
+              hashtag={'#shuuenkan #kendo #blog'}>
               <FacebookIcon size={48} round />
             </FacebookShareButton>
             <TwitterShareButton
               url={`https://shuuenkan.com/blog/${slug}`}
               title={`Dai un'occhiata a questo articolo del blog dello Shuuenkan Dojo.\n"${title}"\n${subtitle}\n`}
-              hashtag={'#shuuenkan#kendo#blog'}>
+              hashtag={['#shuuenkan', '#kendo', '#blog']}>
               <TwitterIcon size={48} round />
             </TwitterShareButton>
             <WhatsappShareButton
               url={`https://shuuenkan.com/blog/${slug}`}
               title={`Dai un'occhiata a questo articolo del blog dello Shuuenkan Dojo.\n"${title}"\n${subtitle}\n`}
-              separator={':: '}>
+              separator={' :: '}>
               <WhatsappIcon size={48} round />
             </WhatsappShareButton>
             <TelegramShareButton
