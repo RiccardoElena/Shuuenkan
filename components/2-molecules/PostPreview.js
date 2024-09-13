@@ -19,7 +19,7 @@ const PostPreview = ({
       className={`m-6 rounded-md border border-slate-300 bg-white  shadow-sm
     md:w-2/5 xl:w-1/${Math.floor(totalPosts/2) +1}`}>
      {/* {src && */}
-      <div className={`m-auto ${imgHeight === imgWidth ? 'w-7/12 h-3/5' : ''}`}>
+      <div className={`m-auto ${imgHeight === imgWidth ? 'w-7/12 md:h-3/5' : ''}`}>
         <Image
           alt={alt}
           // src={`/posts/${src}`}
