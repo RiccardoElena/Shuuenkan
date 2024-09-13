@@ -10,7 +10,7 @@ const Blog = ({ posts }) => {
     return <PostItem key={post.slug} {...post} />;
   });
   return (
-    <Main secondTitle="Blog" className=" my-48 ">
+    <Main secondTitle="Archivio Blog" className=" my-48 ">
       <div className="mx-auto mt-14 w-3/4">
         <h1 className="p-8 text-7xl text-shuuenkan-blue">Archivio Articoli</h1>
         <div className="flex flex-wrap justify-center">{postPreviews}</div>
