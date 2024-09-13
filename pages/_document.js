@@ -102,7 +102,7 @@ export default function Document() {
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <body>
-        <Main />
+        <Main secondTitle={'Vieni, Pratichi e non paghi!'} />
         <NextScript />
       </body>
     </Html>
