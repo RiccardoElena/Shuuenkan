@@ -73,12 +73,11 @@ const Content = () => {
     exit: { opacity: 0 },
   };
 
-  const padding = 'py-56 sm:py-60 md:py-36 hmd:py-48 lg:py-60 xl:py-72';
   const fontSize = ' md:text-8xl sm:text-7xl text-6xl';
 
   return (
     <>
-      <FlatHero padding={padding} fontSize={fontSize}>
+      <FlatHero fontSize={fontSize}>
         Lo <b className="text-white">Shuuenkandojo</b> presenta il{' '}
         <b className="text-white">primo e unico</b> progetto di kendo
         <b className="text-white"> gratuito </b> in Italia!
