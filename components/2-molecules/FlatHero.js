@@ -6,10 +6,10 @@ const variants = {
   exit: { opacity: 0 },
 };
 
-const FlatHero = ({ children, padding, fontSize }) => {
+const FlatHero = ({ children, fontSize }) => {
   return (
-    <div className={`h-screen bg-shuuenkan-blue ${padding}`}>
-      <div className="md:py-15 container  mx-auto bg-shuuenkan-blue ">
+    <div className={`h-screen content-center bg-shuuenkan-blue pt-32 lg:pt-40`}>
+      <div className="md:py-15 container mx-auto h-fit bg-shuuenkan-blue ">
         <div className="float-center w-full">
           <motion.p
             className={` px-5 pb-8 text-center text-pearl md:p-10 ${fontSize}`}

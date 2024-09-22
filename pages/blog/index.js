@@ -15,14 +15,13 @@ const Blog = ({ posts }) => {
     return <PostPreview key={post.slug} {...post} totalPosts={posts.length} />;
   });
 
-  const padding = 'py-56 sm:py-60 md:py-48 hmd:py-36 lg:py-40 xl:py-64 ';
-  const fontSize = 'hmd:text-8xl sm:text-8xl text-6xl';
+  const fontSize = ' sm:text-8xl text-6xl';
   return (
     <Main secondTitle="Blog" className="mb-20">
-      <FlatHero padding={padding} fontSize={fontSize}>
+      <FlatHero fontSize={fontSize}>
         Scopri <b className="text-white">interviste</b>,{' '}
-        <b className="text-white">approfondimenti</b> e{' '}
-        <b className="text-white">curiosità</b> sul mondo del kendo e del
+        <b className=" text-white">curiosità</b> e{' '}
+        <b className="text-white">molto altro</b> sul mondo del kendo e del
         giappone a firma <b className="text-white">Shuuenkan!</b>
       </FlatHero>
       <div className="mx-auto mt-14 w-3/4">
