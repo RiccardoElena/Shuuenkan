@@ -1,8 +1,8 @@
 ---
 title: "Milano capitale del Kendo mondiale"
 subtitle: "Reportage dal 19° Campionato Mondiale di Kendo"
-date: "04-12-2023"
-src: ""
+date: "04-12-2025"
+src: "Mondiali_Kendo.png"
 imgHeight: "720"
 imgWidth: "1080"
 alt: "Buddha Todaiji"
@@ -22,6 +22,11 @@ Dopo i discorsi inaugurali e lo schieramento degli atleti dietro i loro vessilli
 
 Ai quarti di finale erano rimaste solo atlete di origine orientale, con l’australiana *Kishikawa* e la canadese *Park* successivamente eliminate. Semifinale tutta giapponese, con la finale disputata tra *Kondo* e *Suenaga*, con la prima che vinceva il Campionato.
 
+<p align="center">
+  <img src="/posts/Squadra_Italiana_Femminile.jpeg"/>
+  <em>La squadra Italiana femminile</em>
+</p>
+
 ## Le eliminatorie a squadre
 
 Il secondo giorno era dedicato alle eliminatorie delle **squadre femminili** e **maschili**. Se nel kendo si combatte uno contro uno, duelli, non battaglie, nelle competizioni a squadre vi è anche l'elemento strategico della disposizione delle atlete. Sono le competizioni che fanno realmente capire il livello di una nazione.
@@ -29,6 +34,11 @@ Il secondo giorno era dedicato alle eliminatorie delle **squadre femminili** e *
 Nelle squadre femminili, **Giappone** e **Corea** erano in pool da quattro, che permettevano il passaggio di due squadre, per cui, oltre alle due teste di serie, uscivano anche **Francia** e **Hong Kong**. L’Italia usciva dalla pool sconfiggendo *Filippine* e *Portogallo*.
 
 Si passava poi alle eliminatorie maschili, **60 squadre** divise in pool da tre e da quattro, da cui ne sarebbero uscite sedici che avrebbero poi terminato domenica. Tra queste, oltre alle prevedibili Giappone, Francia, USA, Corea, Brasile, Canada e Australia, anche un agguerritissimo **Messico** e una valente squadra del piccolo **Montenegro**. Purtroppo, l’Italia ha dovuto cedere il posto alla forte squadra USA.
+
+<p align="center">
+  <img src="/posts/Squadra_Italiana_Maschile.jpeg"/>
+  <em>La squadra Italiana maschile (senza Baeli)</em>
+</p>
 
 ## La giornata degli individuali maschili
 
@@ -48,12 +58,22 @@ Il giorno successivo, la **squadra femminile giapponese**, soprannominata dal pu
 
 Molto combattuta la semifinale tra USA e Corea, terminata in pareggio e quindi con un incontro di spareggio. La Corea sceglieva *Choi*, mentre tutta la squadra americana indossava la maschera per non svelare fino all’ultimo la prescelta, che alla fine è stata *Matsumoto*. Un incontro molto combattuto, con l’americana che rompeva in un corpo a corpo lo *shinai* della coreana. Il combattimento necessitava di un prolungamento, durante il quale la coreana vinceva con un colpo al polso. Intanto, il Giappone eliminava una valida Australia. La finale tra Giappone e Corea era estremamente combattuta, ma finiva con il Giappone che vinceva per tre punti già al quarto incontro, con il quinto vinto da *Watanabe* con un *men* da lontano, giudicato uno dei migliori del torneo.
 
+<p align="center">
+  <img src="/posts/Squadra_Giapponese_Femminile.jpeg"/>
+  <em>La squadra Giapponese femminile</em>
+</p>
+
 Il torneo a squadre maschile andava più o meno allo stesso modo, con la Corea che in semifinale batteva la fisica squadra USA e il Giappone che vinceva su una forte squadra francese, che si dimostrava ancora una volta tra le più forti al mondo.  
 Ecco quindi la finale tra **Corea e Giappone**, per molti il momento più importante di questi campionati. Purtroppo, un incontro guidato da un arbitro non completamente all’altezza, che interrompeva inutilmente gli incontri.
 
 *Il parere degli esperti è che gli incontri di finale andrebbero gestiti da arbitri giapponesi ottavi dan, in possesso di un’esperienza e di un’autorità incontestabili.*
 
 Il primo incontro è stato vinto per un punto da *Hoshino*, che il giorno prima aveva vinto gli individuali. Il secondo incontro, al limite della rissa, vedeva *Matsusaki* segnare uno dei colpi *men* più belli del torneo, vincendo per uno a zero. Il terzo incontro era decisivo, con *Kusano*, che combatteva in guardia alta, e *Park*. Il coach della Corea ha emesso una protesta ufficiale perché Kusano, mentre era in difficoltà, ha alzato la mano chiedendo l’interruzione dell’incontro. L’arbitro ha dato il fermo e contemporaneamente il coreano ha colpito con un *men*. Kusano chiedeva di aggiustarsi la maschera, e la protesta è finita in nulla di fatto, ma aveva cambiato qualcosa, perché subito dopo il coreano ha segnato un *dō* arretrando e poco dopo ha colpito *men* in contrattacco vincendo l’incontro. Il quarto incontro vedeva il coreano segnare per primo con un *men*, ma *Takenouchi* alzava il ritmo, pareggiando con un *kote* e poi vincendo con un esplosivo *men* radente, conquistando la vittoria per il Giappone. L’ultimo incontro tra *Ando* e *Kim*, estremamente combattuto, finiva in un pareggio zero a zero. **Il Giappone era ancora una volta campione del mondo.**
+
+<p align="center">
+  <img src="/posts/Rappresentanza_Giapponese.jpeg"/>
+  <em>La Rappresentanza Giapponese</em>
+</p>
 
 ## Conclusione e commenti
 
