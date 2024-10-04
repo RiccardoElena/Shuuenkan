@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 import MenuItem from '../2-molecules/MenuItem';
 
@@ -51,14 +51,15 @@ const Federation = () => {
             <Image
               src={CIKLogoExtended}
               alt="logo CIK"
-              width={1000}
-              height={200}
+              width={620}
+              height={206}
               style={{
-                maxWidth: "100%",
-                height: "auto",
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+                maxWidth: '100%',
+                height: 'auto',
+                maxWidth: '100%',
+                height: 'auto',
+              }}
+            />
           </div>
         </div>
         <div className="float-center mx-auto w-3/4 justify-items-center py-5 md:p-10">

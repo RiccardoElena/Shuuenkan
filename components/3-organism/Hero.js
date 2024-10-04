@@ -16,7 +16,7 @@ const Hero = ({ heroImage, children, imageSettings }) => {
       animate="enter"
       exit="exit"
       transition={{ type: 'linear' }}>
-      <div className="fixed -z-10 h-screen w-full overflow-hidden">
+      <div className="fixed -z-50 h-screen w-full overflow-hidden">
         <Image
           alt="Kendo"
           src={heroImage}

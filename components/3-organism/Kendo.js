@@ -42,7 +42,7 @@ const items = [
 
 const Content = () => {
   return (
-    <div className="bg-pearl py-5 md:py-20 ">
+    <div className="bg-pearl py-5 hover:z-20 md:py-20">
       <div className="container mx-auto py-0 md:py-10">
         <div className="float-center w-full">
           <p className="p-5 pb-8 pt-4 text-center text-3xl font-bold text-shuuenkan-blue xsm:p-10 md:text-4xl">

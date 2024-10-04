@@ -25,7 +25,9 @@ const Blog = ({ posts }) => {
         giappone a firma <b className="text-white">Shuuenkan!</b>
       </FlatHero>
       <div className="mx-auto mt-14 w-3/4">
-        <h1 className="p-16 text-7xl text-shuuenkan-blue">Ultimi Articoli</h1>
+        <h1 className="mx-6 text-7xl text-shuuenkan-blue xsm:p-16">
+          Ultimi Articoli
+        </h1>
         <div className="flex flex-wrap justify-center">{postPreviews}</div>
       </div>
       <div className="my-10">
