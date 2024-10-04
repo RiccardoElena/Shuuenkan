@@ -37,8 +37,9 @@ const Post = ({
             <Image
               src={`/posts/${src ? src : 'default_cover.png'}`}
               alt={alt}
-              width={500 || imgWidth}
-              height={500 || imgHeight}
+              width={imgWidth || 500}
+              height={imgHeight || 500}
+              priority
               style={{
                 margin: 'auto',
                 maxWidth: '100%',
