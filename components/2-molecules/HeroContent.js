@@ -2,7 +2,7 @@ import Button from '../1-atoms/Button';
 
 const HeroContent = () => {
   return (
-    <div className="w-full bg-shuuenkan-blue/60 md:w-1/2">
+    <div className="xsm:py-auto w-full bg-shuuenkan-blue/60 py-16 md:w-1/2">
       <div className="text-shadow m-0 w-full pt-7 text-center text-[2rem] leading-[3rem] text-white hlg:pt-20">
         <p className="mx-8 py-5 text-left text-xl md:py-12 lg:mx-16 lg:text-2xl">
           {' '}

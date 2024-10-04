@@ -45,10 +45,10 @@ export default function Home() {
           <HeroContent />
         </Hero>
       </section>
-      <section id="menu">
+      <section id="menu" className="relative">
         <Kendo />
       </section>
-      <section id="federations">
+      <section id="federations" className="relative">
         <Federation />
       </section>
     </Main>

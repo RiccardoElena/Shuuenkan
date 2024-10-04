@@ -24,7 +24,7 @@ const MenuItem = ({ url, src, alt, title, text, tag }) => {
         <Image
           alt={alt}
           src={src}
-          //sizes="100vw"
+          sizes="100vw"
           style={{
             maxWidth: '100%',
             height: 'auto',

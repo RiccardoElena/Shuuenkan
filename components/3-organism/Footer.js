@@ -87,7 +87,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="left-0 bottom-0 w-full border-t-2 border-shuuenkan-blue bg-pearl text-center text-shuuenkan-blue">
+    <footer className="relative bottom-0 left-0 w-full border-t-2 border-shuuenkan-blue bg-pearl text-center text-shuuenkan-blue">
       <div className="justfy-items-center  container mx-auto flex flex-wrap py-8 text-base   hmd:text-lg">
         {items.map((item) => (
           <ContactsMenuItem
