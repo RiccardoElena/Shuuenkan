@@ -25,7 +25,7 @@ const Post = ({
   content,
 }) => {
   return (
-    <Main secondTitle={title}>
+    <Main secondTitle={title} dcp={subtitle}>
       <div className="mx-10 mt-16 sm:mx-auto lg:mt-48">
         <div className="mb-16 mt-32 text-center sm:my-32 sm:mt-0">
           <h1 className="my-4 text-6xl text-shuuenkan-blue ">{title}</h1>
