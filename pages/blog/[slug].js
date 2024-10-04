@@ -39,6 +39,7 @@ const Post = ({
               alt={alt}
               width={imgWidth || 500}
               height={imgHeight || 500}
+              priority
               style={{
                 margin: 'auto',
                 maxWidth: '100%',
