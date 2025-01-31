@@ -11,6 +11,7 @@ import Button from '../../components/1-atoms/Button';
 import FlatHero from '../../components/2-molecules/FlatHero';
 
 const Blog = ({ posts }) => {
+  console.log(posts);
   const postPreviews = posts.slice(0, 4).map((post) => {
     return <PostPreview key={post.slug} {...post} totalPosts={posts.length} />;
   });

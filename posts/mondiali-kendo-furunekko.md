@@ -1,11 +1,11 @@
 ---
 title: "Milano capitale del Kendo mondiale"
 subtitle: "Reportage dal 19° Campionato Mondiale di Kendo"
-date: "04-12-2025"
+date: "04-10-2024"
 src: "Mondiali_Kendo.png"
 imgHeight: "720"
 imgWidth: "1080"
-alt: "Buddha Todaiji"
+alt: "Mondiali di Kendo"
 author: "Claudio Regoli"
 ---
 

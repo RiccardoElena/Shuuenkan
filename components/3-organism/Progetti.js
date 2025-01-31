@@ -80,7 +80,7 @@ const Content = () => {
       <FlatHero fontSize={fontSize}>
         Lo <b className="text-white">Shuuenkandojo</b> presenta il{' '}
         <b className="text-white">primo e unico</b> progetto di kendo
-        <b className="text-white"> gratuito </b> in Italia!
+        <b className="text-white"> sociale</b> in Italia!
       </FlatHero>
       <div className="container mx-auto flex flex-wrap rounded-md py-40">
         <div className="container mx-auto pb-20 ">
