@@ -64,7 +64,7 @@ const Federation = () => {
         </div>
         <div className="float-center mx-auto w-3/4 justify-items-center py-5 md:p-10">
           <p className="text-center text-xl leading-relaxed text-shuuenkan-blue xsm:text-2xl md:text-3xl">
-            Lo Shuuenkan Napoli Kendo è l&apos;unico dojo di Napoli e provincia
+            Lo Shuuenkan Napoli Kendo è il primo dojo di Napoli e provincia
             membro della CIK (Confederazione Italiana Kendo), che si occupa di
             promuovere le discipline di Kendo, Iaido, Jodo e Naginata sul
             territorio italiano.

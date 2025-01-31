@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { useWindowSize } from '../../hooks';
@@ -20,11 +20,12 @@ const Garden = () => {
               src={image}
               sizes="100vw"
               style={{
-                width: "100%",
-                height: "auto",
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+                width: '100%',
+                height: 'auto',
+                maxWidth: '100%',
+                height: 'auto',
+              }}
+            />
           </div>
           <div className=" w-fit pt-5 text-white md:my-auto md:p-10 ">
             <h1 className="p-5 text-center  text-5xl font-bold md:text-4xl hmd:text-6xl lg:text-7xl">
@@ -49,9 +50,7 @@ const Garden = () => {
                 href="/projects"
                 passHref
                 className="font-bold text-pearl hover:text-white hover:underline">
-                
-                  il primo progetto italiano completamente gratuito!
-                
+                il primo progetto italiano sociale!
               </Link>{' '}
             </p>
           </div>

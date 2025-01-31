@@ -8,9 +8,9 @@ const DojoText = () => {
 
         <p className="text-centered px-10 py-6 text-xl leading-loose text-shuuenkan-blue xsm:text-3xl">
           Dalla sua nascita, nell&apos;anno 2014, il nostro dojo si afferma come
-          prima e unica realtà di Kendo della Confederazione Italiana (CIK) a
-          Napoli e provincia, fregiandosi dell&apos;onore di aver ospitato
-          numerosi maestri, tra cui:
+          prima realtà di Kendo della Confederazione Italiana (CIK) a Napoli e
+          provincia, fregiandosi dell&apos;onore di aver ospitato numerosi
+          maestri, tra cui:
           <br />
           <b>Hiroshi Alexander Kimura</b>, 7 Dan Kyoshi;
           <br />
