@@ -85,7 +85,7 @@ const Content = () => {
       <div className="container mx-auto flex flex-wrap rounded-md py-40">
         <div className="container mx-auto pb-20 ">
           <h1 className="text-center text-4xl text-shuuenkan-blue md:text-5xl">
-            La diffusione gratuita del kendo è sostenuta dai nostri molteplici
+            La diffusione sociale del kendo è sostenuta dai nostri molteplici
             progetti di raccolta fondi reinvestiti al 100%
           </h1>
         </div>

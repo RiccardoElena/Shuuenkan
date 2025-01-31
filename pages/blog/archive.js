@@ -6,9 +6,14 @@ import Main from '../../components/4-layouts/Main';
 import parseDate from '../../components/0-utils/parseDate';
 
 const Blog = ({ posts }) => {
-  const postPreviews = posts.map((post) => {
-    return <PostItem key={post.slug} {...post} />;
-  });
+  const postPreviews = posts
+    .filter(
+      (post) =>
+        new Date(post.date.split('-').reverse().join('-')) <= new Date(),
+    )
+    .map((post) => {
+      return <PostItem key={post.slug} {...post} />;
+    });
   return (
     <Main secondTitle="Archivio Blog" className=" my-48 ">
       <div className="mx-auto mt-14 w-3/4">
