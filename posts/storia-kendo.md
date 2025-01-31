@@ -1,7 +1,7 @@
 ---
 title: "Il Kendō come lo conosciamo oggi"
 subtitle: "Storia della nascita e della standardizzazione"
-date: "24-11-2023"
+date: "24-11-3000"
 src: "kendoka_meiji.jpg"
 alt: "Kendoka Meiji"
 author: "Christian Leonetti"

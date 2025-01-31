@@ -1,7 +1,7 @@
 ---
 title: "Pop Ken"
 subtitle: "L'arte della spada nei media moderni"
-date: "22-12-2023"
+date: "22-12-3000"
 src: "popart.jpg"
 alt: "samurai_popart"
 author: "Christian Leonetti"

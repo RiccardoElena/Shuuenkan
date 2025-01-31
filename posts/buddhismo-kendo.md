@@ -1,7 +1,7 @@
 ---
 title: "Ken e Zen"
 subtitle: "La profonda connessione tra spada e  mente"
-date: "04-12-2023"
+date: "04-12-3000"
 src: "Buddha.jpg"
 imgHeight: "720"
 imgWidth: "1080"
