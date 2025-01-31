@@ -11,9 +11,17 @@ import Button from '../../components/1-atoms/Button';
 import FlatHero from '../../components/2-molecules/FlatHero';
 
 const Blog = ({ posts }) => {
-  const postPreviews = posts.slice(0, 4).map((post) => {
-    return <PostPreview key={post.slug} {...post} totalPosts={posts.length} />;
-  });
+  const postPreviews = posts
+    .filter(
+      (post) =>
+        new Date(post.date.split('-').reverse().join('-')) <= new Date(),
+    )
+    .slice(0, 4)
+    .map((post) => {
+      return (
+        <PostPreview key={post.slug} {...post} totalPosts={posts.length} />
+      );
+    });
 
   const fontSize = ' sm:text-8xl text-6xl';
   return (
