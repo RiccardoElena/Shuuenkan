@@ -51,7 +51,7 @@ const Footer = () => {
           key: 1,
         },
         {
-          title: 'Mer',
+          title: 'Gio',
           key: 2,
           text: '19:00-21:00',
         },
