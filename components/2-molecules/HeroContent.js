@@ -6,7 +6,6 @@ const HeroContent = () => {
       <div className="text-shadow m-0 w-full pt-7 text-center text-[2rem] leading-[3rem] text-white hlg:pt-20">
         <p className="mx-8 py-5 text-left text-xl md:py-12 lg:mx-16 lg:text-2xl">
           {' '}
-          Chi siamo
         </p>
         <h1 className="mx-auto w-fit text-center text-5xl font-bold xsm:text-6xl sm:text-left sm:text-8xl md:text-6xl hmd:text-7xl hmd:leading-[5rem] xl:text-8xl xl:leading-[5rem]">
           SHUUENKANDOJO <br />

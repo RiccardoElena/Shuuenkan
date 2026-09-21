@@ -28,14 +28,14 @@ const Footer = () => {
       lines: [
         {
           title: 'Telefono',
-          href: 'tel:00393349281502',
-          text: '+39 334-928-1502',
+          href: 'tel:003921379859',
+          text: '+39 392-137-9859',
           key: 1,
         },
         {
           title: 'Email',
-          href: 'mailto:nerafenix@gmail.com',
-          text: 'nerafenix@gmail.com',
+          href: 'mailto:shuuenkan@gmail.com',
+          text: 'shuuenkan@gmail.com',
           key: 2,
         },
       ],
