@@ -19,17 +19,17 @@ const MenuItem = ({ url, src, alt, title, text, tag }) => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         className={` ${
-          tag == 'a' ? 'w-1/2' : ''
+          tag == 'a' ? ' w-1/2' : ''
         }  m-auto mt-0 cursor-pointer text-shuuenkan-blue hover:text-blue-600`}>
-        <Image
-          alt={alt}
-          src={src}
-          sizes="100vw"
-          style={{
-            maxWidth: '100%',
-            height: 'auto',
-          }}
-        />
+        <div className="relative h-32 w-full md:h-48">
+          <Image
+            alt={alt}
+            src={src}
+            fill
+            sizes="(min-width: 768px) 25vw, 50vw"
+            className="object-contain"
+          />
+        </div>
         <h1 className="p-2 text-center text-xl md:p-5 md:text-3xl xl:text-4xl">
           {title}
         </h1>
